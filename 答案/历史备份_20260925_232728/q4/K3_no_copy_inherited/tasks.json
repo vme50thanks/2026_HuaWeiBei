@@ -1,0 +1,1869 @@
+[
+  {
+    "group": "G1",
+    "kind": "transport",
+    "original_task": "P001",
+    "copy_id": "G1-P001",
+    "unit": "G1-C_drone-U07",
+    "energy_component": "G1-C_battery-C-BAT-01",
+    "frozen": {
+      "model": "C",
+      "boxes": [
+        "S001-MED-02",
+        "S001-MED-01",
+        "S001-WAT-01",
+        "S001-WAT-04",
+        "S001-WAT-08",
+        "S001-WAT-07",
+        "S001-WAT-02"
+      ],
+      "route": [
+        "S001"
+      ],
+      "start": 0.0,
+      "takeoff": 510.0,
+      "finish": 1560.1589324932272,
+      "energy": 2.9174767512159905,
+      "soc": 0.6353154060980012,
+      "deliveries": {
+        "S001-MED-02": 1248.2644662466137,
+        "S001-MED-01": 1248.2644662466137,
+        "S001-WAT-01": 1248.2644662466137,
+        "S001-WAT-04": 1248.2644662466137,
+        "S001-WAT-08": 1248.2644662466137,
+        "S001-WAT-07": 1248.2644662466137,
+        "S001-WAT-02": 1248.2644662466137
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S001",
+          "start": 510.0,
+          "end": 816.2644662466137,
+          "payload": 76.0,
+          "energy": 1.9542622981335889
+        },
+        {
+          "from_id": "S001",
+          "to_id": "O01",
+          "start": 1248.2644662466137,
+          "end": 1560.1589324932272,
+          "payload": 0.0,
+          "energy": 0.9632144530824018
+        }
+      ],
+      "stops": [
+        {
+          "site": "S001",
+          "arrival": 816.2644662466137,
+          "complete": 1248.2644662466137,
+          "boxes": [
+            "S001-MED-02",
+            "S001-MED-01",
+            "S001-WAT-01",
+            "S001-WAT-04",
+            "S001-WAT-08",
+            "S001-WAT-07",
+            "S001-WAT-02"
+          ]
+        }
+      ],
+      "unit": "U07",
+      "battery": "C-BAT-01",
+      "sortie": "P001",
+      "charge_start": 1560.1589324932272,
+      "battery_ready": 3183.6422192808914
+    }
+  },
+  {
+    "group": "G1",
+    "kind": "transport",
+    "original_task": "P011",
+    "copy_id": "G1-P011",
+    "unit": "G1-C_drone-U08",
+    "energy_component": "G1-C_battery-C-BAT-04",
+    "frozen": {
+      "model": "C",
+      "boxes": [
+        "S001-WAT-06",
+        "S001-WAT-03",
+        "S001-WAT-05",
+        "S001-FOD-03",
+        "S001-FOD-02",
+        "S001-FOD-01",
+        "S001-HYG-02",
+        "S001-HYG-01"
+      ],
+      "route": [
+        "S001"
+      ],
+      "start": 1907.4897939943457,
+      "takeoff": 2447.4897939943457,
+      "finish": 3533.648726487573,
+      "energy": 2.9956614101045327,
+      "soc": 0.6255423237369334,
+      "deliveries": {
+        "S001-WAT-06": 3221.7542602409594,
+        "S001-WAT-03": 3221.7542602409594,
+        "S001-WAT-05": 3221.7542602409594,
+        "S001-FOD-03": 3221.7542602409594,
+        "S001-FOD-02": 3221.7542602409594,
+        "S001-FOD-01": 3221.7542602409594,
+        "S001-HYG-02": 3221.7542602409594,
+        "S001-HYG-01": 3221.7542602409594
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S001",
+          "start": 2447.4897939943457,
+          "end": 2753.7542602409594,
+          "payload": 78.0,
+          "energy": 2.032446957022131
+        },
+        {
+          "from_id": "S001",
+          "to_id": "O01",
+          "start": 3221.7542602409594,
+          "end": 3533.648726487573,
+          "payload": 0.0,
+          "energy": 0.9632144530824018
+        }
+      ],
+      "stops": [
+        {
+          "site": "S001",
+          "arrival": 2753.7542602409594,
+          "complete": 3221.7542602409594,
+          "boxes": [
+            "S001-WAT-06",
+            "S001-WAT-03",
+            "S001-WAT-05",
+            "S001-FOD-03",
+            "S001-FOD-02",
+            "S001-FOD-01",
+            "S001-HYG-02",
+            "S001-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U08",
+      "battery": "C-BAT-04",
+      "sortie": "P011",
+      "charge_start": 3533.648726487573,
+      "battery_ready": 5178.307025057551
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P002",
+    "copy_id": "G2-P002",
+    "unit": "G2-C_drone-U08",
+    "energy_component": "G2-C_battery-C-BAT-02",
+    "frozen": {
+      "model": "C",
+      "boxes": [
+        "S007-MED-01",
+        "S007-WAT-01",
+        "S007-WAT-02",
+        "S007-FOD-01",
+        "S007-HYG-01"
+      ],
+      "route": [
+        "S007"
+      ],
+      "start": 0.0,
+      "takeoff": 450.0,
+      "finish": 1907.4897939943457,
+      "energy": 3.410416714242664,
+      "soc": 0.573697910719667,
+      "deliveries": {
+        "S007-MED-01": 1347.704896997173,
+        "S007-WAT-01": 1347.704896997173,
+        "S007-WAT-02": 1347.704896997173,
+        "S007-FOD-01": 1347.704896997173,
+        "S007-HYG-01": 1347.704896997173
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S007",
+          "start": 450.0,
+          "end": 987.7048969971729,
+          "payload": 45.0,
+          "energy": 1.972142593062272
+        },
+        {
+          "from_id": "S007",
+          "to_id": "O01",
+          "start": 1347.704896997173,
+          "end": 1907.4897939943457,
+          "payload": 0.0,
+          "energy": 1.438274121180392
+        }
+      ],
+      "stops": [
+        {
+          "site": "S007",
+          "arrival": 987.7048969971729,
+          "complete": 1347.704896997173,
+          "boxes": [
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02",
+            "S007-FOD-01",
+            "S007-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U08",
+      "battery": "C-BAT-02",
+      "sortie": "P002",
+      "charge_start": 1907.4897939943457,
+      "battery_ready": 3664.4776541017336
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P003",
+    "copy_id": "G2-P003",
+    "unit": "G2-B_drone-U05",
+    "energy_component": "G2-B_battery-B-BAT-01",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S010-MED-01",
+        "S010-WAT-01",
+        "S010-FOD-01"
+      ],
+      "route": [
+        "S010"
+      ],
+      "start": 0.0,
+      "takeoff": 390.0,
+      "finish": 1555.2545568548912,
+      "energy": 1.8228201522943424,
+      "soc": 0.5442949619264144,
+      "deliveries": {
+        "S010-MED-01": 1085.1639450941123,
+        "S010-WAT-01": 1085.1639450941123,
+        "S010-FOD-01": 1085.1639450941123
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S010",
+          "start": 390.0,
+          "end": 845.1639450941123,
+          "payload": 25.0,
+          "energy": 1.1187883143893105
+        },
+        {
+          "from_id": "S010",
+          "to_id": "O01",
+          "start": 1085.1639450941123,
+          "end": 1555.2545568548912,
+          "payload": 0.0,
+          "energy": 0.7040318379050319
+        }
+      ],
+      "stops": [
+        {
+          "site": "S010",
+          "arrival": 845.1639450941123,
+          "complete": 1085.1639450941123,
+          "boxes": [
+            "S010-MED-01",
+            "S010-WAT-01",
+            "S010-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U05",
+      "battery": "B-BAT-01",
+      "sortie": "P003",
+      "charge_start": 1555.2545568548912,
+      "battery_ready": 3011.8099561824397
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P004",
+    "copy_id": "G2-P004",
+    "unit": "G2-B_drone-U06",
+    "energy_component": "G2-B_battery-B-BAT-02",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S014-MED-01",
+        "S014-WAT-01",
+        "S014-FOD-01"
+      ],
+      "route": [
+        "S014"
+      ],
+      "start": 0.0,
+      "takeoff": 390.0,
+      "finish": 1869.5681201313184,
+      "energy": 2.139813155867384,
+      "soc": 0.465046711033154,
+      "deliveries": {
+        "S014-MED-01": 1242.340726732326,
+        "S014-WAT-01": 1242.340726732326,
+        "S014-FOD-01": 1242.340726732326
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S014",
+          "start": 390.0,
+          "end": 1002.340726732326,
+          "payload": 25.0,
+          "energy": 1.3065315759690266
+        },
+        {
+          "from_id": "S014",
+          "to_id": "O01",
+          "start": 1242.340726732326,
+          "end": 1869.5681201313184,
+          "payload": 0.0,
+          "energy": 0.8332815798983574
+        }
+      ],
+      "stops": [
+        {
+          "site": "S014",
+          "arrival": 1002.340726732326,
+          "complete": 1242.340726732326,
+          "boxes": [
+            "S014-MED-01",
+            "S014-WAT-01",
+            "S014-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U06",
+      "battery": "B-BAT-02",
+      "sortie": "P004",
+      "charge_start": 1869.5681201313184,
+      "battery_ready": 3463.4871543405184
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P006",
+    "copy_id": "G2-P006",
+    "unit": "G2-A_drone-U02",
+    "energy_component": "G2-A_battery-A-BAT-02",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S013-MED-01",
+        "S013-WAT-01"
+      ],
+      "route": [
+        "S013"
+      ],
+      "start": 0.0,
+      "takeoff": 360.0,
+      "finish": 1612.0156109303139,
+      "energy": 1.957692811047016,
+      "soc": 0.5649571531006632,
+      "deliveries": {
+        "S013-MED-01": 1083.5411387984902,
+        "S013-WAT-01": 1083.5411387984902
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S013",
+          "start": 360.0,
+          "end": 873.5411387984902,
+          "payload": 17.0,
+          "energy": 1.072360069804469
+        },
+        {
+          "from_id": "S013",
+          "to_id": "O01",
+          "start": 1083.5411387984902,
+          "end": 1612.0156109303139,
+          "payload": 0.0,
+          "energy": 0.8853327412425468
+        }
+      ],
+      "stops": [
+        {
+          "site": "S013",
+          "arrival": 873.5411387984902,
+          "complete": 1083.5411387984902,
+          "boxes": [
+            "S013-MED-01",
+            "S013-WAT-01"
+          ]
+        }
+      ],
+      "unit": "U02",
+      "battery": "A-BAT-02",
+      "sortie": "P006",
+      "charge_start": 1612.0156109303139,
+      "battery_ready": 2677.5713118994518
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P007",
+    "copy_id": "G2-P007",
+    "unit": "G2-A_drone-U03",
+    "energy_component": "G2-A_battery-A-BAT-03",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S012-MED-01",
+        "S012-WAT-01"
+      ],
+      "route": [
+        "S012"
+      ],
+      "start": 0.0,
+      "takeoff": 360.0,
+      "finish": 2109.038937777291,
+      "energy": 2.9578586109627816,
+      "soc": 0.34269808645271516,
+      "deliveries": {
+        "S012-MED-01": 1334.4494688886452,
+        "S012-WAT-01": 1334.4494688886452
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S012",
+          "start": 360.0,
+          "end": 1124.4494688886452,
+          "payload": 17.0,
+          "energy": 1.592268919228933
+        },
+        {
+          "from_id": "S012",
+          "to_id": "O01",
+          "start": 1334.4494688886452,
+          "end": 2109.038937777291,
+          "payload": 0.0,
+          "energy": 1.3655896917338486
+        }
+      ],
+      "stops": [
+        {
+          "site": "S012",
+          "arrival": 1124.4494688886452,
+          "complete": 1334.4494688886452,
+          "boxes": [
+            "S012-MED-01",
+            "S012-WAT-01"
+          ]
+        }
+      ],
+      "unit": "U03",
+      "battery": "A-BAT-03",
+      "sortie": "P007",
+      "charge_start": 2109.038937777291,
+      "battery_ready": 3463.531425388761
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P008",
+    "copy_id": "G2-P008",
+    "unit": "G2-A_drone-U04",
+    "energy_component": "G2-A_battery-A-BAT-04",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S002-WAT-01",
+        "S002-MED-01"
+      ],
+      "route": [
+        "S002"
+      ],
+      "start": 0.0,
+      "takeoff": 360.0,
+      "finish": 2003.7344506070112,
+      "energy": 2.9199240876269696,
+      "soc": 0.35112798052734007,
+      "deliveries": {
+        "S002-WAT-01": 1283.8072253035057,
+        "S002-MED-01": 1283.8072253035057
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S002",
+          "start": 360.0,
+          "end": 1073.8072253035057,
+          "payload": 17.0,
+          "energy": 1.5622009472838587
+        },
+        {
+          "from_id": "S002",
+          "to_id": "O01",
+          "start": 1283.8072253035057,
+          "end": 2003.7344506070112,
+          "payload": 0.0,
+          "energy": 1.357723140343111
+        }
+      ],
+      "stops": [
+        {
+          "site": "S002",
+          "arrival": 1073.8072253035057,
+          "complete": 1283.8072253035057,
+          "boxes": [
+            "S002-WAT-01",
+            "S002-MED-01"
+          ]
+        }
+      ],
+      "unit": "U04",
+      "battery": "A-BAT-04",
+      "sortie": "P008",
+      "charge_start": 2003.7344506070112,
+      "battery_ready": 3347.268075921469
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P009",
+    "copy_id": "G2-P009",
+    "unit": "G2-C_drone-U07",
+    "energy_component": "G2-C_battery-C-BAT-03",
+    "frozen": {
+      "model": "C",
+      "boxes": [
+        "S008-MED-01",
+        "S008-WAT-01",
+        "S008-WAT-02",
+        "S008-FOD-01",
+        "S008-HYG-01"
+      ],
+      "route": [
+        "S008"
+      ],
+      "start": 1560.1589324932272,
+      "takeoff": 2010.1589324932272,
+      "finish": 3759.860629581449,
+      "energy": 5.835968644107876,
+      "soc": 0.27050391948651553,
+      "deliveries": {
+        "S008-MED-01": 3057.8497810373383,
+        "S008-WAT-01": 3057.8497810373383,
+        "S008-WAT-02": 3057.8497810373383,
+        "S008-FOD-01": 3057.8497810373383,
+        "S008-HYG-01": 3057.8497810373383
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S008",
+          "start": 2010.1589324932272,
+          "end": 2697.8497810373383,
+          "payload": 45.0,
+          "energy": 3.323133619190955
+        },
+        {
+          "from_id": "S008",
+          "to_id": "O01",
+          "start": 3057.8497810373383,
+          "end": 3759.860629581449,
+          "payload": 0.0,
+          "energy": 2.5128350249169213
+        }
+      ],
+      "stops": [
+        {
+          "site": "S008",
+          "arrival": 2697.8497810373383,
+          "complete": 3057.8497810373383,
+          "boxes": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02",
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U07",
+      "battery": "C-BAT-03",
+      "sortie": "P009",
+      "charge_start": 3759.860629581449,
+      "battery_ready": 6173.7688040273315
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P012",
+    "copy_id": "G2-P012",
+    "unit": "G2-A_drone-U01",
+    "energy_component": "G2-A_battery-A-BAT-05",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S003-MED-01",
+        "S003-WAT-01"
+      ],
+      "route": [
+        "S003"
+      ],
+      "start": 1313.344176939181,
+      "takeoff": 1673.344176939181,
+      "finish": 3575.8512750490836,
+      "energy": 2.981632863387458,
+      "soc": 0.33741491924723155,
+      "deliveries": {
+        "S003-MED-01": 2722.5710593274657,
+        "S003-WAT-01": 2722.5710593274657
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S003",
+          "start": 1673.344176939181,
+          "end": 2512.5710593274657,
+          "payload": 17.0,
+          "energy": 1.6152526654017485
+        },
+        {
+          "from_id": "S003",
+          "to_id": "O01",
+          "start": 2722.5710593274657,
+          "end": 3575.8512750490836,
+          "payload": 0.0,
+          "energy": 1.366380197985709
+        }
+      ],
+      "stops": [
+        {
+          "site": "S003",
+          "arrival": 2512.5710593274657,
+          "complete": 2722.5710593274657,
+          "boxes": [
+            "S003-MED-01",
+            "S003-WAT-01"
+          ]
+        }
+      ],
+      "unit": "U01",
+      "battery": "A-BAT-05",
+      "sortie": "P012",
+      "charge_start": 3575.8512750490836,
+      "battery_ready": 4937.211880027682
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P013",
+    "copy_id": "G2-P013",
+    "unit": "G2-B_drone-U06",
+    "energy_component": "G2-B_battery-B-BAT-04",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S002-WAT-04",
+        "S002-WAT-03"
+      ],
+      "route": [
+        "S002"
+      ],
+      "start": 1869.5681201313184,
+      "takeoff": 2229.568120131318,
+      "finish": 3626.2595951677085,
+      "energy": 2.870115406344845,
+      "soc": 0.28247114841378873,
+      "deliveries": {
+        "S002-WAT-04": 3029.8538576495134,
+        "S002-WAT-03": 3029.8538576495134
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S002",
+          "start": 2229.568120131318,
+          "end": 2819.8538576495134,
+          "payload": 28.0,
+          "energy": 1.7893609439419802
+        },
+        {
+          "from_id": "S002",
+          "to_id": "O01",
+          "start": 3029.8538576495134,
+          "end": 3626.2595951677085,
+          "payload": 0.0,
+          "energy": 1.0807544624028647
+        }
+      ],
+      "stops": [
+        {
+          "site": "S002",
+          "arrival": 2819.8538576495134,
+          "complete": 3029.8538576495134,
+          "boxes": [
+            "S002-WAT-04",
+            "S002-WAT-03"
+          ]
+        }
+      ],
+      "unit": "U06",
+      "battery": "B-BAT-04",
+      "sortie": "P013",
+      "charge_start": 3626.2595951677085,
+      "battery_ready": 5536.642937917141
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P014",
+    "copy_id": "G2-P014",
+    "unit": "G2-C_drone-U08",
+    "energy_component": "G2-C_battery-C-BAT-01",
+    "frozen": {
+      "model": "C",
+      "boxes": [
+        "S004-MED-01",
+        "S004-WAT-01",
+        "S004-WAT-02",
+        "S004-WAT-03",
+        "S004-FOD-01",
+        "S004-HYG-01"
+      ],
+      "route": [
+        "S004"
+      ],
+      "start": 3533.648726487573,
+      "takeoff": 4013.648726487573,
+      "finish": 5834.7053725864935,
+      "energy": 6.1528713263293655,
+      "soc": 0.2308910842088293,
+      "deliveries": {
+        "S004-MED-01": 5117.147049537033,
+        "S004-WAT-01": 5117.147049537033,
+        "S004-WAT-02": 5117.147049537033,
+        "S004-WAT-03": 5117.147049537033,
+        "S004-FOD-01": 5117.147049537033,
+        "S004-HYG-01": 5117.147049537033
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S004",
+          "start": 4013.648726487573,
+          "end": 4721.147049537033,
+          "payload": 59.0,
+          "energy": 3.734176271869724
+        },
+        {
+          "from_id": "S004",
+          "to_id": "O01",
+          "start": 5117.147049537033,
+          "end": 5834.7053725864935,
+          "payload": 0.0,
+          "energy": 2.4186950544596417
+        }
+      ],
+      "stops": [
+        {
+          "site": "S004",
+          "arrival": 4721.147049537033,
+          "complete": 5117.147049537033,
+          "boxes": [
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03",
+            "S004-FOD-01",
+            "S004-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U08",
+      "battery": "C-BAT-01",
+      "sortie": "P014",
+      "charge_start": 5834.7053725864935,
+      "battery_ready": 8334.441356800697
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P015",
+    "copy_id": "G2-P015",
+    "unit": "G2-A_drone-U02",
+    "energy_component": "G2-A_battery-A-BAT-06",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S002-WAT-02",
+        "S002-FOD-01"
+      ],
+      "route": [
+        "S002"
+      ],
+      "start": 1612.0156109303139,
+      "takeoff": 1972.0156109303139,
+      "finish": 3615.750061537325,
+      "energy": 3.0186529078963087,
+      "soc": 0.32918824268970914,
+      "deliveries": {
+        "S002-WAT-02": 2895.8228362338195,
+        "S002-FOD-01": 2895.8228362338195
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S002",
+          "start": 1972.0156109303139,
+          "end": 2685.8228362338195,
+          "payload": 22.0,
+          "energy": 1.6609297675531978
+        },
+        {
+          "from_id": "S002",
+          "to_id": "O01",
+          "start": 2895.8228362338195,
+          "end": 3615.750061537325,
+          "payload": 0.0,
+          "energy": 1.357723140343111
+        }
+      ],
+      "stops": [
+        {
+          "site": "S002",
+          "arrival": 2685.8228362338195,
+          "complete": 2895.8228362338195,
+          "boxes": [
+            "S002-WAT-02",
+            "S002-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U02",
+      "battery": "A-BAT-06",
+      "sortie": "P015",
+      "charge_start": 3615.750061537325,
+      "battery_ready": 4987.805346040704
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P016",
+    "copy_id": "G2-P016",
+    "unit": "G2-A_drone-U04",
+    "energy_component": "G2-A_battery-A-BAT-01",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S011-MED-01",
+        "S011-WAT-01"
+      ],
+      "route": [
+        "S011"
+      ],
+      "start": 2192.1431167132473,
+      "takeoff": 2552.1431167132473,
+      "finish": 3414.1559144545945,
+      "energy": 1.1519678025796314,
+      "soc": 0.7440071549823042,
+      "deliveries": {
+        "S011-MED-01": 3085.3361822505876,
+        "S011-WAT-01": 3085.3361822505876
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S011",
+          "start": 2552.1431167132473,
+          "end": 2875.3361822505876,
+          "payload": 17.0,
+          "energy": 0.6244743511673387
+        },
+        {
+          "from_id": "S011",
+          "to_id": "O01",
+          "start": 3085.3361822505876,
+          "end": 3414.1559144545945,
+          "payload": 0.0,
+          "energy": 0.5274934514122926
+        }
+      ],
+      "stops": [
+        {
+          "site": "S011",
+          "arrival": 2875.3361822505876,
+          "complete": 3085.3361822505876,
+          "boxes": [
+            "S011-MED-01",
+            "S011-WAT-01"
+          ]
+        }
+      ],
+      "unit": "U04",
+      "battery": "A-BAT-01",
+      "sortie": "P016",
+      "charge_start": 3414.1559144545945,
+      "battery_ready": 4246.946612977599
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P017",
+    "copy_id": "G2-P017",
+    "unit": "G2-B_drone-U05",
+    "energy_component": "G2-B_battery-B-BAT-01",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S015-MED-01",
+        "S015-WAT-01",
+        "S015-FOD-01"
+      ],
+      "route": [
+        "S015"
+      ],
+      "start": 3011.8099561824397,
+      "takeoff": 3401.8099561824397,
+      "finish": 4840.053316215975,
+      "energy": 2.307304436974495,
+      "soc": 0.42317389075637624,
+      "deliveries": {
+        "S015-MED-01": 4229.371636199207,
+        "S015-WAT-01": 4229.371636199207,
+        "S015-FOD-01": 4229.371636199207
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S015",
+          "start": 3401.8099561824397,
+          "end": 3989.3716361992074,
+          "payload": 25.0,
+          "energy": 1.4249286911172996
+        },
+        {
+          "from_id": "S015",
+          "to_id": "O01",
+          "start": 4229.371636199207,
+          "end": 4840.053316215975,
+          "payload": 0.0,
+          "energy": 0.8823757458571955
+        }
+      ],
+      "stops": [
+        {
+          "site": "S015",
+          "arrival": 3989.3716361992074,
+          "complete": 4229.371636199207,
+          "boxes": [
+            "S015-MED-01",
+            "S015-WAT-01",
+            "S015-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U05",
+      "battery": "B-BAT-01",
+      "sortie": "P017",
+      "charge_start": 4840.053316215975,
+      "battery_ready": 6506.55190557159
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P018",
+    "copy_id": "G2-P018",
+    "unit": "G2-C_drone-U07",
+    "energy_component": "G2-C_battery-C-BAT-02",
+    "frozen": {
+      "model": "C",
+      "boxes": [
+        "S003-WAT-03",
+        "S003-WAT-02",
+        "S003-WAT-04",
+        "S003-FOD-01",
+        "S003-FOD-02",
+        "S003-HYG-01"
+      ],
+      "route": [
+        "S003"
+      ],
+      "start": 3759.860629581449,
+      "takeoff": 4239.860629581449,
+      "finish": 6195.8542346644235,
+      "energy": 6.1487902356609805,
+      "soc": 0.23140122054237744,
+      "deliveries": {
+        "S003-WAT-03": 5405.317432122936,
+        "S003-WAT-02": 5405.317432122936,
+        "S003-WAT-04": 5405.317432122936,
+        "S003-FOD-01": 5405.317432122936,
+        "S003-FOD-02": 5405.317432122936,
+        "S003-HYG-01": 5405.317432122936
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S003",
+          "start": 4239.860629581449,
+          "end": 5009.317432122936,
+          "payload": 64.0,
+          "energy": 3.855136011951946
+        },
+        {
+          "from_id": "S003",
+          "to_id": "O01",
+          "start": 5405.317432122936,
+          "end": 6195.8542346644235,
+          "payload": 0.0,
+          "energy": 2.2936542237090345
+        }
+      ],
+      "stops": [
+        {
+          "site": "S003",
+          "arrival": 5009.317432122936,
+          "complete": 5405.317432122936,
+          "boxes": [
+            "S003-WAT-03",
+            "S003-WAT-02",
+            "S003-WAT-04",
+            "S003-FOD-01",
+            "S003-FOD-02",
+            "S003-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U07",
+      "battery": "C-BAT-02",
+      "sortie": "P018",
+      "charge_start": 6195.8542346644235,
+      "battery_ready": 8694.484923489272
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P019",
+    "copy_id": "G2-P019",
+    "unit": "G2-A_drone-U03",
+    "energy_component": "G2-A_battery-A-BAT-02",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S005-MED-01",
+        "S005-WAT-01"
+      ],
+      "route": [
+        "S005"
+      ],
+      "start": 2677.5713118994518,
+      "takeoff": 3037.5713118994518,
+      "finish": 4369.762724936934,
+      "energy": 2.121293962627512,
+      "soc": 0.5286013416383306,
+      "deliveries": {
+        "S005-MED-01": 3806.4236850848597,
+        "S005-WAT-01": 3806.4236850848597
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S005",
+          "start": 3037.5713118994518,
+          "end": 3596.4236850848597,
+          "payload": 17.0,
+          "energy": 1.1359808132937195
+        },
+        {
+          "from_id": "S005",
+          "to_id": "O01",
+          "start": 3806.4236850848597,
+          "end": 4369.762724936934,
+          "payload": 0.0,
+          "energy": 0.9853131493337924
+        }
+      ],
+      "stops": [
+        {
+          "site": "S005",
+          "arrival": 3596.4236850848597,
+          "complete": 3806.4236850848597,
+          "boxes": [
+            "S005-MED-01",
+            "S005-WAT-01"
+          ]
+        }
+      ],
+      "unit": "U03",
+      "battery": "A-BAT-02",
+      "sortie": "P019",
+      "charge_start": 4369.762724936934,
+      "battery_ready": 5482.580980807104
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P020",
+    "copy_id": "G2-P020",
+    "unit": "G2-B_drone-U06",
+    "energy_component": "G2-B_battery-B-BAT-02",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S009-MED-01",
+        "S009-WAT-01",
+        "S009-FOD-01"
+      ],
+      "route": [
+        "S009"
+      ],
+      "start": 3626.2595951677085,
+      "takeoff": 4016.2595951677085,
+      "finish": 5184.691886112241,
+      "energy": 2.0961840415152735,
+      "soc": 0.47595398962118163,
+      "deliveries": {
+        "S009-MED-01": 4717.065740639975,
+        "S009-WAT-01": 4717.065740639975,
+        "S009-FOD-01": 4717.065740639975
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S009",
+          "start": 4016.2595951677085,
+          "end": 4477.065740639975,
+          "payload": 25.0,
+          "energy": 1.265624009438325
+        },
+        {
+          "from_id": "S009",
+          "to_id": "O01",
+          "start": 4717.065740639975,
+          "end": 5184.691886112241,
+          "payload": 0.0,
+          "energy": 0.8305600320769483
+        }
+      ],
+      "stops": [
+        {
+          "site": "S009",
+          "arrival": 4477.065740639975,
+          "complete": 4717.065740639975,
+          "boxes": [
+            "S009-MED-01",
+            "S009-WAT-01",
+            "S009-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U06",
+      "battery": "B-BAT-02",
+      "sortie": "P020",
+      "charge_start": 5184.691886112241,
+      "battery_ready": 6759.70497076886
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P021",
+    "copy_id": "G2-P021",
+    "unit": "G2-A_drone-U04",
+    "energy_component": "G2-A_battery-A-BAT-04",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S013-FOD-01"
+      ],
+      "route": [
+        "S013"
+      ],
+      "start": 3414.1559144545945,
+      "takeoff": 3744.1559144545945,
+      "finish": 4966.171525384909,
+      "energy": 1.8709908346333557,
+      "soc": 0.5842242589703655,
+      "deliveries": {
+        "S013-FOD-01": 4437.697053253085
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S013",
+          "start": 3744.1559144545945,
+          "end": 4257.697053253085,
+          "payload": 8.0,
+          "energy": 0.985658093390809
+        },
+        {
+          "from_id": "S013",
+          "to_id": "O01",
+          "start": 4437.697053253085,
+          "end": 4966.171525384909,
+          "payload": 0.0,
+          "energy": 0.8853327412425468
+        }
+      ],
+      "stops": [
+        {
+          "site": "S013",
+          "arrival": 4257.697053253085,
+          "complete": 4437.697053253085,
+          "boxes": [
+            "S013-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U04",
+      "battery": "A-BAT-04",
+      "sortie": "P021",
+      "charge_start": 4966.171525384909,
+      "battery_ready": 6006.679988723434
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P022",
+    "copy_id": "G2-P022",
+    "unit": "G2-A_drone-U01",
+    "energy_component": "G2-A_battery-A-BAT-03",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S012-FOD-01",
+        "S011-FOD-01"
+      ],
+      "route": [
+        "S011",
+        "S012"
+      ],
+      "start": 3575.8512750490836,
+      "takeoff": 3935.8512750490836,
+      "finish": 6094.639209271631,
+      "energy": 3.334048103108053,
+      "soc": 0.2591004215315438,
+      "deliveries": {
+        "S011-FOD-01": 4439.0443405864235,
+        "S012-FOD-01": 5320.049740382986
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S011",
+          "start": 3935.8512750490836,
+          "end": 4259.0443405864235,
+          "payload": 16.0,
+          "energy": 0.6176572164332566
+        },
+        {
+          "from_id": "S011",
+          "to_id": "S012",
+          "start": 4439.0443405864235,
+          "end": 5140.049740382986,
+          "payload": 8.0,
+          "energy": 1.3508011949409477
+        },
+        {
+          "from_id": "S012",
+          "to_id": "O01",
+          "start": 5320.049740382986,
+          "end": 6094.639209271631,
+          "payload": 0.0,
+          "energy": 1.3655896917338486
+        }
+      ],
+      "stops": [
+        {
+          "site": "S011",
+          "arrival": 4259.0443405864235,
+          "complete": 4439.0443405864235,
+          "boxes": [
+            "S011-FOD-01"
+          ]
+        },
+        {
+          "site": "S012",
+          "arrival": 5140.049740382986,
+          "complete": 5320.049740382986,
+          "boxes": [
+            "S012-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U01",
+      "battery": "A-BAT-03",
+      "sortie": "P022",
+      "charge_start": 6094.639209271631,
+      "battery_ready": 7557.808661280625
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P023",
+    "copy_id": "G2-P023",
+    "unit": "G2-B_drone-U05",
+    "energy_component": "G2-B_battery-B-BAT-03",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S002-FOD-02",
+        "S002-HYG-01"
+      ],
+      "route": [
+        "S002"
+      ],
+      "start": 4840.053316215975,
+      "takeoff": 5200.053316215975,
+      "finish": 6596.744791252366,
+      "energy": 2.361229818656532,
+      "soc": 0.40969254533586696,
+      "deliveries": {
+        "S002-FOD-02": 6000.33905373417,
+        "S002-HYG-01": 6000.33905373417
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S002",
+          "start": 5200.053316215975,
+          "end": 5790.33905373417,
+          "payload": 14.0,
+          "energy": 1.2804753562536675
+        },
+        {
+          "from_id": "S002",
+          "to_id": "O01",
+          "start": 6000.33905373417,
+          "end": 6596.744791252366,
+          "payload": 0.0,
+          "energy": 1.0807544624028647
+        }
+      ],
+      "stops": [
+        {
+          "site": "S002",
+          "arrival": 5790.33905373417,
+          "complete": 6000.33905373417,
+          "boxes": [
+            "S002-FOD-02",
+            "S002-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U05",
+      "battery": "B-BAT-03",
+      "sortie": "P023",
+      "charge_start": 6596.744791252366,
+      "battery_ready": 8286.61104600353
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P025",
+    "copy_id": "G2-P025",
+    "unit": "G2-A_drone-U03",
+    "energy_component": "G2-A_battery-A-BAT-05",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S005-WAT-02",
+        "S005-FOD-01"
+      ],
+      "route": [
+        "S005"
+      ],
+      "start": 4937.211880027682,
+      "takeoff": 5297.211880027682,
+      "finish": 6629.403293065165,
+      "energy": 2.1929551487312393,
+      "soc": 0.5126766336152802,
+      "deliveries": {
+        "S005-WAT-02": 6066.06425321309,
+        "S005-FOD-01": 6066.06425321309
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S005",
+          "start": 5297.211880027682,
+          "end": 5856.06425321309,
+          "payload": 22.0,
+          "energy": 1.2076419993974468
+        },
+        {
+          "from_id": "S005",
+          "to_id": "O01",
+          "start": 6066.06425321309,
+          "end": 6629.403293065165,
+          "payload": 0.0,
+          "energy": 0.9853131493337924
+        }
+      ],
+      "stops": [
+        {
+          "site": "S005",
+          "arrival": 5856.06425321309,
+          "complete": 6066.06425321309,
+          "boxes": [
+            "S005-WAT-02",
+            "S005-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U03",
+      "battery": "A-BAT-05",
+      "sortie": "P025",
+      "charge_start": 6629.403293065165,
+      "battery_ready": 7762.9236693653
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "transport",
+    "original_task": "P026",
+    "copy_id": "G2-P026",
+    "unit": "G2-B_drone-U06",
+    "energy_component": "G2-B_battery-B-BAT-04",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S005-WAT-03",
+        "S005-HYG-01"
+      ],
+      "route": [
+        "S005"
+      ],
+      "start": 5536.642937917141,
+      "takeoff": 5896.642937917141,
+      "finish": 7052.813929024211,
+      "energy": 1.8344966533326603,
+      "soc": 0.5413758366668349,
+      "deliveries": {
+        "S005-WAT-03": 6577.485100137343,
+        "S005-HYG-01": 6577.485100137343
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S005",
+          "start": 5896.642937917141,
+          "end": 6367.485100137343,
+          "payload": 20.0,
+          "energy": 1.047806464929154
+        },
+        {
+          "from_id": "S005",
+          "to_id": "O01",
+          "start": 6577.485100137343,
+          "end": 7052.813929024211,
+          "payload": 0.0,
+          "energy": 0.7866901884035062
+        }
+      ],
+      "stops": [
+        {
+          "site": "S005",
+          "arrival": 6367.485100137343,
+          "complete": 6577.485100137343,
+          "boxes": [
+            "S005-WAT-03",
+            "S005-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U06",
+      "battery": "B-BAT-04",
+      "sortie": "P026",
+      "charge_start": 7052.813929024211,
+      "battery_ready": 8514.429145468363
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "relay",
+    "original_task": "R001",
+    "copy_id": "G2-R001",
+    "unit": "G2-R_drone-R01",
+    "energy_component": "G2-R_energy-R-ENE-01",
+    "frozen": {
+      "position": [
+        -2260.9954498317566,
+        630.6966580376826,
+        837.2688598632812
+      ],
+      "agl": 300,
+      "ground": 537.2688598632812,
+      "cruise": 837.2688598632812,
+      "distance": 5163.346641327461,
+      "fly": 521.6153243876511,
+      "back": 580.7460627095911,
+      "travel_energy": 0.28300851292540136,
+      "earliest_service": 731.6153243876511,
+      "id": "RLOC0130",
+      "backhaul_margin": 1.610372275313125,
+      "covered": 597,
+      "original_candidate": 130,
+      "candidate": 1,
+      "sortie": "R001",
+      "unit": "R01",
+      "component": "R-ENE-01",
+      "start": 13.593140338469993,
+      "takeoff": 193.59314033847,
+      "arrival": 715.2084647261211,
+      "service_start": 745.2084647261211,
+      "service_end": 6714.673452195863,
+      "finish": 7295.419514905454,
+      "body_ready": 7595.419514905454,
+      "energy": 2.1161783702078227,
+      "soc": 0.3386942593100555,
+      "charge_start": 7295.419514905454,
+      "component_ready": 8655.116977802381
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "relay",
+    "original_task": "R002",
+    "copy_id": "G2-R002",
+    "unit": "G2-R_drone-R02",
+    "energy_component": "G2-R_energy-R-ENE-02",
+    "frozen": {
+      "position": [
+        4500.0,
+        -3000.0,
+        627.1885681152344
+      ],
+      "agl": 300,
+      "ground": 327.1885681152344,
+      "cruise": 627.1885681152344,
+      "distance": 4095.0779258939233,
+      "fly": 397.87733708840346,
+      "back": 439.5013844313397,
+      "travel_energy": 0.2188298139782445,
+      "earliest_service": 607.8773370884035,
+      "id": "RLOC0511",
+      "backhaul_margin": 3.6413951640895874,
+      "covered": 450,
+      "original_candidate": 511,
+      "candidate": 9,
+      "sortie": "R002",
+      "unit": "R02",
+      "component": "R-ENE-02",
+      "start": 143.18872744071507,
+      "takeoff": 323.18872744071507,
+      "arrival": 721.0660645291185,
+      "service_start": 751.0660645291185,
+      "service_end": 1606.8950421806278,
+      "finish": 2046.3964266119674,
+      "body_ready": 2346.3964266119674,
+      "energy": 0.48949977937176126,
+      "soc": 0.8470313189463246,
+      "charge_start": 2046.3964266119674,
+      "component_ready": 2745.2557119817457
+    }
+  },
+  {
+    "group": "G2",
+    "kind": "relay",
+    "original_task": "R003",
+    "copy_id": "G2-R003",
+    "unit": "G2-R_drone-R02",
+    "energy_component": "G2-R_energy-R-ENE-03",
+    "frozen": {
+      "position": [
+        4087.722639392655,
+        1553.5683372305496,
+        623.4664916992188
+      ],
+      "agl": 300,
+      "ground": 323.46649169921875,
+      "cruise": 623.4664916992188,
+      "distance": 6416.736039530874,
+      "fly": 551.7240255601963,
+      "back": 593.0378998684646,
+      "travel_energy": 0.31738432010456363,
+      "earliest_service": 761.7240255601963,
+      "id": "RLOC0489",
+      "backhaul_margin": 9.775682047906912,
+      "covered": 557,
+      "original_candidate": 489,
+      "candidate": 4,
+      "sortie": "R003",
+      "unit": "R02",
+      "component": "R-ENE-03",
+      "start": 3397.0629061000564,
+      "takeoff": 3577.0629061000564,
+      "arrival": 4128.786931660253,
+      "service_start": 4158.786931660253,
+      "service_end": 5592.495313674969,
+      "finish": 6185.533213543434,
+      "body_ready": 6485.533213543434,
+      "energy": 0.7646285479423937,
+      "soc": 0.761053578768002,
+      "charge_start": 6185.533213543434,
+      "component_ready": 6996.163561145031
+    }
+  },
+  {
+    "group": "G3",
+    "kind": "transport",
+    "original_task": "P005",
+    "copy_id": "G3-P005",
+    "unit": "G3-A_drone-U01",
+    "energy_component": "G3-A_battery-A-BAT-01",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S006-MED-01",
+        "S006-WAT-01"
+      ],
+      "route": [
+        "S006"
+      ],
+      "start": 0.0,
+      "takeoff": 360.0,
+      "finish": 1313.344176939181,
+      "energy": 1.311227099217923,
+      "soc": 0.7086162001737949,
+      "deliveries": {
+        "S006-MED-01": 935.4354218029238,
+        "S006-WAT-01": 935.4354218029238
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S006",
+          "start": 360.0,
+          "end": 725.4354218029238,
+          "payload": 17.0,
+          "energy": 0.7242686415337843
+        },
+        {
+          "from_id": "S006",
+          "to_id": "O01",
+          "start": 935.4354218029238,
+          "end": 1313.344176939181,
+          "payload": 0.0,
+          "energy": 0.5869584576841386
+        }
+      ],
+      "stops": [
+        {
+          "site": "S006",
+          "arrival": 725.4354218029238,
+          "complete": 935.4354218029238,
+          "boxes": [
+            "S006-MED-01",
+            "S006-WAT-01"
+          ]
+        }
+      ],
+      "unit": "U01",
+      "battery": "A-BAT-01",
+      "sortie": "P005",
+      "charge_start": 1313.344176939181,
+      "battery_ready": 2192.1431167132473
+    }
+  },
+  {
+    "group": "G3",
+    "kind": "transport",
+    "original_task": "P010",
+    "copy_id": "G3-P010",
+    "unit": "G3-B_drone-U05",
+    "energy_component": "G3-B_battery-B-BAT-03",
+    "frozen": {
+      "model": "B",
+      "boxes": [
+        "S006-WAT-02",
+        "S006-WAT-03"
+      ],
+      "route": [
+        "S006"
+      ],
+      "start": 1555.2545568548912,
+      "takeoff": 1915.2545568548912,
+      "finish": 2762.4185979505064,
+      "energy": 1.293219333851245,
+      "soc": 0.6766951665371888,
+      "deliveries": {
+        "S006-WAT-02": 2437.599910736032,
+        "S006-WAT-03": 2437.599910736032
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S006",
+          "start": 1915.2545568548912,
+          "end": 2227.599910736032,
+          "payload": 28.0,
+          "energy": 0.8255462935448569
+        },
+        {
+          "from_id": "S006",
+          "to_id": "O01",
+          "start": 2437.599910736032,
+          "end": 2762.4185979505064,
+          "payload": 0.0,
+          "energy": 0.4676730403063882
+        }
+      ],
+      "stops": [
+        {
+          "site": "S006",
+          "arrival": 2227.599910736032,
+          "complete": 2437.599910736032,
+          "boxes": [
+            "S006-WAT-02",
+            "S006-WAT-03"
+          ]
+        }
+      ],
+      "unit": "U05",
+      "battery": "B-BAT-03",
+      "sortie": "P010",
+      "charge_start": 2762.4185979505064,
+      "battery_ready": 3989.4803092860457
+    }
+  },
+  {
+    "group": "G3",
+    "kind": "transport",
+    "original_task": "P024",
+    "copy_id": "G3-P024",
+    "unit": "G3-A_drone-U02",
+    "energy_component": "G3-A_battery-A-BAT-01",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S006-FOD-01"
+      ],
+      "route": [
+        "S006"
+      ],
+      "start": 4246.946612977599,
+      "takeoff": 4576.946612977599,
+      "finish": 5500.29078991678,
+      "energy": 1.2522222589261096,
+      "soc": 0.721728386905309,
+      "deliveries": {
+        "S006-FOD-01": 5122.382034780523
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S006",
+          "start": 4576.946612977599,
+          "end": 4942.382034780523,
+          "payload": 8.0,
+          "energy": 0.665263801241971
+        },
+        {
+          "from_id": "S006",
+          "to_id": "O01",
+          "start": 5122.382034780523,
+          "end": 5500.29078991678,
+          "payload": 0.0,
+          "energy": 0.5869584576841386
+        }
+      ],
+      "stops": [
+        {
+          "site": "S006",
+          "arrival": 4942.382034780523,
+          "complete": 5122.382034780523,
+          "boxes": [
+            "S006-FOD-01"
+          ]
+        }
+      ],
+      "unit": "U02",
+      "battery": "A-BAT-01",
+      "sortie": "P024",
+      "charge_start": 5500.29078991678,
+      "battery_ready": 6362.043886939879
+    }
+  },
+  {
+    "group": "G3",
+    "kind": "transport",
+    "original_task": "P027",
+    "copy_id": "G3-P027",
+    "unit": "G3-A_drone-U04",
+    "energy_component": "G3-A_battery-A-BAT-06",
+    "frozen": {
+      "model": "A",
+      "boxes": [
+        "S006-HYG-01"
+      ],
+      "route": [
+        "S006"
+      ],
+      "start": 4987.805346040704,
+      "takeoff": 5317.805346040704,
+      "finish": 6241.149522979885,
+      "energy": 1.2426878694484225,
+      "soc": 0.7238471401225728,
+      "deliveries": {
+        "S006-HYG-01": 5863.2407678436275
+      },
+      "legs": [
+        {
+          "from_id": "O01",
+          "to_id": "S006",
+          "start": 5317.805346040704,
+          "end": 5683.2407678436275,
+          "payload": 6.0,
+          "energy": 0.6557294117642839
+        },
+        {
+          "from_id": "S006",
+          "to_id": "O01",
+          "start": 5863.2407678436275,
+          "end": 6241.149522979885,
+          "payload": 0.0,
+          "energy": 0.5869584576841386
+        }
+      ],
+      "stops": [
+        {
+          "site": "S006",
+          "arrival": 5683.2407678436275,
+          "complete": 5863.2407678436275,
+          "boxes": [
+            "S006-HYG-01"
+          ]
+        }
+      ],
+      "unit": "U04",
+      "battery": "A-BAT-06",
+      "sortie": "P027",
+      "charge_start": 6241.149522979885,
+      "battery_ready": 7100.14824082054
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\communication_samples.csv",
+    "sha256": "8e3c3472fcf3819f442b49cac973a794bcff3d67d8dba72b7cf311c13d0458d2"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\event_replay.csv",
+    "sha256": "70ac02036e9a7f69c3a4f900b42a3525090864b21ed081b9537e35ed0ff6453f"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\independent_transport_phases.json",
+    "sha256": "13e21e23fbe06b1b4a456c0e826565b8ae85747928784928403ecab262a4e4d5"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\legs.csv",
+    "sha256": "407a6fb85141abc96bb85cd5cfc4350725ec63c3acf7663721e76700ffb68b7d"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\phases.json",
+    "sha256": "75c59b836e45ae7c2c667d29580784c8bf516f977b1576efe94f8131c1055ccb"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\plan.json",
+    "sha256": "bd7267b44829aced9cb8818265cff2c6243719a341e66a832c910690e1165182"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\Q2_运输架次.csv",
+    "sha256": "d8b321fd1974080c50c808759faa58ba9f441c15589fe55cd7a234a11dc29f51"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\Q2_逐箱交付.csv",
+    "sha256": "63973eee9dc4fff2249c10ff7c67c46f1f839cdd76a482fa0737dbb1966c87f5"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\Q3_中继架次.csv",
+    "sha256": "ba556a657bb9402481c93506de47f1b2c667de42320e369fa6b883a5db67b32c"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\Q3_通信保障.csv",
+    "sha256": "496aac4b2e0519824ca47ee15d0009e8fcc656b769e365ccfe2906bf5a0c25eb"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\q4_associations.csv",
+    "sha256": "d3f206b350321df8e9762ca70c1c4e51eea94e9b4b4e5bbe8fb5272adda39491"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\relay_energy_check.csv",
+    "sha256": "327a3dfd7e58e34c484e8cb08758bda18b387fa66c387f57073fa8f206cf9a3c"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\relay_event_replay.csv",
+    "sha256": "83a4272c57d15ed18fa1481e05b2209c74194be7c9aedea5c8a74862ea528667"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\relay_phases.json",
+    "sha256": "cb255372e15cf8839ff700983a686e91c655e09b629add4a5538ee49d23c7b77"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\relay_plan.json",
+    "sha256": "ddfbbc740fb90429686af969d3d4e5eeb666fd00e5cbc4b29fe900c9ccf454ef"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\relay_resources.csv",
+    "sha256": "f37969e8e4c20e6a14ddd681d0e6bc396dec51c1baeefecc5abb5ccf0ffca652"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\resource_usage.csv",
+    "sha256": "4f8ec59df1b4dc5bfe6622e0b8c4a67a81b8d8f4269f056e7b430a0397fda3c2"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\stops.csv",
+    "sha256": "636c562fdc5875b9ea2dfbac30c3635fbb4c7f17e5ac4f6e016aab2fc6104bde"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\switch_brackets.csv",
+    "sha256": "08f639286e0eedc570c0c3f8861799c73fff268eb4795ba20a6427a7942af3ed"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\trajectory_segments.csv",
+    "sha256": "919c2b5bc7c3ea260152dcbeb9d2b2345c381bd4c51a2a7c49ac346d9c8c56a3"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\uncertified_continuous_intervals.csv",
+    "sha256": "a1df1f337ef65dc9b44335260bf89a8eef3c751d60e4f64d2fdee472eb6642a1"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\联合甘特图.png",
+    "sha256": "a9f035b8dcde234113d27875dfd9d0ae7cc8a048d7a2c834bef53c75f29768c9"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\通信状态时间图.png",
+    "sha256": "5962629a9402dce24ee4c536f714e60cde27f3ed8de5b7b0aa3d092930483ddb"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\baseline\\部署图.png",
+    "sha256": "d60c3502f8fe5a6ade8991192af28f8b9262c4284cae65a177f7aedd8e418251"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\模型与结果说明.md",
+    "sha256": "0c549eab7641c456b87da9fe91cfcadceada1872f6206ec9a8aace0d870f20b1"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\独立检查报告.md",
+    "sha256": "0c549eab7641c456b87da9fe91cfcadceada1872f6206ec9a8aace0d870f20b1"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\summary.json",
+    "sha256": "c87a61aa7a59a019867e3de105d6cc99c773dde81bbb41881abf5fcfff7fbd42"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\source_consistency.json",
+    "sha256": "66f57f08c1d0e5568d19a929faed51c762c8f31c9f400ce4520454371935362c"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\verification.json",
+    "sha256": "cd938667cfa61d67d182aa2424275a0321bb2a09e609a5bf50922d0997228308"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\joint_verification.json",
+    "sha256": "f813e90c88ac3b26e5439643777670f9eec2f3147297f49683f0bf0b7ae4105a"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\q3\\export_check.json",
+    "sha256": "406213f7f516a62e3050a2ff898067e57c4db92ae88d25da1988017317aa9d63"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\preflight\\audit.json",
+    "sha256": "5b6007bf7c2ffe6528029f47f1bc3ee0fbc07bb6223633fe6b7293fbd8093509"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\preflight\\nodes.csv",
+    "sha256": "9ceb361a30af9678d010fd9a299092021bf2c20aa4c17003a4bab6ca42e7c9a5"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\preflight\\legs.csv",
+    "sha256": "d916c2612ce55a8739b37d308f8f2cabbae8f157d92f8cab2e44a84018c5ab30"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\preflight\\time_rules.json",
+    "sha256": "bf1b6e1d0c4d49e21d7e1a661f7bc3c998cd1e1eceb454c938f864c34fbff8bf"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\答案\\preflight\\flight_times.csv",
+    "sha256": "84345deae991448a56d56264dd785871b23a17fd761ff11493add771e46a0a1d"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\山区洪涝灾害下无人机运输与通信协同优化.docx",
+    "sha256": "0a4f507b91a02a0ea4264973dd432cdcb5b8916c61c24214719665f326d57685"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡及周边地理数据\\数字高程模型数据（DEM）\\镇龙乡及周边30米DEM.tif",
+    "sha256": "741fe6de0b2bcaffd0f4007f574ee698d46197094f52cc954b532c4f90fc7c03"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\中继无人机数据.xlsx",
+    "sha256": "be52643ff29419233e6a141dca03a04160a8af551cab36d8c49b51bb836bea04"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\物资需求与配送时限.xlsx",
+    "sha256": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\调度中心与服务区.xlsx",
+    "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\运输无人机数据.xlsx",
+    "sha256": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\通信链路参数.xlsx",
+    "sha256": "1860d153199e7ae460ba36e83b673374e640e19de91ea167f2877271001f5f81"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\结果提交模板.xlsx",
+    "sha256": "16f521f29a7103c4ff7c3709ce1696bb9fffa18ce741895e45b7bc7afaf3320a"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡地理空间数据说明.pdf",
+    "sha256": "6d1522c6832a5d91a108dae0d07954845025c0dabd44af8ee78c7860d7c405e4"
+  }
+]

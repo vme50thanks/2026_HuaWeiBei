@@ -1,0 +1,10 @@
+% 替换位置：删除现有无关MATLAB最短路及Python演示MIP附录，用真实代码说明替代；放在appendices环境中
+% 这是修改片段，不是完整文档；不要整份直接追加到原文末尾。
+\section{求解代码与独立验证}
+随结果附件提供实际运行的Python程序。
+第二问的\texttt{search.py}完成批次与机型邻域搜索；
+第三问的\texttt{joint.py}和\texttt{calendar\_joint.py}完成候选匹配与服务日历搜索；
+第四问的\texttt{solve\_q4.py}进行无标签分区枚举和区间着色。
+独立检查由\texttt{verify\_q2.py}、\texttt{verify\_joint.py}及\texttt{verify\_q4.py}执行，
+\texttt{replay\_all.py}提供统一复算入口。
+随机种子、搜索时限、依赖与复算命令见代码包说明，所有结论对应保存的未舍入结果。

@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "template_fields_match": true,
+    "coverage_has_no_time_gaps_or_overlaps": true,
+    "coverage_within_relay_service": true,
+    "template_coverage_intervals": 249
+  },
+  "makespan_first": {
+    "template_fields_match": true,
+    "coverage_has_no_time_gaps_or_overlaps": true,
+    "coverage_within_relay_service": true,
+    "template_coverage_intervals": 249
+  }
+}

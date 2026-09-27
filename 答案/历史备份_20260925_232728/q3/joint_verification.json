@@ -1,0 +1,133 @@
+{
+  "baseline": {
+    "status": "PASS_AT_REPORTED_RESOLUTIONS",
+    "scans": [
+      {
+        "dt_s": 1,
+        "spatial_spacing_m": 5,
+        "points": 37390,
+        "failed_points": 0,
+        "worst": {
+          "sortie": "P013",
+          "phase": "巡航",
+          "time_s": 2553.498712123444,
+          "margin_db": 0.0007032687983041797,
+          "provider": "G01"
+        },
+        "claim": "在所述时空分辨率下未发现中断"
+      },
+      {
+        "dt_s": 0.5,
+        "spatial_spacing_m": 2.5,
+        "points": 74456,
+        "failed_points": 0,
+        "worst": {
+          "sortie": "P009",
+          "phase": "巡航",
+          "time_s": 2371.5483155745605,
+          "margin_db": 0.0006486855547223058,
+          "provider": "G01"
+        },
+        "claim": "在所述时空分辨率下未发现中断"
+      },
+      {
+        "dt_s": 0.5,
+        "spatial_spacing_m": "all crossed cells and touched corners",
+        "points": 75579,
+        "failed_points": 0,
+        "worst": {
+          "sortie": "P013",
+          "phase": "巡航",
+          "time_s": 2553.5153648349756,
+          "margin_db": 0.00015529202475761394,
+          "provider": "G01"
+        },
+        "claim": "在所述时空分辨率下未发现中断"
+      }
+    ],
+    "relay_energy_kWh": 3.3703066975219778,
+    "C_joint": 7295.419514905454,
+    "relay_sorties": 3,
+    "relay_units": [
+      "R01",
+      "R02"
+    ],
+    "relay_components": [
+      "R-ENE-01",
+      "R-ENE-02",
+      "R-ENE-03"
+    ],
+    "continuous_mathematical_certificate": false,
+    "uncertified_phase_intervals": 193,
+    "relay_checks": "original inputs, independent terrain traversal, energy decomposition, device/component intervals and recharge"
+  },
+  "makespan_first": {
+    "status": "PASS_AT_REPORTED_RESOLUTIONS",
+    "scans": [
+      {
+        "dt_s": 1,
+        "spatial_spacing_m": 5,
+        "points": 37393,
+        "failed_points": 0,
+        "worst": {
+          "sortie": "P012",
+          "phase": "巡航",
+          "time_s": 2553.498712123444,
+          "margin_db": 0.0007032687983041797,
+          "provider": "G01"
+        },
+        "claim": "在所述时空分辨率下未发现中断"
+      },
+      {
+        "dt_s": 0.5,
+        "spatial_spacing_m": 2.5,
+        "points": 74459,
+        "failed_points": 0,
+        "worst": {
+          "sortie": "P009",
+          "phase": "巡航",
+          "time_s": 2371.5483155745605,
+          "margin_db": 0.0006486855547223058,
+          "provider": "G01"
+        },
+        "claim": "在所述时空分辨率下未发现中断"
+      },
+      {
+        "dt_s": 0.5,
+        "spatial_spacing_m": "all crossed cells and touched corners",
+        "points": 75582,
+        "failed_points": 0,
+        "worst": {
+          "sortie": "P012",
+          "phase": "巡航",
+          "time_s": 2553.5153648349756,
+          "margin_db": 0.00015529202475761394,
+          "provider": "G01"
+        },
+        "claim": "在所述时空分辨率下未发现中断"
+      }
+    ],
+    "relay_energy_kWh": 3.5004310205171985,
+    "C_joint": 7213.279532189557,
+    "relay_sorties": 3,
+    "relay_units": [
+      "R01",
+      "R02"
+    ],
+    "relay_components": [
+      "R-ENE-01",
+      "R-ENE-02",
+      "R-ENE-03"
+    ],
+    "continuous_mathematical_certificate": false,
+    "uncertified_phase_intervals": 193,
+    "relay_checks": "original inputs, independent terrain traversal, energy decomposition, device/component intervals and recharge"
+  },
+  "seconds": 21.72919050004566,
+  "tolerances": {
+    "time_s": 1e-07,
+    "energy_kWh": 1e-08,
+    "soc": 1e-10,
+    "link_db": 1e-09
+  }
+}

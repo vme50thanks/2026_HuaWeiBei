@@ -1,0 +1,27 @@
+{
+  "baseline": {
+    "D": 0.0,
+    "Cmax": 6208.684864911595,
+    "E": 69.25135990373494,
+    "N": 24,
+    "status": "HEURISTIC_NO_GLOBAL_PROOF"
+  },
+  "makespan_first": {
+    "D": 0.0,
+    "Cmax": 6208.684864911595,
+    "E": 69.25135990373494,
+    "N": 24,
+    "status": "HEURISTIC_NO_GLOBAL_PROOF"
+  },
+  "search": {
+    "seed": 20260927,
+    "seconds": 180.02193960000295,
+    "iterations": 3739507,
+    "feasible": 844523,
+    "profiles": 560790,
+    "maxstops": 4,
+    "time_limit": 180.0
+  },
+  "alternative_note": "Numerically tied makespan: selected zero-delay plan at 1e-7 s comparison tolerance.",
+  "canonicalization_max_shift_s": 9.094947017729282e-13
+}

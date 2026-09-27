@@ -1,0 +1,206 @@
+[
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 18,
+    "energy_kWh": 59.12713365210391,
+    "operation_s": 32775.12808943006,
+    "model_counts": {
+      "C": 9,
+      "B": 9
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2308910842088293,
+    "visited_states": 337
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "priority": "能耗>架次数>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 19,
+    "energy_kWh": 59.02975267262726,
+    "operation_s": 34439.09023166802,
+    "model_counts": {
+      "C": 8,
+      "B": 11
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2308910842088293,
+    "visited_states": 337
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "priority": "累计作业时间>架次数>能耗",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 18,
+    "energy_kWh": 59.12713365210391,
+    "operation_s": 32775.12808943006,
+    "model_counts": {
+      "C": 9,
+      "B": 9
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2308910842088293,
+    "visited_states": 337
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 18,
+    "energy_kWh": 59.12713365210391,
+    "operation_s": 32775.12808943006,
+    "model_counts": {
+      "C": 9,
+      "B": 9
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2308910842088293,
+    "visited_states": 339
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 18,
+    "energy_kWh": 59.12713365210391,
+    "operation_s": 32775.12808943006,
+    "model_counts": {
+      "C": 9,
+      "B": 9
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2308910842088293,
+    "visited_states": 337
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 19,
+    "energy_kWh": 61.06918791953171,
+    "operation_s": 34564.77168010906,
+    "model_counts": {
+      "C": 9,
+      "B": 10
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2705039194865154,
+    "visited_states": 335
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 20,
+    "energy_kWh": 67.22315463635876,
+    "operation_s": 36585.28973055015,
+    "model_counts": {
+      "C": 11,
+      "B": 9
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.31019421765293176,
+    "visited_states": 326
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "INFEASIBLE",
+    "sorties": null,
+    "energy_kWh": null,
+    "operation_s": null,
+    "model_counts": {
+      "C": 10,
+      "B": 15
+    },
+    "infeasible_sites": "S004;S008",
+    "infeasible_boxes": "S004-WAT-01;S004-WAT-02;S004-WAT-03;S008-MED-01;S008-HYG-01;S008-FOD-01;S008-WAT-01;S008-WAT-02",
+    "min_return_soc": 0.4005739751043227,
+    "visited_states": 278
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "INFEASIBLE",
+    "sorties": null,
+    "energy_kWh": null,
+    "operation_s": null,
+    "model_counts": {
+      "C": 8,
+      "B": 5
+    },
+    "infeasible_sites": "S002;S003;S004;S008;S012",
+    "infeasible_boxes": "S002-MED-01;S002-HYG-01;S002-FOD-01;S002-FOD-02;S002-WAT-01;S002-WAT-02;S002-WAT-03;S002-WAT-04;S003-MED-01;S003-HYG-01;S003-FOD-01;S003-FOD-02;S003-WAT-01;S003-WAT-02;S003-WAT-03;S003-WAT-04;S004-MED-01;S004-HYG-01;S004-FOD-01;S004-WAT-01;S004-WAT-02;S004-WAT-03;S008-MED-01;S008-HYG-01;S008-FOD-01;S008-WAT-01;S008-WAT-02;S012-MED-01;S012-FOD-01;S012-WAT-01",
+    "min_return_soc": 0.5034214982475345,
+    "visited_states": 246
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "INFEASIBLE",
+    "sorties": null,
+    "energy_kWh": null,
+    "operation_s": null,
+    "model_counts": {
+      "C": 4,
+      "B": 6
+    },
+    "infeasible_sites": "S002;S003;S004;S005;S008;S009;S012;S014;S015",
+    "infeasible_boxes": "S002-MED-01;S002-HYG-01;S002-FOD-01;S002-FOD-02;S002-WAT-01;S002-WAT-02;S002-WAT-03;S002-WAT-04;S003-MED-01;S003-HYG-01;S003-FOD-01;S003-FOD-02;S003-WAT-01;S003-WAT-02;S003-WAT-03;S003-WAT-04;S004-MED-01;S004-HYG-01;S004-FOD-01;S004-WAT-01;S004-WAT-02;S004-WAT-03;S005-MED-01;S005-HYG-01;S005-FOD-01;S005-WAT-01;S005-WAT-02;S005-WAT-03;S008-MED-01;S008-HYG-01;S008-FOD-01;S008-WAT-01;S008-WAT-02;S009-MED-01;S009-FOD-01;S009-WAT-01;S012-MED-01;S012-FOD-01;S012-WAT-01;S014-MED-01;S014-FOD-01;S014-WAT-01;S015-MED-01;S015-FOD-01;S015-WAT-01",
+    "min_return_soc": 0.6014680306259386,
+    "visited_states": 218
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 18,
+    "energy_kWh": 59.12713365210391,
+    "operation_s": 32775.12808943006,
+    "model_counts": {
+      "C": 9,
+      "B": 9
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2308910842088293,
+    "visited_states": 335
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "priority": "架次数>能耗>累计作业时间",
+    "status": "OPTIMAL_ENUMERATED_DP",
+    "sorties": 19,
+    "energy_kWh": 61.06918791953171,
+    "operation_s": 34564.77168010906,
+    "model_counts": {
+      "C": 9,
+      "B": 10
+    },
+    "infeasible_sites": "",
+    "infeasible_boxes": "",
+    "min_return_soc": 0.2705039194865154,
+    "visited_states": 335
+  }
+]

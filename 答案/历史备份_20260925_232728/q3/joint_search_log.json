@@ -1,0 +1,658 @@
+[
+  {
+    "candidate": "q2_baseline",
+    "transport_D": 0.0,
+    "transport_Cmax": 7052.813929024211,
+    "transport_E": 72.49952244069097,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 7291.326262061044,
+    "total_E": 75.86444805420226
+  },
+  {
+    "candidate": "q2_makespan_first",
+    "transport_D": 13730.296648815238,
+    "transport_Cmax": 6970.673946308314,
+    "transport_E": 72.49952244069097,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 7209.186279345147,
+    "total_E": 75.99457237719749
+  },
+  {
+    "candidate": "mutation_0",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.10881204908188,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_2",
+    "transport_D": 31028.64067899018,
+    "transport_Cmax": 8134.290952859477,
+    "transport_E": 75.76690414740119,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8352.932197029122,
+    "total_E": 79.71712574114771
+  },
+  {
+    "candidate": "mutation_3",
+    "transport_D": 32324.64067899018,
+    "transport_Cmax": 8822.514983343097,
+    "transport_E": 74.60346489310182,
+    "transport_N": 26,
+    "communication_fit": true,
+    "C_joint": 8822.514983343097,
+    "total_E": 78.56048417840066
+  },
+  {
+    "candidate": "mutation_9",
+    "transport_D": 104612.59249583844,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 73.65958395146517,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_12",
+    "transport_D": 65572.41446385051,
+    "transport_Cmax": 8134.290952859477,
+    "transport_E": 74.07046449254044,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8352.932197029122,
+    "total_E": 77.801508134443
+  },
+  {
+    "candidate": "mutation_13",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.42786195163971,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_14",
+    "transport_D": 115502.67097177605,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 78.81462616938748,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_15",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 75.53292643793849,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_17",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 75.80878055159839,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_18",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 76.03704084854763,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_20",
+    "transport_D": 0.0,
+    "transport_Cmax": 8021.439424512514,
+    "transport_E": 74.89473777764447,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_23",
+    "transport_D": 55372.30321146273,
+    "transport_Cmax": 8089.583097446398,
+    "transport_E": 72.01935375795986,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_25",
+    "transport_D": 63434.09193119088,
+    "transport_Cmax": 8972.637026062042,
+    "transport_E": 77.65499848666649,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_26",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 75.92642384335997,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_29",
+    "transport_D": 23835.60314013042,
+    "transport_Cmax": 8423.850085774651,
+    "transport_E": 73.98047194924851,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8528.001366574494,
+    "total_E": 77.68064854517516
+  },
+  {
+    "candidate": "mutation_32",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.67869685216515,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_34",
+    "transport_D": 34280.575735863196,
+    "transport_Cmax": 8134.290952859477,
+    "transport_E": 75.51027249305372,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8352.932197029122,
+    "total_E": 79.46049408680024
+  },
+  {
+    "candidate": "mutation_35",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.07097188925273,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_37",
+    "transport_D": 79462.66157201501,
+    "transport_Cmax": 8653.969285051426,
+    "transport_E": 74.19536168664204,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_39",
+    "transport_D": 81096.09087853623,
+    "transport_Cmax": 8900.049300809358,
+    "transport_E": 74.41355583241877,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_42",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 75.0649458476772,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_43",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 73.63015019684744,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_44",
+    "transport_D": 113936.07648572825,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 74.3671360553319,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_46",
+    "transport_D": 32324.64067899018,
+    "transport_Cmax": 7647.597664037709,
+    "transport_E": 74.75147482489739,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_47",
+    "transport_D": 128371.56047561807,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 72.61020091525947,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_48",
+    "transport_D": 63782.16702811813,
+    "transport_Cmax": 8357.932452819115,
+    "transport_E": 74.00460290860119,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_49",
+    "transport_D": 94437.62554426063,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 77.4889313207072,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_52",
+    "transport_D": 63365.01298135574,
+    "transport_Cmax": 8134.290952859477,
+    "transport_E": 74.91683037975554,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_54",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 75.92642384335997,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_57",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 76.48862936947219,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_58",
+    "transport_D": 107350.05511414373,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 79.34967362228456,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_61",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.44006780621088,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_62",
+    "transport_D": 57927.28807685827,
+    "transport_Cmax": 8245.998596676693,
+    "transport_E": 77.54676517346043,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8352.932197029122,
+    "total_E": 81.49698676720695
+  },
+  {
+    "candidate": "mutation_64",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.10881204908188,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_65",
+    "transport_D": 94569.10850594862,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 74.9293178514954,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_68",
+    "transport_D": 65572.41446385051,
+    "transport_Cmax": 8134.290952859477,
+    "transport_E": 74.07046449254044,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8352.932197029122,
+    "total_E": 77.801508134443
+  },
+  {
+    "candidate": "mutation_69",
+    "transport_D": 114656.07648572825,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 75.27719253336154,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_72",
+    "transport_D": 94569.10850594862,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 74.06729645856643,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_74",
+    "transport_D": 70153.3325029897,
+    "transport_Cmax": 8502.058316083916,
+    "transport_E": 77.14452950510132,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_77",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.51078668358389,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_80",
+    "transport_D": 32324.64067899018,
+    "transport_Cmax": 8022.72289667866,
+    "transport_E": 72.82436688337468,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8261.235229715492,
+    "total_E": 76.54194039254641
+  },
+  {
+    "candidate": "mutation_81",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8904.844955609286,
+    "transport_E": 77.12163400750804,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_83",
+    "transport_D": 68123.81582225816,
+    "transport_Cmax": 9183.842640650419,
+    "transport_E": 74.00672641171191,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_84",
+    "transport_D": 118415.20207855527,
+    "transport_Cmax": 8911.528363701778,
+    "transport_E": 74.10881204908188,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_85",
+    "transport_D": 92519.31233324767,
+    "transport_Cmax": 8924.160969188291,
+    "transport_E": 75.76850445434476,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_88",
+    "transport_D": 39673.177483335574,
+    "transport_Cmax": 8609.762409110306,
+    "transport_E": 74.10881204908188,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8713.913689910149,
+    "total_E": 78.01963124363547
+  },
+  {
+    "candidate": "mutation_89",
+    "transport_D": 107307.78301586518,
+    "transport_Cmax": 8895.830105677653,
+    "transport_E": 77.1063422360585,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_94",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 75.49920433411904,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_97",
+    "transport_D": 57891.89299323736,
+    "transport_Cmax": 8842.778546349726,
+    "transport_E": 77.14787201854597,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_100",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.10881204908188,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_101",
+    "transport_D": 93894.52302619131,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 75.35529206469793,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_102",
+    "transport_D": 31028.64067899018,
+    "transport_Cmax": 8134.290952859477,
+    "transport_E": 75.83217455099935,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8352.932197029122,
+    "total_E": 79.78239614474587
+  },
+  {
+    "candidate": "mutation_112",
+    "transport_D": 42548.87493843073,
+    "transport_Cmax": 8022.72289667866,
+    "transport_E": 73.13946798309364,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_113",
+    "transport_D": 115951.24606446867,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 76.4620311931963,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_115",
+    "transport_D": 86946.92059654315,
+    "transport_Cmax": 8824.24458586903,
+    "transport_E": 73.98890097874786,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_116",
+    "transport_D": 32324.64067899018,
+    "transport_Cmax": 8067.650737675124,
+    "transport_E": 73.93421141734876,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8286.29198184477,
+    "total_E": 77.65944115633778
+  },
+  {
+    "candidate": "mutation_117",
+    "transport_D": 64914.122308274156,
+    "transport_Cmax": 8717.097336559893,
+    "transport_E": 74.27371998757009,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_118",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 75.58778491929806,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_124",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.10881204908188,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_127",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 73.31973650456781,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_128",
+    "transport_D": 0.0,
+    "transport_Cmax": 7840.412829726794,
+    "transport_E": 73.70187509527126,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 7944.564110526637,
+    "total_E": 77.14743880662016
+  },
+  {
+    "candidate": "mutation_134",
+    "transport_D": 32324.64067899018,
+    "transport_Cmax": 7293.334412953532,
+    "transport_E": 75.52951904012116,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_136",
+    "transport_D": 126559.53526781271,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 75.07327393360686,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_137",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.07097188925273,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_138",
+    "transport_D": 45272.91436431538,
+    "transport_Cmax": 8134.290952859477,
+    "transport_E": 75.3386117215278,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_140",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.10881204908188,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_141",
+    "transport_D": 79462.66157201501,
+    "transport_Cmax": 8653.969285051426,
+    "transport_E": 74.19536168664204,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_142",
+    "transport_D": 16884.781961001703,
+    "transport_Cmax": 8511.494912897524,
+    "transport_E": 75.59788966669369,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8615.646193697366,
+    "total_E": 79.44050216903548
+  },
+  {
+    "candidate": "mutation_144",
+    "transport_D": 241598.23131237488,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 76.4831495077261,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_145",
+    "transport_D": 113936.07648572825,
+    "transport_Cmax": 8957.093270611424,
+    "transport_E": 74.99018283150909,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_149",
+    "transport_D": 47917.76022007674,
+    "transport_Cmax": 7983.835202929336,
+    "transport_E": 73.77089615490421,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_150",
+    "transport_D": 64163.81582225815,
+    "transport_Cmax": 9051.842640650419,
+    "transport_E": 76.06048757233867,
+    "transport_N": 27,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_151",
+    "transport_D": 76121.79196491849,
+    "transport_Cmax": 8602.630318029804,
+    "transport_E": 73.20673338400827,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_152",
+    "transport_D": 129928.74411314503,
+    "transport_Cmax": 8263.24338060798,
+    "transport_E": 73.74676678061991,
+    "transport_N": 27,
+    "communication_fit": true,
+    "C_joint": 8511.977080945437,
+    "total_E": 77.74558542222974
+  },
+  {
+    "candidate": "mutation_155",
+    "transport_D": 94188.72877848631,
+    "transport_Cmax": 8944.41394636268,
+    "transport_E": 73.23341557327203,
+    "transport_N": 26,
+    "communication_fit": false
+  },
+  {
+    "candidate": "mutation_158",
+    "transport_D": 59322.1282655577,
+    "transport_Cmax": 8890.453055427071,
+    "transport_E": 74.25050402686567,
+    "transport_N": 27,
+    "communication_fit": false
+  }
+]

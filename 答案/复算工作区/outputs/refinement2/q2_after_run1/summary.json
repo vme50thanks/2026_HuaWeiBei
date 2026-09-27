@@ -1,0 +1,25 @@
+{
+  "baseline": {
+    "D": 0.0,
+    "Cmax": 6142.684864911595,
+    "E": 69.44995741584714,
+    "N": 25,
+    "status": "HEURISTIC_NO_GLOBAL_PROOF"
+  },
+  "makespan_first": {
+    "D": 0.0,
+    "Cmax": 6142.684864911595,
+    "E": 69.44995741584714,
+    "N": 25,
+    "status": "HEURISTIC_NO_GLOBAL_PROOF"
+  },
+  "search": {
+    "seed": 2026092601,
+    "seconds": 240.01676230004523,
+    "iterations": 4719959,
+    "feasible": 835600,
+    "profiles": 1153403,
+    "maxstops": 4,
+    "time_limit": 240.0
+  }
+}

@@ -1,0 +1,4 @@
+﻿scope,spacing_m,ridge,candidates,max_single_covered,blind_positions,fixed_covering_pairs,seconds
+q3,1500,False,89,663,812,0,3.230761100014206
+fine_search,750,False,261,673,812,0,9.198557900032029
+ridge_search,750,True,597,688,812,0,18.865102600015234

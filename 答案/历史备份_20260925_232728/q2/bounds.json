@@ -1,0 +1,6 @@
+{
+  "D_lower_bound": 0,
+  "Cmax_lower_bound": 1960.4255590217765,
+  "Cmax_incumbent": 7052.813929024211,
+  "method": "Optimistic per-box shortest-path roundtrip without energy or resource constraints; max over boxes."
+}

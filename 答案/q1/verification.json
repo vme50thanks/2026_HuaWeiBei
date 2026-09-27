@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "independent_of_solver": true,
+  "decimal_precision": 45,
+  "scenarios": [
+    {
+      "scenario": "baseline",
+      "checked_sorties": 18,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "energy_first",
+      "checked_sorties": 19,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "time_first",
+      "checked_sorties": 18,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "rho_10",
+      "checked_sorties": 18,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "rho_15",
+      "checked_sorties": 18,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "rho_25",
+      "checked_sorties": 19,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "rho_30",
+      "checked_sorties": 20,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "rho_40",
+      "checked_sorties": 25,
+      "checked_boxes": 69,
+      "full_delivery": false,
+      "confirmed_untransportable_boxes": 8,
+      "status": "PASS"
+    },
+    {
+      "scenario": "rho_50",
+      "checked_sorties": 13,
+      "checked_boxes": 50,
+      "full_delivery": false,
+      "confirmed_untransportable_boxes": 30,
+      "status": "PASS"
+    },
+    {
+      "scenario": "rho_60",
+      "checked_sorties": 10,
+      "checked_boxes": 35,
+      "full_delivery": false,
+      "confirmed_untransportable_boxes": 45,
+      "status": "PASS"
+    },
+    {
+      "scenario": "threshold_below",
+      "checked_sorties": 18,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    },
+    {
+      "scenario": "threshold_above",
+      "checked_sorties": 19,
+      "checked_boxes": 80,
+      "full_delivery": true,
+      "confirmed_untransportable_boxes": 0,
+      "status": "PASS"
+    }
+  ],
+  "payload_rows_checked": 540,
+  "max_energy_discrepancy_kWh": 9.816180330064816e-16,
+  "baseline_sortie_lower_bound": 18,
+  "site_lower_bounds": [
+    {
+      "site": "S001",
+      "mass_kg": 154.0,
+      "volume_m3": 0.394,
+      "sortie_lower_bound": 2
+    },
+    {
+      "site": "S002",
+      "mass_kg": 81.0,
+      "volume_m3": 0.211,
+      "sortie_lower_bound": 2
+    },
+    {
+      "site": "S003",
+      "mass_kg": 81.0,
+      "volume_m3": 0.211,
+      "sortie_lower_bound": 2
+    },
+    {
+      "site": "S004",
+      "mass_kg": 59.0,
+      "volume_m3": 0.156,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S005",
+      "mass_kg": 59.0,
+      "volume_m3": 0.156,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S006",
+      "mass_kg": 59.0,
+      "volume_m3": 0.156,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S007",
+      "mass_kg": 45.0,
+      "volume_m3": 0.129,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S008",
+      "mass_kg": 45.0,
+      "volume_m3": 0.129,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S009",
+      "mass_kg": 25.0,
+      "volume_m3": 0.067,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S010",
+      "mass_kg": 25.0,
+      "volume_m3": 0.067,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S011",
+      "mass_kg": 25.0,
+      "volume_m3": 0.067,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S012",
+      "mass_kg": 25.0,
+      "volume_m3": 0.067,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S013",
+      "mass_kg": 25.0,
+      "volume_m3": 0.067,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S014",
+      "mass_kg": 25.0,
+      "volume_m3": 0.067,
+      "sortie_lower_bound": 1
+    },
+    {
+      "site": "S015",
+      "mass_kg": 25.0,
+      "volume_m3": 0.067,
+      "sortie_lower_bound": 1
+    }
+  ],
+  "global_full_delivery_reserve_limit": 0.35268225954549337,
+  "limiting_box": {
+    "box_id": "S008-WAT-01",
+    "site": "S008",
+    "best_singleton_model": "C",
+    "max_reserve": 0.35268225954549337
+  },
+  "geometry_note": "Original node coordinates and heights plus previously validated DEM path maxima; DEM not rerasterized.",
+  "tolerances": {
+    "energy_kWh": 1e-08,
+    "mass_kg": 1e-09,
+    "volume_m3": 1e-12,
+    "time_s": 1e-07,
+    "soc": 1e-10
+  }
+}

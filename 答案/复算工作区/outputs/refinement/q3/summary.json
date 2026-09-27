@@ -1,0 +1,47 @@
+{
+  "baseline": {
+    "D": 0.0,
+    "Cmax": 6208.684864911595,
+    "E": 69.24057358987766,
+    "N": 24,
+    "C_joint": 6302.2307710659825,
+    "relay_E": 3.1945328926639105,
+    "total_E": 72.43510648254157,
+    "relay_N": 3,
+    "total_N": 27,
+    "status": "VERIFIED_AT_REPORTED_RESOLUTIONS_NO_GLOBAL_PROOF"
+  },
+  "makespan_first": {
+    "D": 0.0,
+    "Cmax": 6208.684864911595,
+    "E": 69.24057358987766,
+    "N": 24,
+    "C_joint": 6302.2307710659825,
+    "relay_E": 3.1945328926639105,
+    "total_E": 72.43510648254157,
+    "relay_N": 3,
+    "total_N": 27,
+    "status": "VERIFIED_AT_REPORTED_RESOLUTIONS_NO_GLOBAL_PROOF"
+  },
+  "search": {
+    "seconds": 8.626645499956794,
+    "candidate_locations": 49,
+    "triples": 1904,
+    "transport_candidates": 2,
+    "relay_structure": "one master plus two sequential missions on second body",
+    "no_global_proof": true
+  },
+  "calendar_search": {
+    "seconds": 182.7482719999971,
+    "iterations": 533562,
+    "seed": 20260928,
+    "positions": [
+      130,
+      511,
+      489
+    ],
+    "box_groupings": "old and improved Q2, type and ordering mutable",
+    "all_due_met_as_search_restriction": true
+  },
+  "canonicalization_max_shift_s": 9.094947017729282e-13
+}

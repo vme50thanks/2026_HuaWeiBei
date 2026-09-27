@@ -1,0 +1,2286 @@
+{
+  "resource_order": [
+    "A_drone",
+    "B_drone",
+    "C_drone",
+    "A_battery",
+    "B_battery",
+    "C_battery",
+    "R_drone",
+    "R_energy"
+  ],
+  "inventory": [
+    4,
+    2,
+    2,
+    6,
+    4,
+    4,
+    2,
+    6
+  ],
+  "pooled_minimum": [
+    4,
+    2,
+    2,
+    6,
+    4,
+    4,
+    2,
+    2
+  ],
+  "pooled_inherited": [
+    4,
+    2,
+    2,
+    6,
+    4,
+    4,
+    2,
+    3
+  ],
+  "block_count": 14,
+  "results": {
+    "K2_baseline": {
+      "K": 2,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001"
+          ],
+          "mask": 1,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "work_s": 3186.317864986455,
+          "boxes": 15,
+          "mass_kg": 154,
+          "volume_m3": 0.394,
+          "transport_N": 2,
+          "relay_N": 0,
+          "transport_E": 5.913138161320523,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16382,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            2
+          ],
+          "work_s": 57254.22468150406,
+          "boxes": 65,
+          "mass_kg": 604,
+          "volume_m3": 1.617,
+          "transport_N": 25,
+          "relay_N": 3,
+          "transport_E": 66.58638427937045,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        5,
+        2,
+        2
+      ],
+      "gap": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "partition_extra": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "G": 0.75,
+      "S": 8.083333333333334,
+      "CV": 0.8945635584744938,
+      "CV_squared": 0.8002439601505491,
+      "tied_optima": 1,
+      "all_partitions": 8191,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 0,
+      "extra_relay_E": 0.0,
+      "extra_relay_body_work_s": 0.0,
+      "extra_relay_energy_occupied_s": 0.0
+    },
+    "K2_balance_first": {
+      "K": 2,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001"
+          ],
+          "mask": 1,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "work_s": 3186.317864986455,
+          "boxes": 15,
+          "mass_kg": 154,
+          "volume_m3": 0.394,
+          "transport_N": 2,
+          "relay_N": 0,
+          "transport_E": 5.913138161320523,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16382,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            2
+          ],
+          "work_s": 57254.22468150406,
+          "boxes": 65,
+          "mass_kg": 604,
+          "volume_m3": 1.617,
+          "transport_N": 25,
+          "relay_N": 3,
+          "transport_E": 66.58638427937045,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        5,
+        2,
+        2
+      ],
+      "gap": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "partition_extra": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "G": 0.75,
+      "S": 8.083333333333334,
+      "CV": 0.8945635584744938,
+      "CV_squared": 0.8002439601505491,
+      "tied_optima": 1,
+      "all_partitions": 8191,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 0,
+      "extra_relay_E": 0.0,
+      "extra_relay_body_work_s": 0.0,
+      "extra_relay_energy_occupied_s": 0.0
+    },
+    "K2_workload_first": {
+      "K": 2,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S002",
+            "S006",
+            "S008",
+            "S011",
+            "S012"
+          ],
+          "mask": 1187,
+          "resources": [
+            3,
+            2,
+            2,
+            4,
+            2,
+            3,
+            2,
+            2
+          ],
+          "work_s": 36657.412036197435,
+          "boxes": 40,
+          "mass_kg": 389,
+          "volume_m3": 1.024,
+          "transport_N": 14,
+          "relay_N": 3,
+          "transport_E": 35.46226010404722,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S003",
+            "S004",
+            "S005",
+            "S007",
+            "S009",
+            "S010",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 15196,
+          "resources": [
+            3,
+            2,
+            2,
+            3,
+            3,
+            2,
+            2,
+            2
+          ],
+          "work_s": 36656.6348914747,
+          "boxes": 40,
+          "mass_kg": 369,
+          "volume_m3": 0.987,
+          "transport_N": 13,
+          "relay_N": 3,
+          "transport_E": 37.03726233664375,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        }
+      ],
+      "total_resources": [
+        6,
+        4,
+        4,
+        7,
+        5,
+        5,
+        4,
+        4
+      ],
+      "gap": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "partition_extra": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "G": 4.166666666666667,
+      "S": 11.833333333333334,
+      "CV": 1.0600215191178313e-05,
+      "CV_squared": 1.1236456209928747e-10,
+      "tied_optima": 1,
+      "all_partitions": 8191,
+      "min_gap_partitions": 256,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 3,
+      "extra_relay_E": 3.3703066975219778,
+      "extra_relay_body_work_s": 12873.504381181614,
+      "extra_relay_energy_occupied_s": 14842.691477049917
+    },
+    "K2_inherited_baseline": {
+      "K": 2,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16255,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            3
+          ],
+          "work_s": 58240.8408494023,
+          "boxes": 75,
+          "mass_kg": 713,
+          "volume_m3": 1.8820000000000001,
+          "transport_N": 26,
+          "relay_N": 3,
+          "transport_E": 66.66355379658309,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S008"
+          ],
+          "mask": 128,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_s": 9781.528071655204,
+          "boxes": 5,
+          "mass_kg": 45,
+          "volume_m3": 0.129,
+          "transport_N": 1,
+          "relay_N": 1,
+          "transport_E": 5.835968644107876,
+          "relay_E": 2.1161783702078227,
+          "relay_body_work_s": 7581.826374566984,
+          "relay_energy_occupied_s": 8641.523837463912
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        3,
+        4
+      ],
+      "gap": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "partition_extra": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "G": 1.0,
+      "S": 8.666666666666666,
+      "CV": 0.712402604413644,
+      "CV_squared": 0.5075174707753429,
+      "tied_optima": 1,
+      "all_partitions": 8191,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 1,
+      "extra_relay_E": 2.1161783702078227,
+      "extra_relay_body_work_s": 7581.826374566983,
+      "extra_relay_energy_occupied_s": 8641.523837463912
+    },
+    "K2_inherited_balance_first": {
+      "K": 2,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16255,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            3
+          ],
+          "work_s": 58240.8408494023,
+          "boxes": 75,
+          "mass_kg": 713,
+          "volume_m3": 1.8820000000000001,
+          "transport_N": 26,
+          "relay_N": 3,
+          "transport_E": 66.66355379658309,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S008"
+          ],
+          "mask": 128,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_s": 9781.528071655204,
+          "boxes": 5,
+          "mass_kg": 45,
+          "volume_m3": 0.129,
+          "transport_N": 1,
+          "relay_N": 1,
+          "transport_E": 5.835968644107876,
+          "relay_E": 2.1161783702078227,
+          "relay_body_work_s": 7581.826374566984,
+          "relay_energy_occupied_s": 8641.523837463912
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        3,
+        4
+      ],
+      "gap": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "partition_extra": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "G": 1.0,
+      "S": 8.666666666666666,
+      "CV": 0.712402604413644,
+      "CV_squared": 0.5075174707753429,
+      "tied_optima": 1,
+      "all_partitions": 8191,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 1,
+      "extra_relay_E": 2.1161783702078227,
+      "extra_relay_body_work_s": 7581.826374566983,
+      "extra_relay_energy_occupied_s": 8641.523837463912
+    },
+    "K2_fixed_partition_inherited": {
+      "K": 2,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001"
+          ],
+          "mask": 1,
+          "resources": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "work_s": 3186.317864986455,
+          "boxes": 15,
+          "mass_kg": 154,
+          "volume_m3": 0.394,
+          "transport_N": 2,
+          "relay_N": 0,
+          "transport_E": 5.913138161320523,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16382,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            3
+          ],
+          "work_s": 57254.22468150406,
+          "boxes": 65,
+          "mass_kg": 604,
+          "volume_m3": 1.617,
+          "transport_N": 25,
+          "relay_N": 3,
+          "transport_E": 66.58638427937045,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        4,
+        6,
+        4,
+        5,
+        2,
+        3
+      ],
+      "gap": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "partition_extra": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "G": 1.25,
+      "S": 8.75,
+      "CV": 0.8945635584744938,
+      "status": "FIXED_PARTITION_COMPARISON",
+      "extra_relay_N": 0,
+      "extra_relay_E": 0.0,
+      "extra_relay_body_work_s": 0.0,
+      "extra_relay_energy_occupied_s": 0.0
+    },
+    "K2_no_copy_renumber": {
+      "K": 2,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001"
+          ],
+          "mask": 1,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "work_s": 3186.317864986455,
+          "boxes": 15,
+          "mass_kg": 154,
+          "volume_m3": 0.394,
+          "transport_N": 2,
+          "relay_N": 0,
+          "transport_E": 5.913138161320523,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16382,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            2
+          ],
+          "work_s": 57254.22468150406,
+          "boxes": 65,
+          "mass_kg": 604,
+          "volume_m3": 1.617,
+          "transport_N": 25,
+          "relay_N": 3,
+          "transport_E": 66.58638427937045,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        5,
+        2,
+        2
+      ],
+      "gap": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "partition_extra": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "G": 0.75,
+      "S": 8.083333333333334,
+      "CV": 0.8945635584744938,
+      "all_partitions": 3,
+      "status": "EXHAUSTIVE_OPTIMUM_NO_RELAY_COPY",
+      "extra_relay_N": 0,
+      "extra_relay_E": 0.0,
+      "extra_relay_body_work_s": 0.0,
+      "extra_relay_energy_occupied_s": 0.0
+    },
+    "K2_no_copy_inherited": {
+      "K": 2,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001"
+          ],
+          "mask": 1,
+          "resources": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "work_s": 3186.317864986455,
+          "boxes": 15,
+          "mass_kg": 154,
+          "volume_m3": 0.394,
+          "transport_N": 2,
+          "relay_N": 0,
+          "transport_E": 5.913138161320523,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16382,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            3
+          ],
+          "work_s": 57254.22468150406,
+          "boxes": 65,
+          "mass_kg": 604,
+          "volume_m3": 1.617,
+          "transport_N": 25,
+          "relay_N": 3,
+          "transport_E": 66.58638427937045,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        4,
+        6,
+        4,
+        5,
+        2,
+        3
+      ],
+      "gap": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "partition_extra": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "G": 1.25,
+      "S": 8.75,
+      "CV": 0.8945635584744938,
+      "all_partitions": 3,
+      "status": "EXHAUSTIVE_OPTIMUM_NO_RELAY_COPY",
+      "extra_relay_N": 0,
+      "extra_relay_E": 0.0,
+      "extra_relay_body_work_s": 0.0,
+      "extra_relay_energy_occupied_s": 0.0
+    },
+    "K3_baseline": {
+      "K": 3,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S004"
+          ],
+          "mask": 9,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "work_s": 8575.844818528753,
+          "boxes": 21,
+          "mass_kg": 213,
+          "volume_m3": 0.55,
+          "transport_N": 3,
+          "relay_N": 1,
+          "transport_E": 12.06600948764989,
+          "relay_E": 0.7646285479423937,
+          "relay_body_work_s": 3088.4703074433774,
+          "relay_energy_occupied_s": 3599.1006550449747
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S005",
+            "S006",
+            "S007",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16246,
+          "resources": [
+            4,
+            2,
+            1,
+            6,
+            4,
+            1,
+            2,
+            2
+          ],
+          "work_s": 52753.466338316925,
+          "boxes": 54,
+          "mass_kg": 500,
+          "volume_m3": 1.332,
+          "transport_N": 23,
+          "relay_N": 3,
+          "transport_E": 54.5975443089332,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S008"
+          ],
+          "mask": 128,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_s": 9781.528071655204,
+          "boxes": 5,
+          "mass_kg": 45,
+          "volume_m3": 0.129,
+          "transport_N": 1,
+          "relay_N": 1,
+          "transport_E": 5.835968644107876,
+          "relay_E": 2.1161783702078227,
+          "relay_body_work_s": 7581.826374566984,
+          "relay_energy_occupied_s": 8641.523837463912
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        4,
+        4
+      ],
+      "gap": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "partition_extra": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "G": 1.5,
+      "S": 9.166666666666666,
+      "CV": 0.866840201244959,
+      "CV_squared": 0.751411934494401,
+      "tied_optima": 1,
+      "all_partitions": 788970,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 2,
+      "extra_relay_E": 2.8808069181502165,
+      "extra_relay_body_work_s": 10670.296682010361,
+      "extra_relay_energy_occupied_s": 12240.624492508887
+    },
+    "K3_balance_first": {
+      "K": 3,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S004"
+          ],
+          "mask": 9,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "work_s": 8575.844818528753,
+          "boxes": 21,
+          "mass_kg": 213,
+          "volume_m3": 0.55,
+          "transport_N": 3,
+          "relay_N": 1,
+          "transport_E": 12.06600948764989,
+          "relay_E": 0.7646285479423937,
+          "relay_body_work_s": 3088.4703074433774,
+          "relay_energy_occupied_s": 3599.1006550449747
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S005",
+            "S006",
+            "S007",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16246,
+          "resources": [
+            4,
+            2,
+            1,
+            6,
+            4,
+            1,
+            2,
+            2
+          ],
+          "work_s": 52753.466338316925,
+          "boxes": 54,
+          "mass_kg": 500,
+          "volume_m3": 1.332,
+          "transport_N": 23,
+          "relay_N": 3,
+          "transport_E": 54.5975443089332,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S008"
+          ],
+          "mask": 128,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_s": 9781.528071655204,
+          "boxes": 5,
+          "mass_kg": 45,
+          "volume_m3": 0.129,
+          "transport_N": 1,
+          "relay_N": 1,
+          "transport_E": 5.835968644107876,
+          "relay_E": 2.1161783702078227,
+          "relay_body_work_s": 7581.826374566984,
+          "relay_energy_occupied_s": 8641.523837463912
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        4,
+        4
+      ],
+      "gap": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "partition_extra": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "G": 1.5,
+      "S": 9.166666666666666,
+      "CV": 0.866840201244959,
+      "CV_squared": 0.751411934494401,
+      "tied_optima": 1,
+      "all_partitions": 788970,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 2,
+      "extra_relay_E": 2.8808069181502165,
+      "extra_relay_body_work_s": 10670.296682010361,
+      "extra_relay_energy_occupied_s": 12240.624492508887
+    },
+    "K3_workload_first": {
+      "K": 3,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S003",
+            "S004",
+            "S007",
+            "S008",
+            "S010"
+          ],
+          "mask": 717,
+          "resources": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            4,
+            2,
+            2
+          ],
+          "work_s": 28721.825643397326,
+          "boxes": 42,
+          "mass_kg": 409,
+          "volume_m3": 1.086,
+          "transport_N": 8,
+          "relay_N": 3,
+          "transport_E": 32.265638097343206,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S005",
+            "S009",
+            "S014"
+          ],
+          "mask": 4370,
+          "resources": [
+            2,
+            2,
+            0,
+            3,
+            3,
+            0,
+            2,
+            2
+          ],
+          "work_s": 28722.910460726303,
+          "boxes": 20,
+          "mass_kg": 190,
+          "volume_m3": 0.501,
+          "transport_N": 9,
+          "relay_N": 3,
+          "transport_E": 21.554665182598725,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S006",
+            "S011",
+            "S012",
+            "S013",
+            "S015"
+          ],
+          "mask": 11296,
+          "resources": [
+            3,
+            1,
+            0,
+            4,
+            2,
+            0,
+            2,
+            2
+          ],
+          "work_s": 28742.815204730123,
+          "boxes": 18,
+          "mass_kg": 159,
+          "volume_m3": 0.424,
+          "transport_N": 10,
+          "relay_N": 3,
+          "transport_E": 18.67921916074903,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        }
+      ],
+      "total_resources": [
+        6,
+        4,
+        2,
+        8,
+        6,
+        4,
+        6,
+        6
+      ],
+      "gap": [
+        2,
+        2,
+        0,
+        2,
+        2,
+        0,
+        4,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "partition_extra": [
+        2,
+        2,
+        0,
+        2,
+        2,
+        0,
+        4,
+        4
+      ],
+      "G": 4.333333333333333,
+      "S": 12.333333333333334,
+      "CV": 0.0003358622798238954,
+      "CV_squared": 1.1280347100850463e-07,
+      "tied_optima": 1,
+      "all_partitions": 788970,
+      "min_gap_partitions": 12465,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 6,
+      "extra_relay_E": 6.740613395043956,
+      "extra_relay_body_work_s": 25747.008762363228,
+      "extra_relay_energy_occupied_s": 29685.382954099838
+    },
+    "K3_inherited_baseline": {
+      "K": 3,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S003",
+            "S007",
+            "S008"
+          ],
+          "mask": 197,
+          "resources": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            4,
+            1,
+            1
+          ],
+          "work_s": 19573.83643382888,
+          "boxes": 33,
+          "mass_kg": 325,
+          "volume_m3": 0.863,
+          "transport_N": 6,
+          "relay_N": 1,
+          "transport_E": 24.2899466187195,
+          "relay_E": 2.1161783702078227,
+          "relay_body_work_s": 7581.826374566984,
+          "relay_energy_occupied_s": 8641.523837463912
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S005",
+            "S006",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16178,
+          "resources": [
+            4,
+            2,
+            0,
+            6,
+            4,
+            0,
+            2,
+            3
+          ],
+          "work_s": 46147.4758411297,
+          "boxes": 41,
+          "mass_kg": 374,
+          "volume_m3": 0.992,
+          "transport_N": 20,
+          "relay_N": 3,
+          "transport_E": 42.0567044956421,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S004"
+          ],
+          "mask": 8,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_s": 5389.526953542298,
+          "boxes": 6,
+          "mass_kg": 59,
+          "volume_m3": 0.156,
+          "transport_N": 1,
+          "relay_N": 1,
+          "transport_E": 6.1528713263293655,
+          "relay_E": 0.7646285479423937,
+          "relay_body_work_s": 3088.4703074433774,
+          "relay_energy_occupied_s": 3599.1006550449747
+        }
+      ],
+      "total_resources": [
+        5,
+        2,
+        3,
+        7,
+        4,
+        5,
+        4,
+        5
+      ],
+      "gap": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "partition_extra": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "G": 2.1666666666666665,
+      "S": 10.0,
+      "CV": 0.7127042296067888,
+      "CV_squared": 0.5079473188994064,
+      "tied_optima": 1,
+      "all_partitions": 788970,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 2,
+      "extra_relay_E": 2.8808069181502165,
+      "extra_relay_body_work_s": 10670.296682010361,
+      "extra_relay_energy_occupied_s": 12240.624492508887
+    },
+    "K3_inherited_balance_first": {
+      "K": 3,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S003",
+            "S007",
+            "S008"
+          ],
+          "mask": 197,
+          "resources": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            4,
+            1,
+            1
+          ],
+          "work_s": 19573.83643382888,
+          "boxes": 33,
+          "mass_kg": 325,
+          "volume_m3": 0.863,
+          "transport_N": 6,
+          "relay_N": 1,
+          "transport_E": 24.2899466187195,
+          "relay_E": 2.1161783702078227,
+          "relay_body_work_s": 7581.826374566984,
+          "relay_energy_occupied_s": 8641.523837463912
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S005",
+            "S006",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16178,
+          "resources": [
+            4,
+            2,
+            0,
+            6,
+            4,
+            0,
+            2,
+            3
+          ],
+          "work_s": 46147.4758411297,
+          "boxes": 41,
+          "mass_kg": 374,
+          "volume_m3": 0.992,
+          "transport_N": 20,
+          "relay_N": 3,
+          "transport_E": 42.0567044956421,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S004"
+          ],
+          "mask": 8,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_s": 5389.526953542298,
+          "boxes": 6,
+          "mass_kg": 59,
+          "volume_m3": 0.156,
+          "transport_N": 1,
+          "relay_N": 1,
+          "transport_E": 6.1528713263293655,
+          "relay_E": 0.7646285479423937,
+          "relay_body_work_s": 3088.4703074433774,
+          "relay_energy_occupied_s": 3599.1006550449747
+        }
+      ],
+      "total_resources": [
+        5,
+        2,
+        3,
+        7,
+        4,
+        5,
+        4,
+        5
+      ],
+      "gap": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "partition_extra": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "G": 2.1666666666666665,
+      "S": 10.0,
+      "CV": 0.7127042296067888,
+      "CV_squared": 0.5079473188994064,
+      "tied_optima": 1,
+      "all_partitions": 788970,
+      "min_gap_partitions": 1,
+      "inventory_feasible_partitions": 0,
+      "status": "EXHAUSTIVE_OPTIMUM_CONDITIONAL_ON_FROZEN_MODEL",
+      "extra_relay_N": 2,
+      "extra_relay_E": 2.8808069181502165,
+      "extra_relay_body_work_s": 10670.296682010361,
+      "extra_relay_energy_occupied_s": 12240.624492508887
+    },
+    "K3_fixed_partition_inherited": {
+      "K": 3,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001",
+            "S004"
+          ],
+          "mask": 9,
+          "resources": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "work_s": 8575.844818528753,
+          "boxes": 21,
+          "mass_kg": 213,
+          "volume_m3": 0.55,
+          "transport_N": 3,
+          "relay_N": 1,
+          "transport_E": 12.06600948764989,
+          "relay_E": 0.7646285479423937,
+          "relay_body_work_s": 3088.4703074433774,
+          "relay_energy_occupied_s": 3599.1006550449747
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S005",
+            "S006",
+            "S007",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16246,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            1,
+            2,
+            3
+          ],
+          "work_s": 52753.466338316925,
+          "boxes": 54,
+          "mass_kg": 500,
+          "volume_m3": 1.332,
+          "transport_N": 23,
+          "relay_N": 3,
+          "transport_E": 54.5975443089332,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S008"
+          ],
+          "mask": 128,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "work_s": 9781.528071655204,
+          "boxes": 5,
+          "mass_kg": 45,
+          "volume_m3": 0.129,
+          "transport_N": 1,
+          "relay_N": 1,
+          "transport_E": 5.835968644107876,
+          "relay_E": 2.1161783702078227,
+          "relay_body_work_s": 7581.826374566984,
+          "relay_energy_occupied_s": 8641.523837463912
+        }
+      ],
+      "total_resources": [
+        4,
+        2,
+        5,
+        6,
+        4,
+        4,
+        4,
+        5
+      ],
+      "gap": [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "partition_extra": [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "G": 2.5,
+      "S": 10.333333333333334,
+      "CV": 0.866840201244959,
+      "status": "FIXED_PARTITION_COMPARISON",
+      "extra_relay_N": 2,
+      "extra_relay_E": 2.8808069181502165,
+      "extra_relay_body_work_s": 10670.296682010361,
+      "extra_relay_energy_occupied_s": 12240.624492508887
+    },
+    "K3_no_copy_renumber": {
+      "K": 3,
+      "mode": "renumber",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001"
+          ],
+          "mask": 1,
+          "resources": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "work_s": 3186.317864986455,
+          "boxes": 15,
+          "mass_kg": 154,
+          "volume_m3": 0.394,
+          "transport_N": 2,
+          "relay_N": 0,
+          "transport_E": 5.913138161320523,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16350,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            2
+          ],
+          "work_s": 52227.02810959091,
+          "boxes": 59,
+          "mass_kg": 545,
+          "volume_m3": 1.461,
+          "transport_N": 21,
+          "relay_N": 3,
+          "transport_E": 61.48702771792674,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S006"
+          ],
+          "mask": 32,
+          "resources": [
+            2,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "work_s": 5027.196571913159,
+          "boxes": 6,
+          "mass_kg": 59,
+          "volume_m3": 0.156,
+          "transport_N": 4,
+          "relay_N": 0,
+          "transport_E": 5.0993565614437,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        }
+      ],
+      "total_resources": [
+        6,
+        3,
+        3,
+        8,
+        5,
+        5,
+        2,
+        2
+      ],
+      "gap": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "partition_extra": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "G": 2.3333333333333335,
+      "S": 9.666666666666666,
+      "CV": 1.1265563595367605,
+      "all_partitions": 1,
+      "status": "EXHAUSTIVE_OPTIMUM_NO_RELAY_COPY",
+      "extra_relay_N": 0,
+      "extra_relay_E": 0.0,
+      "extra_relay_body_work_s": 0.0,
+      "extra_relay_energy_occupied_s": 0.0
+    },
+    "K3_no_copy_inherited": {
+      "K": 3,
+      "mode": "inherited",
+      "groups": [
+        {
+          "group": "G1",
+          "sites": [
+            "S001"
+          ],
+          "mask": 1,
+          "resources": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "work_s": 3186.317864986455,
+          "boxes": 15,
+          "mass_kg": 154,
+          "volume_m3": 0.394,
+          "transport_N": 2,
+          "relay_N": 0,
+          "transport_E": 5.913138161320523,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        },
+        {
+          "group": "G2",
+          "sites": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "mask": 16350,
+          "resources": [
+            4,
+            2,
+            2,
+            6,
+            4,
+            3,
+            2,
+            3
+          ],
+          "work_s": 52227.02810959091,
+          "boxes": 59,
+          "mass_kg": 545,
+          "volume_m3": 1.461,
+          "transport_N": 21,
+          "relay_N": 3,
+          "transport_E": 61.48702771792674,
+          "relay_E": 3.3703066975219778,
+          "relay_body_work_s": 12873.504381181614,
+          "relay_energy_occupied_s": 14842.691477049917
+        },
+        {
+          "group": "G3",
+          "sites": [
+            "S006"
+          ],
+          "mask": 32,
+          "resources": [
+            3,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "work_s": 5027.196571913159,
+          "boxes": 6,
+          "mass_kg": 59,
+          "volume_m3": 0.156,
+          "transport_N": 4,
+          "relay_N": 0,
+          "transport_E": 5.0993565614437,
+          "relay_E": 0,
+          "relay_body_work_s": 0,
+          "relay_energy_occupied_s": 0
+        }
+      ],
+      "total_resources": [
+        7,
+        3,
+        4,
+        8,
+        5,
+        5,
+        2,
+        3
+      ],
+      "gap": [
+        3,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "unused": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "partition_extra": [
+        3,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "G": 3.0833333333333335,
+      "S": 10.583333333333334,
+      "CV": 1.1265563595367605,
+      "all_partitions": 1,
+      "status": "EXHAUSTIVE_OPTIMUM_NO_RELAY_COPY",
+      "extra_relay_N": 0,
+      "extra_relay_E": 0.0,
+      "extra_relay_body_work_s": 0.0,
+      "extra_relay_energy_occupied_s": 0.0
+    }
+  },
+  "no_copy": {
+    "blocks": [
+      [
+        "S001"
+      ],
+      [
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015"
+      ],
+      [
+        "S006"
+      ]
+    ],
+    "K2_possible": true,
+    "K3_possible": true
+  },
+  "search": [
+    {
+      "K": 2,
+      "partitions": 8191,
+      "seconds": 0.06471260002581403
+    },
+    {
+      "K": 3,
+      "partitions": 788970,
+      "seconds": 2.215909800026566
+    }
+  ],
+  "total_seconds": 3.1301592999952845,
+  "random_seed": null,
+  "complete_enumeration": true,
+  "objective_tolerance_cv_squared": 1e-12
+}

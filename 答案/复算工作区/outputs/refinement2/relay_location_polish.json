@@ -1,0 +1,46 @@
+{
+  "seconds": 8.535537299932912,
+  "logs": [
+    {
+      "label": "current_joint_transport",
+      "step_m": 100,
+      "candidates": 35,
+      "triples": 33,
+      "result": [
+        6172.546700211649,
+        3.11097733183225
+      ]
+    },
+    {
+      "label": "current_joint_transport",
+      "step_m": 50,
+      "candidates": 35,
+      "triples": 33,
+      "result": [
+        6165.532439841063,
+        3.1069052481824246
+      ]
+    },
+    {
+      "label": "current_joint_transport",
+      "step_m": 25,
+      "candidates": 35,
+      "triples": 33,
+      "result": [
+        6164.674136047446,
+        3.1048195126213742
+      ]
+    },
+    {
+      "label": "current_joint_transport",
+      "step_m": 10,
+      "candidates": 35,
+      "triples": 33,
+      "result": [
+        6163.752651693648,
+        3.1042307865064473
+      ]
+    }
+  ],
+  "limits": "Additional coordinate search at 100/50/25/10m and 150/200/250/300m AGL; three missions, two bodies; numerical search only"
+}

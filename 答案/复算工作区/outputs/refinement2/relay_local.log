@@ -1,0 +1,7 @@
+{'label': 'previous_transport', 'step_m': 250, 'candidates': 35, 'triples': 33, 'result': (np.float64(6269.844742848404), np.float64(3.181796642101561))}
+{'label': 'previous_transport', 'step_m': 125, 'candidates': 35, 'triples': 33, 'result': (np.float64(6245.519049925468), np.float64(3.167961150174912))}
+{'label': 'previous_transport', 'step_m': 50, 'candidates': 35, 'triples': 33, 'result': (np.float64(6245.046040556885), np.float64(3.1705376792354887))}
+FINE previous_transport (np.float64(6247.271296158601), np.float64(3.1750488693244523))
+{'label': 'new_transport', 'step_m': 250, 'candidates': 35, 'triples': 33, 'result': None}
+{'label': 'new_transport', 'step_m': 125, 'candidates': 35, 'triples': 33, 'result': None}
+{'label': 'new_transport', 'step_m': 50, 'candidates': 35, 'triples': 33, 'result': None}

@@ -1,0 +1,49 @@
+{
+  "seed": 2026092603,
+  "seconds": 242.29789209994487,
+  "iterations": 647043,
+  "feasible": 189508,
+  "best": [
+    6142.684864911595,
+    69.53644147851111,
+    25,
+    96174.83434419421
+  ],
+  "early_end": 3230,
+  "logs": [
+    [
+      126,
+      [
+        6183.065559949808,
+        69.5577899283671,
+        25,
+        98009.90388180323
+      ],
+      3400
+    ],
+    [
+      216,
+      [
+        6142.684864911595,
+        69.5577899283671,
+        25,
+        96902.85854459129
+      ],
+      3400
+    ],
+    [
+      520099,
+      [
+        6142.684864911595,
+        69.53644147851111,
+        25,
+        96174.83434419421
+      ],
+      3230
+    ]
+  ],
+  "geometry_keys": 1779,
+  "batch_profiles": 147249,
+  "fit": false,
+  "limitations": "Four stop cap; all expected times satisfied as D=0 search restriction; 2s geometry cache, final 0.5s fit; three relay structure; no global proof"
+}

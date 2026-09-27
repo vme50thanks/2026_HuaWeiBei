@@ -1,0 +1,5 @@
+{'label': 'current_joint_transport', 'step_m': 100, 'candidates': 35, 'triples': 33, 'result': (np.float64(6172.546700211649), np.float64(3.11097733183225))}
+{'label': 'current_joint_transport', 'step_m': 50, 'candidates': 35, 'triples': 33, 'result': (np.float64(6165.532439841063), np.float64(3.1069052481824246))}
+{'label': 'current_joint_transport', 'step_m': 25, 'candidates': 35, 'triples': 33, 'result': (np.float64(6164.674136047446), np.float64(3.1048195126213742))}
+{'label': 'current_joint_transport', 'step_m': 10, 'candidates': 35, 'triples': 33, 'result': (np.float64(6163.752651693648), np.float64(3.1042307865064473))}
+FINE current_joint_transport (np.float64(6165.977907295364), np.float64(3.107170906630146))

@@ -1,0 +1,186 @@
+[
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\communication_samples.csv",
+    "sha256": "82c30f50fb21b35b2c4ae271af1b9681edbe8994aaa7ba498f81ecc43e986656"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\event_replay.csv",
+    "sha256": "27f56ed7c70852f42aaedc8751a496ba2b907af915aec20fd78619c6143498d3"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\independent_transport_phases.json",
+    "sha256": "89af8c723390927b1debb3af3c0c684e5490e3bd364f3fa95783d9f525abbbb9"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\legs.csv",
+    "sha256": "3432304f5949078961d31d13c3a524b2b63cd20c68b56cca1f915cf935519922"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\phases.json",
+    "sha256": "6eadd790214222814bdce4978d5bd60314609dfa9c3fc49900ce1caf43874e59"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\plan.json",
+    "sha256": "c56a4c213d4a663a26fceed17f961a65c7a3f95d558f5397344ef38e80c0d0f9"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\Q2_运输架次.csv",
+    "sha256": "7cb4f5894e7ac98aa8fbdb2215366ba0e1d764ed188cf85a78e5ca68609b8bde"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\Q2_逐箱交付.csv",
+    "sha256": "bd4864331b5f36535c577a0c7930cae04f4a84252ec5901468431c1e98996acb"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\Q3_中继架次.csv",
+    "sha256": "91993a32a851f39742b369a862d004241e86fe45e5f70c5d83175a70fafe22b6"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\Q3_通信保障.csv",
+    "sha256": "dcc4170ddc3425635ada34a01ceb39f9b449aeb046a0635a0ce58be318ce64f9"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\q4_associations.csv",
+    "sha256": "bd49d1fabc6e3bd92fcf4c7746f5fe9cac5f12bb2538a4bf0d9517f59e77eb04"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\relay_energy_check.csv",
+    "sha256": "dc95a347770988cb699aae37050ab1cb551706b3ea3ccfa6a302eacb8a39da22"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\relay_event_replay.csv",
+    "sha256": "c79e48493e915a1491a90527a4d42ee3f52fddd59525f3d0866a1e5d51e3677f"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\relay_phases.json",
+    "sha256": "7c96b61d34e34cdada33e9956ce99fc33c6874dabefcf9838f6e92b6291a2dc6"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\relay_plan.json",
+    "sha256": "ade7456f680e238c4f7a9eda016e9f5b06f61e1ad7cd2f3686ef219e6bb1b9b9"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\relay_resources.csv",
+    "sha256": "539d8958db162fe7276c44e0bff0e19c85c2bb5207c8791b837e9aa95f17e549"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\resource_usage.csv",
+    "sha256": "bd05553d4cc264044ba2eebda80f1dfe9f36ddd023bd5b9f2e88b9dbaaa1b3df"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\stops.csv",
+    "sha256": "5e10c07fb5a6c4789bbb23fdde6edb9e4b486b26a729960363ff5c4b93d28fde"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\switch_brackets.csv",
+    "sha256": "b9673bd6cb485f5b5417d74407ee9b8dfba9e00a6d3efd21fe9237bf5b720c32"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\trajectory_segments.csv",
+    "sha256": "2c852bdc0ccef9b7d0b67daafc7e794d50e2cf92524d7cda7e0b11f7e37f7b4b"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\transport_energy_detail.csv",
+    "sha256": "7fbb49c4d2f68446b2fa841ada387ab33d406b5b150bc92cba17e0658e1b4413"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\uncertified_continuous_intervals.csv",
+    "sha256": "7a7e6344a5deb4836551644bba3f57bc4dd2ab9725868d2e2d04f1bf1e11961b"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\联合甘特图.png",
+    "sha256": "4f6c0e15a90a186a66a02476786d65b513c8294799e1790042779bbbf4a158a2"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\通信状态时间图.png",
+    "sha256": "31e618a4bc716bf58aad3d0aa283a62650afa60aedd0ba9711f4017594bc9882"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\baseline\\部署图.png",
+    "sha256": "1ceab829c3d743d2a4dc04ef65d5661adb88c5b56a00872d5c4f628f1b073657"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\模型与结果说明.md",
+    "sha256": "ed52c2bdb11a6eec4d2d5cbf7c8997bad25d2d6ff6372ba2b2e576efc17aeddb"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\独立检查报告.md",
+    "sha256": "0d4fe9467b33560f2ad13f48620480126a00264c4b642bb34480cd8c85b85342"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\summary.json",
+    "sha256": "913b262583af19b229cce9de2a769f4f1bd877d7f79dd35f5fddde8f32f91dd0"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\source_consistency.json",
+    "sha256": "0644a2bdcde07d2d02d506b405c02e787de22717575c6fde452db522d677e41c"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\verification.json",
+    "sha256": "4350e40332b7a024cc7dbca42ee68c73746384e70ee9929960693e6c795d22dc"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\joint_verification.json",
+    "sha256": "68a668f49390254e9d875f63b8cf431f5be8baf83b1bdac781a27388201cdc19"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\q3\\export_check.json",
+    "sha256": "915c3a6b7baa6b49c96f5de5456b7f9aaf9a5c81f45aee8383ae6c4789cb7e9e"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\preflight\\audit.json",
+    "sha256": "5b6007bf7c2ffe6528029f47f1bc3ee0fbc07bb6223633fe6b7293fbd8093509"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\preflight\\nodes.csv",
+    "sha256": "9ceb361a30af9678d010fd9a299092021bf2c20aa4c17003a4bab6ca42e7c9a5"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\preflight\\legs.csv",
+    "sha256": "d916c2612ce55a8739b37d308f8f2cabbae8f157d92f8cab2e44a84018c5ab30"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\preflight\\time_rules.json",
+    "sha256": "bf1b6e1d0c4d49e21d7e1a661f7bc3c998cd1e1eceb454c938f864c34fbff8bf"
+  },
+  {
+    "path": "C:\\Users\\ASUS\\Documents\\Codex\\2026-09-23\\math-modeling-orchestrator-c-users-asus\\outputs\\preflight\\flight_times.csv",
+    "sha256": "84345deae991448a56d56264dd785871b23a17fd761ff11493add771e46a0a1d"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\山区洪涝灾害下无人机运输与通信协同优化.docx",
+    "sha256": "0a4f507b91a02a0ea4264973dd432cdcb5b8916c61c24214719665f326d57685"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡及周边地理数据\\数字高程模型数据（DEM）\\镇龙乡及周边30米DEM.tif",
+    "sha256": "741fe6de0b2bcaffd0f4007f574ee698d46197094f52cc954b532c4f90fc7c03"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\中继无人机数据.xlsx",
+    "sha256": "be52643ff29419233e6a141dca03a04160a8af551cab36d8c49b51bb836bea04"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\物资需求与配送时限.xlsx",
+    "sha256": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\调度中心与服务区.xlsx",
+    "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\运输无人机数据.xlsx",
+    "sha256": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\无人机应急物资运输基础数据\\通信链路参数.xlsx",
+    "sha256": "1860d153199e7ae460ba36e83b673374e640e19de91ea167f2877271001f5f81"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\结果提交模板.xlsx",
+    "sha256": "16f521f29a7103c4ff7c3709ce1696bb9fffa18ce741895e45b7bc7afaf3320a"
+  },
+  {
+    "path": "D:\\研一\\比赛\\中文题目\\D题\\数据\\镇龙乡地理空间数据\\镇龙乡地理空间数据说明.pdf",
+    "sha256": "6d1522c6832a5d91a108dae0d07954845025c0dabd44af8ee78c7860d7c405e4"
+  }
+]

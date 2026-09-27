@@ -1,0 +1,159 @@
+{
+  "baseline": {
+    "D": 0.0,
+    "Cmax": 6142.684864911595,
+    "E": 69.53644147851112,
+    "N": 25,
+    "C_joint": 6165.977907295364,
+    "relay_E": 3.107170906630146,
+    "total_E": 72.64361238514127,
+    "relay_N": 3,
+    "total_N": 28,
+    "status": "VERIFIED_AT_REPORTED_RESOLUTIONS_NO_GLOBAL_PROOF",
+    "source": "current_joint_transport"
+  },
+  "makespan_first": {
+    "D": 0.0,
+    "Cmax": 6142.684864911595,
+    "E": 69.53644147851112,
+    "N": 25,
+    "C_joint": 6165.977907295364,
+    "relay_E": 3.107170906630146,
+    "total_E": 72.64361238514127,
+    "relay_N": 3,
+    "total_N": 28,
+    "status": "VERIFIED_AT_REPORTED_RESOLUTIONS_NO_GLOBAL_PROOF",
+    "source": "current_joint_transport"
+  },
+  "canonicalization_max_shift_s": 9.094947017729282e-13,
+  "previous_search_metadata": {
+    "search": {
+      "seconds": 8.626645499956794,
+      "candidate_locations": 49,
+      "triples": 1904,
+      "transport_candidates": 2,
+      "relay_structure": "one master plus two sequential missions on second body",
+      "no_global_proof": true
+    },
+    "calendar_search": {
+      "seconds": 182.7482719999971,
+      "iterations": 533562,
+      "seed": 20260928,
+      "positions": [
+        130,
+        511,
+        489
+      ],
+      "box_groupings": "old and improved Q2, type and ordering mutable",
+      "all_due_met_as_search_restriction": true
+    }
+  },
+  "new_search": {
+    "relay_location": {
+      "seconds": 15.498281800071709,
+      "logs": [
+        {
+          "label": "previous_transport",
+          "step_m": 250,
+          "candidates": 35,
+          "triples": 33,
+          "result": [
+            6269.844742848404,
+            3.181796642101561
+          ]
+        },
+        {
+          "label": "previous_transport",
+          "step_m": 125,
+          "candidates": 35,
+          "triples": 33,
+          "result": [
+            6245.519049925468,
+            3.167961150174912
+          ]
+        },
+        {
+          "label": "previous_transport",
+          "step_m": 50,
+          "candidates": 35,
+          "triples": 33,
+          "result": [
+            6245.046040556885,
+            3.1705376792354887
+          ]
+        },
+        {
+          "label": "new_transport",
+          "step_m": 250,
+          "candidates": 35,
+          "triples": 33,
+          "result": null
+        },
+        {
+          "label": "new_transport",
+          "step_m": 125,
+          "candidates": 35,
+          "triples": 33,
+          "result": null
+        },
+        {
+          "label": "new_transport",
+          "step_m": 50,
+          "candidates": 35,
+          "triples": 33,
+          "result": null
+        }
+      ],
+      "limits": "Coordinate search at 250/125/50m and 150/200/250/300m AGL; three missions, two bodies; numerical search only"
+    },
+    "joint_calendar": {
+      "seed": 2026092603,
+      "seconds": 242.29789209994487,
+      "iterations": 647043,
+      "feasible": 189508,
+      "best": [
+        6142.684864911595,
+        69.53644147851111,
+        25,
+        96174.83434419421
+      ],
+      "early_end": 3230,
+      "logs": [
+        [
+          126,
+          [
+            6183.065559949808,
+            69.5577899283671,
+            25,
+            98009.90388180323
+          ],
+          3400
+        ],
+        [
+          216,
+          [
+            6142.684864911595,
+            69.5577899283671,
+            25,
+            96902.85854459129
+          ],
+          3400
+        ],
+        [
+          520099,
+          [
+            6142.684864911595,
+            69.53644147851111,
+            25,
+            96174.83434419421
+          ],
+          3230
+        ]
+      ],
+      "geometry_keys": 1779,
+      "batch_profiles": 147249,
+      "fit": false,
+      "limitations": "Four stop cap; all expected times satisfied as D=0 search restriction; 2s geometry cache, final 0.5s fit; three relay structure; no global proof"
+    }
+  }
+}

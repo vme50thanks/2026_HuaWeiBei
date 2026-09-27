@@ -1,0 +1,471 @@
+{
+  "scenarios": {
+    "K2_baseline": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 3,
+      "resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        5,
+        2,
+        2
+      ],
+      "G": 0.75,
+      "S": 8.083333333333334,
+      "CV": 0.8945635584744938,
+      "events": 120,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K2_balance_first": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 3,
+      "resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        5,
+        2,
+        2
+      ],
+      "G": 0.75,
+      "S": 8.083333333333334,
+      "CV": 0.8945635584744938,
+      "events": 120,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K2_workload_first": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 6,
+      "resources": [
+        6,
+        4,
+        4,
+        7,
+        5,
+        5,
+        4,
+        4
+      ],
+      "G": 4.166666666666667,
+      "S": 11.833333333333334,
+      "CV": 1.0600215191178313e-05,
+      "events": 132,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K2_inherited_baseline": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 4,
+      "resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        3,
+        4
+      ],
+      "G": 1.0,
+      "S": 8.666666666666666,
+      "CV": 0.712402604413644,
+      "events": 124,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K2_inherited_balance_first": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 4,
+      "resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        3,
+        4
+      ],
+      "G": 1.0,
+      "S": 8.666666666666666,
+      "CV": 0.712402604413644,
+      "events": 124,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K2_fixed_partition_inherited": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 3,
+      "resources": [
+        4,
+        2,
+        4,
+        6,
+        4,
+        5,
+        2,
+        3
+      ],
+      "G": 1.25,
+      "S": 8.75,
+      "CV": 0.8945635584744938,
+      "events": 120,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K2_no_copy_renumber": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 3,
+      "resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        5,
+        2,
+        2
+      ],
+      "G": 0.75,
+      "S": 8.083333333333334,
+      "CV": 0.8945635584744938,
+      "events": 120,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K2_no_copy_inherited": {
+      "status": "PASS",
+      "groups": 2,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 3,
+      "resources": [
+        4,
+        2,
+        4,
+        6,
+        4,
+        5,
+        2,
+        3
+      ],
+      "G": 1.25,
+      "S": 8.75,
+      "CV": 0.8945635584744938,
+      "events": 120,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_baseline": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 5,
+      "resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        4,
+        4
+      ],
+      "G": 1.5,
+      "S": 9.166666666666666,
+      "CV": 0.8668402012449593,
+      "events": 128,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_balance_first": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 5,
+      "resources": [
+        4,
+        2,
+        3,
+        6,
+        4,
+        4,
+        4,
+        4
+      ],
+      "G": 1.5,
+      "S": 9.166666666666666,
+      "CV": 0.8668402012449593,
+      "events": 128,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_workload_first": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 9,
+      "resources": [
+        6,
+        4,
+        2,
+        8,
+        6,
+        4,
+        6,
+        6
+      ],
+      "G": 4.333333333333333,
+      "S": 12.333333333333334,
+      "CV": 0.0003358622801544544,
+      "events": 144,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_inherited_baseline": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 5,
+      "resources": [
+        5,
+        2,
+        3,
+        7,
+        4,
+        5,
+        4,
+        5
+      ],
+      "G": 2.1666666666666665,
+      "S": 10.0,
+      "CV": 0.7127042296067893,
+      "events": 128,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_inherited_balance_first": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 5,
+      "resources": [
+        5,
+        2,
+        3,
+        7,
+        4,
+        5,
+        4,
+        5
+      ],
+      "G": 2.1666666666666665,
+      "S": 10.0,
+      "CV": 0.7127042296067893,
+      "events": 128,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_fixed_partition_inherited": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 5,
+      "resources": [
+        4,
+        2,
+        5,
+        6,
+        4,
+        4,
+        4,
+        5
+      ],
+      "G": 2.5,
+      "S": 10.333333333333334,
+      "CV": 0.8668402012449593,
+      "events": 128,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_no_copy_renumber": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 3,
+      "resources": [
+        6,
+        3,
+        3,
+        8,
+        5,
+        5,
+        2,
+        2
+      ],
+      "G": 2.3333333333333335,
+      "S": 9.666666666666666,
+      "CV": 1.1265563595367607,
+      "events": 120,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    },
+    "K3_no_copy_inherited": {
+      "status": "PASS",
+      "groups": 3,
+      "boxes": 80,
+      "transport_tasks": 27,
+      "relay_copies": 3,
+      "resources": [
+        7,
+        3,
+        4,
+        8,
+        5,
+        5,
+        2,
+        3
+      ],
+      "G": 3.0833333333333335,
+      "S": 10.583333333333334,
+      "CV": 1.1265563595367607,
+      "events": 120,
+      "frozen_task_fields_equal": true,
+      "communication_inherited": true
+    }
+  },
+  "optimality_certificate": [
+    {
+      "scenario": "K2_baseline",
+      "partitions": 8191,
+      "G_lower_bound": 0.75,
+      "S_at_lex_optimum": 8.083333333333334,
+      "CV_squared_at_lex_optimum": 0.8002439601505491,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K2_balance_first",
+      "partitions": 8191,
+      "G_lower_bound": 0.75,
+      "S_at_lex_optimum": 8.083333333333334,
+      "CV_squared_at_lex_optimum": 0.8002439601505491,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K2_workload_first",
+      "partitions": 8191,
+      "G_lower_bound": 4.166666666666667,
+      "S_at_lex_optimum": 11.833333333333334,
+      "CV_squared_at_lex_optimum": 1.1236456209928747e-10,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K2_inherited_baseline",
+      "partitions": 8191,
+      "G_lower_bound": 1.0,
+      "S_at_lex_optimum": 8.666666666666666,
+      "CV_squared_at_lex_optimum": 0.5075174707753429,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K2_inherited_balance_first",
+      "partitions": 8191,
+      "G_lower_bound": 1.0,
+      "S_at_lex_optimum": 8.666666666666666,
+      "CV_squared_at_lex_optimum": 0.5075174707753429,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K3_baseline",
+      "partitions": 788970,
+      "G_lower_bound": 1.5,
+      "S_at_lex_optimum": 9.166666666666666,
+      "CV_squared_at_lex_optimum": 0.751411934494401,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K3_balance_first",
+      "partitions": 788970,
+      "G_lower_bound": 1.5,
+      "S_at_lex_optimum": 9.166666666666666,
+      "CV_squared_at_lex_optimum": 0.751411934494401,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K3_workload_first",
+      "partitions": 788970,
+      "G_lower_bound": 4.333333333333333,
+      "S_at_lex_optimum": 12.333333333333334,
+      "CV_squared_at_lex_optimum": 1.1280347100850463e-07,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K3_inherited_baseline",
+      "partitions": 788970,
+      "G_lower_bound": 2.1666666666666665,
+      "S_at_lex_optimum": 10.0,
+      "CV_squared_at_lex_optimum": 0.5079473188994066,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    },
+    {
+      "scenario": "K3_inherited_balance_first",
+      "partitions": 788970,
+      "G_lower_bound": 2.1666666666666665,
+      "S_at_lex_optimum": 10.0,
+      "CV_squared_at_lex_optimum": 0.5079473188994066,
+      "status": "INDEPENDENT_ENUMERATION_MATCH"
+    }
+  ],
+  "source_unchanged": true,
+  "boxes": 80,
+  "medical_boxes": 16,
+  "first_batch_boxes": 30,
+  "hard_min_slack_s": 2082.852950462967,
+  "D": 0.0,
+  "transport_E": 72.49952244069098,
+  "elapsed_s": 3.3155453999643214,
+  "tolerances": {
+    "time_s": 1e-07,
+    "energy_kWh": 1e-08,
+    "mass_kg": 1e-09,
+    "volume_m3": 1e-12,
+    "objective_CV_squared": 1e-12
+  },
+  "interval_rule": "Exact unrounded exported endpoints; half-open intervals; release before reserve at exact ties",
+  "communication_claim": "继承第三问在所述时空分辨率下未发现中断；未新增连续时间证明"
+}

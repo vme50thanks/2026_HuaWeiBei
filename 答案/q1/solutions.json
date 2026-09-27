@@ -1,0 +1,4101 @@
+[
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P007",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2301.05664609892,
+    "energy_kWh": 6.1528713263293655,
+    "return_soc": 0.2308910842088293
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P008",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P009",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P010",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P011",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-HYG-01",
+      "S008-FOD-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2199.7016970882214,
+    "energy_kWh": 5.835968644107877,
+    "return_soc": 0.2705039194865154
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P012",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P013",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P014",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P015",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P016",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P017",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "baseline",
+    "rho": 0.2,
+    "sortie": "baseline-P018",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P007",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2301.05664609892,
+    "energy_kWh": 6.1528713263293655,
+    "return_soc": 0.2308910842088293
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P008",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P009",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P010",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P011",
+    "site": "S008",
+    "model": "B",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-FOD-01",
+      "S008-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1331.8319196630914,
+    "operation_s": 1961.8319196630914,
+    "energy_kWh": 2.975180722106636,
+    "return_soc": 0.25620481947334095
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P012",
+    "site": "S008",
+    "model": "B",
+    "box_ids": [
+      "S008-HYG-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 20.0,
+    "volume_m3": 0.062,
+    "flight_s": 1331.8319196630914,
+    "operation_s": 1901.8319196630914,
+    "energy_kWh": 2.763406942524592,
+    "return_soc": 0.309148264368852
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P013",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P014",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P015",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P016",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P017",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P018",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "energy_first",
+    "rho": 0.2,
+    "sortie": "energy_first-P019",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P007",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2301.05664609892,
+    "energy_kWh": 6.1528713263293655,
+    "return_soc": 0.2308910842088293
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P008",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P009",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P010",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P011",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-HYG-01",
+      "S008-FOD-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2199.7016970882214,
+    "energy_kWh": 5.835968644107877,
+    "return_soc": 0.2705039194865154
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P012",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P013",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P014",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P015",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P016",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P017",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "time_first",
+    "rho": 0.2,
+    "sortie": "time_first-P018",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P007",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2301.05664609892,
+    "energy_kWh": 6.1528713263293655,
+    "return_soc": 0.2308910842088293
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P008",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P009",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P010",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P011",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-HYG-01",
+      "S008-FOD-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2199.7016970882214,
+    "energy_kWh": 5.835968644107877,
+    "return_soc": 0.2705039194865154
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P012",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P013",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P014",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P015",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P016",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P017",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "rho_10",
+    "rho": 0.1,
+    "sortie": "rho_10-P018",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P007",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2301.05664609892,
+    "energy_kWh": 6.1528713263293655,
+    "return_soc": 0.2308910842088293
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P008",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P009",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P010",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P011",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-HYG-01",
+      "S008-FOD-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2199.7016970882214,
+    "energy_kWh": 5.835968644107877,
+    "return_soc": 0.2705039194865154
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P012",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P013",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P014",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P015",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P016",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P017",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "rho_15",
+    "rho": 0.15,
+    "sortie": "rho_15-P018",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P007",
+    "site": "S004",
+    "model": "B",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-WAT-01"
+    ],
+    "mass_kg": 17.0,
+    "volume_m3": 0.039,
+    "flight_s": 1351.643590678998,
+    "operation_s": 1921.643590678998,
+    "energy_kWh": 2.576479334980617,
+    "return_soc": 0.35588016625484575
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P008",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 42.0,
+    "volume_m3": 0.117,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2169.05664609892,
+    "energy_kWh": 5.518446258776546,
+    "return_soc": 0.31019421765293176
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P009",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P010",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P011",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P012",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-HYG-01",
+      "S008-FOD-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2199.7016970882214,
+    "energy_kWh": 5.835968644107877,
+    "return_soc": 0.2705039194865154
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P013",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P014",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P015",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P016",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P017",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P018",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "rho_25",
+    "rho": 0.25,
+    "sortie": "rho_25-P019",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P003",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01",
+      "S002-WAT-02"
+    ],
+    "mass_kg": 39.0,
+    "volume_m3": 0.094,
+    "flight_s": 1231.809559753187,
+    "operation_s": 1975.809559753187,
+    "energy_kWh": 5.170875855344663,
+    "return_soc": 0.3536405180819171
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 42.0,
+    "volume_m3": 0.117,
+    "flight_s": 1231.809559753187,
+    "operation_s": 1975.809559753187,
+    "energy_kWh": 5.248601185335384,
+    "return_soc": 0.34392485183307697
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P005",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01",
+      "S003-WAT-02"
+    ],
+    "mass_kg": 39.0,
+    "volume_m3": 0.094,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2303.9936050829747,
+    "energy_kWh": 5.208578812390339,
+    "return_soc": 0.3489276484512076
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 42.0,
+    "volume_m3": 0.117,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2303.9936050829747,
+    "energy_kWh": 5.287654398267735,
+    "return_soc": 0.3390432002165331
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P007",
+    "site": "S004",
+    "model": "B",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-WAT-01"
+    ],
+    "mass_kg": 17.0,
+    "volume_m3": 0.039,
+    "flight_s": 1351.643590678998,
+    "operation_s": 1921.643590678998,
+    "energy_kWh": 2.576479334980617,
+    "return_soc": 0.35588016625484575
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P008",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 42.0,
+    "volume_m3": 0.117,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2169.05664609892,
+    "energy_kWh": 5.518446258776546,
+    "return_soc": 0.31019421765293176
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P009",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P010",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P011",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P012",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 31.0,
+    "volume_m3": 0.066,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2067.7016970882214,
+    "energy_kWh": 5.4633761880200495,
+    "return_soc": 0.3170779764974938
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P013",
+    "site": "S008",
+    "model": "B",
+    "box_ids": [
+      "S008-HYG-01",
+      "S008-FOD-01"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.063,
+    "flight_s": 1331.8319196630914,
+    "operation_s": 1901.8319196630914,
+    "energy_kWh": 2.589313527062406,
+    "return_soc": 0.3526716182343985
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P014",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P015",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P016",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P017",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P018",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P019",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "rho_30",
+    "rho": 0.3,
+    "sortie": "rho_30-P020",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01"
+    ],
+    "mass_kg": 11.0,
+    "volume_m3": 0.04,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1756.6914750363903,
+    "energy_kWh": 2.302968180241973,
+    "return_soc": 0.4242579549395068
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P004",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.063,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1756.6914750363903,
+    "energy_kWh": 2.361229818656532,
+    "return_soc": 0.40969254533586696
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P005",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-WAT-01"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1696.6914750363903,
+    "energy_kWh": 2.361229818656532,
+    "return_soc": 0.40969254533586696
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P006",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-WAT-02"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1696.6914750363903,
+    "energy_kWh": 2.361229818656532,
+    "return_soc": 0.40969254533586696
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P007",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-WAT-03"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1696.6914750363903,
+    "energy_kWh": 2.361229818656532,
+    "return_soc": 0.40969254533586696
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P008",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-WAT-04"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1696.6914750363903,
+    "energy_kWh": 2.361229818656532,
+    "return_soc": 0.40969254533586696
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P009",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 17.0,
+    "volume_m3": 0.039,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2171.9936050829747,
+    "energy_kWh": 4.7954081991654185,
+    "return_soc": 0.4005739751043227
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P010",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-HYG-01"
+    ],
+    "mass_kg": 6.0,
+    "volume_m3": 0.035,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 1960.4255590217767,
+    "energy_kWh": 2.2878658258160773,
+    "return_soc": 0.42803354354598067
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P011",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-FOD-01",
+      "S003-FOD-02"
+    ],
+    "mass_kg": 16.0,
+    "volume_m3": 0.056,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2171.9936050829747,
+    "energy_kWh": 4.782402447494913,
+    "return_soc": 0.4021996940631358
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P012",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-WAT-02"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2105.9936050829747,
+    "energy_kWh": 4.757752360193731,
+    "return_soc": 0.40528095497578365
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P013",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-WAT-03"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2105.9936050829747,
+    "energy_kWh": 4.757752360193731,
+    "return_soc": 0.40528095497578365
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P014",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-WAT-04"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2105.9936050829747,
+    "energy_kWh": 4.757752360193731,
+    "return_soc": 0.40528095497578365
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P015",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P016",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P017",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P018",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P019",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P020",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P021",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01"
+    ],
+    "mass_kg": 11.0,
+    "volume_m3": 0.04,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1862.6994420512597,
+    "energy_kWh": 2.3374573355678967,
+    "return_soc": 0.4156356661080258
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P022",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-WAT-01"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1802.6994420512597,
+    "energy_kWh": 2.3967432921141723,
+    "return_soc": 0.40081417697145694
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P023",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P024",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "rho_40",
+    "rho": 0.4,
+    "sortie": "rho_40-P025",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P003",
+    "site": "S005",
+    "model": "B",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-WAT-01"
+    ],
+    "mass_kg": 17.0,
+    "volume_m3": 0.039,
+    "flight_s": 946.1709911070693,
+    "operation_s": 1516.1709911070693,
+    "energy_kWh": 1.771476296430565,
+    "return_soc": 0.5571309258923587
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P004",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 42.0,
+    "volume_m3": 0.117,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1745.1912873310278,
+    "energy_kWh": 3.78702607749395,
+    "return_soc": 0.5266217403132563
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P005",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P006",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P007",
+    "site": "S009",
+    "model": "C",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 966.5585950623708,
+    "operation_s": 1644.5585950623708,
+    "energy_kWh": 3.7692373776866614,
+    "return_soc": 0.5288453277891674
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P008",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P009",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P010",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P011",
+    "site": "S014",
+    "model": "C",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1357.1005826964224,
+    "operation_s": 2035.1005826964224,
+    "energy_kWh": 3.73778141013431,
+    "return_soc": 0.5327773237332112
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P012",
+    "site": "S015",
+    "model": "C",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 17.0,
+    "volume_m3": 0.039,
+    "flight_s": 1288.4764451572337,
+    "operation_s": 1900.4764451572337,
+    "energy_kWh": 3.9726280140197243,
+    "return_soc": 0.5034214982475345
+  },
+  {
+    "scenario": "rho_50",
+    "rho": 0.5,
+    "sortie": "rho_50-P013",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-FOD-01"
+    ],
+    "mass_kg": 8.0,
+    "volume_m3": 0.028,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1708.2433600335357,
+    "energy_kWh": 1.917319714106874,
+    "return_soc": 0.5206700714732815
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P003",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P004",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 31.0,
+    "volume_m3": 0.066,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1775.4897939943457,
+    "energy_kWh": 3.188255754992491,
+    "return_soc": 0.6014680306259386
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P005",
+    "site": "S007",
+    "model": "B",
+    "box_ids": [
+      "S007-HYG-01",
+      "S007-FOD-01"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.063,
+    "flight_s": 1006.1987356447364,
+    "operation_s": 1576.1987356447364,
+    "energy_kWh": 1.5529494679571652,
+    "return_soc": 0.6117626330107087
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P006",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01"
+    ],
+    "mass_kg": 11.0,
+    "volume_m3": 0.04,
+    "flight_s": 925.254556854891,
+    "operation_s": 1495.254556854891,
+    "energy_kWh": 1.5478050412634758,
+    "return_soc": 0.6130487396841311
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P007",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-WAT-01"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 925.254556854891,
+    "operation_s": 1435.254556854891,
+    "energy_kWh": 1.5875768576081961,
+    "return_soc": 0.6031057855979509
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P008",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P009",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01"
+    ],
+    "mass_kg": 11.0,
+    "volume_m3": 0.04,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1450.3938237051887,
+    "energy_kWh": 1.5479100844534528,
+    "return_soc": 0.6130224788866367
+  },
+  {
+    "scenario": "rho_60",
+    "rho": 0.6,
+    "sortie": "rho_60-P010",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-WAT-01"
+    ],
+    "mass_kg": 14.0,
+    "volume_m3": 0.027,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1390.3938237051887,
+    "energy_kWh": 1.5877617946674316,
+    "return_soc": 0.603059551333142
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P007",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2301.05664609892,
+    "energy_kWh": 6.1528713263293655,
+    "return_soc": 0.2308910842088293
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P008",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P009",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P010",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P011",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-HYG-01",
+      "S008-FOD-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2199.7016970882214,
+    "energy_kWh": 5.835968644107877,
+    "return_soc": 0.2705039194865154
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P012",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P013",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P014",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P015",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P016",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P017",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "threshold_below",
+    "rho": 0.2308909842088293,
+    "sortie": "threshold_below-P018",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P001",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "mass_kg": 76.0,
+    "volume_m3": 0.159,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1560.1589324932272,
+    "energy_kWh": 2.917476751215991,
+    "return_soc": 0.6353154060980011
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P002",
+    "site": "S001",
+    "model": "C",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02",
+      "S001-FOD-01",
+      "S001-FOD-02",
+      "S001-FOD-03",
+      "S001-WAT-06",
+      "S001-WAT-07",
+      "S001-WAT-08"
+    ],
+    "mass_kg": 78.0,
+    "volume_m3": 0.235,
+    "flight_s": 618.1589324932272,
+    "operation_s": 1626.1589324932272,
+    "energy_kWh": 2.995661410104533,
+    "return_soc": 0.6255423237369333
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P003",
+    "site": "S002",
+    "model": "B",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-FOD-01",
+      "S002-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1186.6914750363903,
+    "operation_s": 1816.6914750363903,
+    "energy_kWh": 2.713386171227468,
+    "return_soc": 0.321653457193133
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P004",
+    "site": "S002",
+    "model": "C",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1231.809559753187,
+    "operation_s": 2041.809559753187,
+    "energy_kWh": 5.721171054442491,
+    "return_soc": 0.2848536181946886
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P005",
+    "site": "S003",
+    "model": "B",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1450.4255590217767,
+    "operation_s": 2080.4255590217767,
+    "energy_kWh": 2.779588101436359,
+    "return_soc": 0.3051029746409103
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P006",
+    "site": "S003",
+    "model": "C",
+    "box_ids": [
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-WAT-02",
+      "S003-WAT-03",
+      "S003-WAT-04"
+    ],
+    "mass_kg": 56.0,
+    "volume_m3": 0.144,
+    "flight_s": 1559.9936050829745,
+    "operation_s": 2369.9936050829747,
+    "energy_kWh": 5.764319278379338,
+    "return_soc": 0.2794600902025828
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P007",
+    "site": "S004",
+    "model": "B",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-WAT-01"
+    ],
+    "mass_kg": 17.0,
+    "volume_m3": 0.039,
+    "flight_s": 1351.643590678998,
+    "operation_s": 1921.643590678998,
+    "energy_kWh": 2.576479334980617,
+    "return_soc": 0.35588016625484575
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P008",
+    "site": "S004",
+    "model": "C",
+    "box_ids": [
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-02",
+      "S004-WAT-03"
+    ],
+    "mass_kg": 42.0,
+    "volume_m3": 0.117,
+    "flight_s": 1425.0566460989198,
+    "operation_s": 2169.05664609892,
+    "energy_kWh": 5.518446258776546,
+    "return_soc": 0.31019421765293176
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P009",
+    "site": "S005",
+    "model": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-01",
+      "S005-WAT-02",
+      "S005-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 1001.1912873310278,
+    "operation_s": 1877.1912873310278,
+    "energy_kWh": 4.222152315016238,
+    "return_soc": 0.4722309606229702
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P010",
+    "site": "S006",
+    "model": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-01",
+      "S006-WAT-02",
+      "S006-WAT-03"
+    ],
+    "mass_kg": 59.0,
+    "volume_m3": 0.156,
+    "flight_s": 685.4466542141051,
+    "operation_s": 1561.4466542141051,
+    "energy_kWh": 2.597320636806633,
+    "return_soc": 0.6753349203991709
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P011",
+    "site": "S007",
+    "model": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-01",
+      "S007-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1097.4897939943457,
+    "operation_s": 1907.4897939943457,
+    "energy_kWh": 3.4104167142426642,
+    "return_soc": 0.5736979107196669
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P012",
+    "site": "S008",
+    "model": "C",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-HYG-01",
+      "S008-FOD-01",
+      "S008-WAT-01",
+      "S008-WAT-02"
+    ],
+    "mass_kg": 45.0,
+    "volume_m3": 0.129,
+    "flight_s": 1389.7016970882216,
+    "operation_s": 2199.7016970882214,
+    "energy_kWh": 5.835968644107877,
+    "return_soc": 0.2705039194865154
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P013",
+    "site": "S009",
+    "model": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-FOD-01",
+      "S009-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 928.4322909445323,
+    "operation_s": 1558.4322909445323,
+    "energy_kWh": 2.0961840415152735,
+    "return_soc": 0.47595398962118163
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P014",
+    "site": "S010",
+    "model": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-FOD-01",
+      "S010-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 925.254556854891,
+    "operation_s": 1555.254556854891,
+    "energy_kWh": 1.8228201522943424,
+    "return_soc": 0.5442949619264144
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P015",
+    "site": "S011",
+    "model": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-FOD-01",
+      "S011-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 558.4123531019317,
+    "operation_s": 1188.4123531019318,
+    "energy_kWh": 1.0739036622286542,
+    "return_soc": 0.7315240844428365
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P016",
+    "site": "S012",
+    "model": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-FOD-01",
+      "S012-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1292.6994420512597,
+    "operation_s": 1922.6994420512597,
+    "energy_kWh": 2.752260998674247,
+    "return_soc": 0.31193475033143825
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P017",
+    "site": "S013",
+    "model": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-FOD-01",
+      "S013-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 880.3938237051887,
+    "operation_s": 1510.3938237051887,
+    "energy_kWh": 1.8245148012405543,
+    "return_soc": 0.5438712996898614
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P018",
+    "site": "S014",
+    "model": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-FOD-01",
+      "S014-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1239.5681201313184,
+    "operation_s": 1869.5681201313184,
+    "energy_kWh": 2.139813155867384,
+    "return_soc": 0.465046711033154
+  },
+  {
+    "scenario": "threshold_above",
+    "rho": 0.23089118420882931,
+    "sortie": "threshold_above-P019",
+    "site": "S015",
+    "model": "B",
+    "box_ids": [
+      "S015-MED-01",
+      "S015-FOD-01",
+      "S015-WAT-01"
+    ],
+    "mass_kg": 25.0,
+    "volume_m3": 0.067,
+    "flight_s": 1198.2433600335357,
+    "operation_s": 1828.2433600335357,
+    "energy_kWh": 2.3073044369744955,
+    "return_soc": 0.4231738907563761
+  }
+]

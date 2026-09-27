@@ -1,0 +1,92 @@
+{
+  "baseline": {
+    "status": "PASS",
+    "boxes": 80,
+    "medical_boxes": 16,
+    "first_batch_boxes": 30,
+    "hard_deadline_min_slack_s": 298.3781279170389,
+    "min_energy_reserve_slack": 0.0013853825547096433,
+    "D": 0.0,
+    "Cmax": 6142.684864911594,
+    "E": 69.44995741584714,
+    "N": 25,
+    "events": 75,
+    "max_energy_recompute_error_kWh": 4.594765353549762e-16,
+    "used_units": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07",
+      "U08"
+    ],
+    "used_batteries": [
+      "A-BAT-01",
+      "A-BAT-02",
+      "A-BAT-03",
+      "A-BAT-04",
+      "A-BAT-05",
+      "A-BAT-06",
+      "B-BAT-01",
+      "B-BAT-02",
+      "B-BAT-03",
+      "B-BAT-04",
+      "C-BAT-01",
+      "C-BAT-02",
+      "C-BAT-03",
+      "C-BAT-04"
+    ],
+    "all_expected_times_met": true
+  },
+  "makespan_first": {
+    "status": "PASS",
+    "boxes": 80,
+    "medical_boxes": 16,
+    "first_batch_boxes": 30,
+    "hard_deadline_min_slack_s": 298.3781279170389,
+    "min_energy_reserve_slack": 0.0013853825547096433,
+    "D": 0.0,
+    "Cmax": 6142.684864911594,
+    "E": 69.44995741584714,
+    "N": 25,
+    "events": 75,
+    "max_energy_recompute_error_kWh": 4.594765353549762e-16,
+    "used_units": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07",
+      "U08"
+    ],
+    "used_batteries": [
+      "A-BAT-01",
+      "A-BAT-02",
+      "A-BAT-03",
+      "A-BAT-04",
+      "A-BAT-05",
+      "A-BAT-06",
+      "B-BAT-01",
+      "B-BAT-02",
+      "B-BAT-03",
+      "B-BAT-04",
+      "C-BAT-01",
+      "C-BAT-02",
+      "C-BAT-03",
+      "C-BAT-04"
+    ],
+    "all_expected_times_met": true
+  },
+  "method": "Independent original-workbook reread, 40-digit Decimal energy/time recomputation and deterministic chronological resource state replay. No stochastic physical assumptions.",
+  "tolerances": {
+    "time_s": 1e-07,
+    "energy_kWh": 1e-08,
+    "mass_kg": 1e-09,
+    "volume_m3": 1e-12,
+    "soc": 1e-10
+  }
+}

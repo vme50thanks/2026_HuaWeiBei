@@ -1,0 +1,113 @@
+max timestamp change 9.094947017729282e-13
+{
+  "baseline": {
+    "status": "PASS",
+    "boxes": 80,
+    "medical_boxes": 16,
+    "first_batch_boxes": 30,
+    "hard_deadline_min_slack_s": 298.3781279170389,
+    "min_energy_reserve_slack": 0.0013853825547096433,
+    "D": 0.0,
+    "Cmax": 6142.684864911594,
+    "E": 69.53644147851112,
+    "N": 25,
+    "events": 75,
+    "max_energy_recompute_error_kWh": 4.594765353549762e-16,
+    "used_units": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07",
+      "U08"
+    ],
+    "used_batteries": [
+      "A-BAT-01",
+      "A-BAT-02",
+      "A-BAT-03",
+      "A-BAT-04",
+      "A-BAT-05",
+      "A-BAT-06",
+      "B-BAT-01",
+      "B-BAT-02",
+      "B-BAT-03",
+      "B-BAT-04",
+      "C-BAT-01",
+      "C-BAT-02",
+      "C-BAT-03",
+      "C-BAT-04"
+    ],
+    "all_expected_times_met": true
+  },
+  "makespan_first": {
+    "status": "PASS",
+    "boxes": 80,
+    "medical_boxes": 16,
+    "first_batch_boxes": 30,
+    "hard_deadline_min_slack_s": 298.3781279170389,
+    "min_energy_reserve_slack": 0.0013853825547096433,
+    "D": 0.0,
+    "Cmax": 6142.684864911594,
+    "E": 69.53644147851112,
+    "N": 25,
+    "events": 75,
+    "max_energy_recompute_error_kWh": 4.594765353549762e-16,
+    "used_units": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07",
+      "U08"
+    ],
+    "used_batteries": [
+      "A-BAT-01",
+      "A-BAT-02",
+      "A-BAT-03",
+      "A-BAT-04",
+      "A-BAT-05",
+      "A-BAT-06",
+      "B-BAT-01",
+      "B-BAT-02",
+      "B-BAT-03",
+      "B-BAT-04",
+      "C-BAT-01",
+      "C-BAT-02",
+      "C-BAT-03",
+      "C-BAT-04"
+    ],
+    "all_expected_times_met": true
+  },
+  "method": "Independent original-workbook reread, 40-digit Decimal energy/time recomputation and deterministic chronological resource state replay. No stochastic physical assumptions.",
+  "tolerances": {
+    "time_s": 1e-07,
+    "energy_kWh": 1e-08,
+    "mass_kg": 1e-09,
+    "volume_m3": 1e-12,
+    "soc": 1e-10
+  }
+}
+baseline {'dt_s': 1, 'spatial_spacing_m': 5, 'points': 36462, 'failed_points': 0, 'worst': {'sortie': 'P007', 'phase': '巡航', 'time_s': 688.3101914514157, 'margin_db': 0.0007032687983041797, 'provider': 'G01'}, 'claim': '在所述时空分辨率下未发现中断'}
+baseline {'dt_s': 0.5, 'spatial_spacing_m': 2.5, 'points': 72589, 'failed_points': 0, 'worst': {'sortie': 'P013', 'phase': '巡航', 'time_s': 2778.0321135902514, 'margin_db': 0.00035691840872686953, 'provider': 'G01'}, 'claim': '在所述时空分辨率下未发现中断'}
+baseline {'dt_s': 0.5, 'spatial_spacing_m': 'all crossed cells and touched corners', 'points': 73695, 'failed_points': 0, 'worst': {'sortie': 'P007', 'phase': '巡航', 'time_s': 688.3268441629472, 'margin_db': 0.00015529202475761394, 'provider': 'G01'}, 'claim': '在所述时空分辨率下未发现中断'}
+makespan_first {'dt_s': 1, 'spatial_spacing_m': 5, 'points': 36462, 'failed_points': 0, 'worst': {'sortie': 'P007', 'phase': '巡航', 'time_s': 688.3101914514157, 'margin_db': 0.0007032687983041797, 'provider': 'G01'}, 'claim': '在所述时空分辨率下未发现中断'}
+makespan_first {'dt_s': 0.5, 'spatial_spacing_m': 2.5, 'points': 72589, 'failed_points': 0, 'worst': {'sortie': 'P013', 'phase': '巡航', 'time_s': 2778.0321135902514, 'margin_db': 0.00035691840872686953, 'provider': 'G01'}, 'claim': '在所述时空分辨率下未发现中断'}
+makespan_first {'dt_s': 0.5, 'spatial_spacing_m': 'all crossed cells and touched corners', 'points': 73695, 'failed_points': 0, 'worst': {'sortie': 'P007', 'phase': '巡航', 'time_s': 688.3268441629472, 'margin_db': 0.00015529202475761394, 'provider': 'G01'}, 'claim': '在所述时空分辨率下未发现中断'}
+Q3 ready for freezing
+K2_baseline [4, 2, 3, 6, 4, 4, 3, 3] 1.0 8.5 0.7315990430526134
+K2_balance_first [4, 2, 3, 6, 4, 4, 3, 3] 1.0 8.5 0.7315990430526134
+K2_workload_first [7, 4, 4, 9, 6, 6, 4, 4] 5.25 12.916666666666666 0.000549744909034455
+K2_inherited_baseline [4, 2, 3, 6, 4, 4, 3, 4] 1.0 8.666666666666666 0.7315990430526134
+K2_inherited_balance_first [4, 2, 3, 6, 4, 4, 3, 4] 1.0 8.666666666666666 0.7315990430526134
+K3_baseline [4, 3, 3, 6, 5, 4, 4, 4] 2.25 9.916666666666666 0.9077803222907702
+K3_balance_first [4, 3, 3, 6, 5, 4, 4, 4] 2.25 9.916666666666666 0.9077803222907702
+K3_workload_first [7, 4, 4, 8, 6, 6, 6, 6] 6.083333333333333 14.083333333333334 0.007166786170877044
+K3_inherited_baseline [4, 3, 3, 6, 5, 4, 4, 5] 2.25 10.083333333333334 0.9077803222907702
+K3_inherited_balance_first [4, 3, 3, 6, 5, 4, 4, 5] 2.25 10.083333333333334 0.9077803222907702
+blocks [['S001', 'S010'], ['S002', 'S009', 'S012'], ['S003', 'S006', 'S007'], ['S004'], ['S005', 'S011'], ['S008'], ['S013'], ['S014'], ['S015']] no-copy [['S001', 'S002', 'S003', 'S004', 'S005', 'S006', 'S007', 'S008', 'S009', 'S010', 'S011', 'S012', 'S013', 'S014', 'S015']] seconds 0.3653437999309972
+PASS 12 scenarios; 10 independent exhaustive certificates; 0.45719799993094057 seconds
+Reports/charts/workbook ready

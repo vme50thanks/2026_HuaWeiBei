@@ -1,0 +1,12 @@
+[
+  {
+    "name": "baseline",
+    "dt": 2,
+    "feasible": false
+  },
+  {
+    "name": "makespan_first",
+    "dt": 2,
+    "feasible": false
+  }
+]

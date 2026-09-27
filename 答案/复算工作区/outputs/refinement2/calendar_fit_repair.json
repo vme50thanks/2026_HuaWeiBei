@@ -1,0 +1,8 @@
+{
+  "feasible": true,
+  "result": [
+    6181.271296158601,
+    3.12042120744845
+  ],
+  "change": "Clamp optional 5s pre-service buffer to physically earliest service; still require service before first needed sample. No actual constraint relaxed."
+}

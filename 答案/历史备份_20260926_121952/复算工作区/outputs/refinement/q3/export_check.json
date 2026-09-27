@@ -1,0 +1,12 @@
+{
+  "baseline": {
+    "coverage_contiguous": true,
+    "within_service": true,
+    "boxes": 80
+  },
+  "makespan_first": {
+    "coverage_contiguous": true,
+    "within_service": true,
+    "boxes": 80
+  }
+}

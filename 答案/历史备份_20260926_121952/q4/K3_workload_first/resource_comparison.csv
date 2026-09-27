@@ -1,0 +1,9 @@
+﻿type,demand,stock,gap,unused,pooled,partition_extra
+A_drone,7,4,3,0,4,3
+B_drone,5,2,3,0,2,3
+C_drone,5,2,3,0,2,3
+A_battery,9,6,3,0,6,3
+B_battery,5,4,1,0,4,1
+C_battery,6,4,2,0,4,2
+R_drone,6,2,4,0,2,4
+R_energy,8,6,2,0,3,5

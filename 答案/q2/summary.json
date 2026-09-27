@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "D": 0.0,
+    "Cmax": 6142.684864911595,
+    "E": 69.44995741584714,
+    "N": 25,
+    "status": "HEURISTIC_NO_GLOBAL_PROOF"
+  },
+  "makespan_first": {
+    "D": 0.0,
+    "Cmax": 6142.684864911595,
+    "E": 69.44995741584714,
+    "N": 25,
+    "status": "HEURISTIC_NO_GLOBAL_PROOF"
+  },
+  "search": {
+    "seed": 2026092602,
+    "seconds": 240.01667430007365,
+    "iterations": 3471525,
+    "feasible": 602237,
+    "profiles": 1195721,
+    "maxstops": 5,
+    "time_limit": 240.0
+  },
+  "canonicalization_max_shift_s": 9.094947017729282e-13
+}

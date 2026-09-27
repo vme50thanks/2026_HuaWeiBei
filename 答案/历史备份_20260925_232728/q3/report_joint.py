@@ -1,0 +1,206 @@
+"""Produce reports, template-aligned tables, static charts and source manifest."""
+from pathlib import Path
+import json,csv,argparse,hashlib,math,sys,importlib.metadata
+import numpy as np
+from PIL import Image,ImageDraw,ImageFont
+from communication import World,dump,csvout,read
+
+FONT='C:/Windows/Fonts/msyh.ttc'
+def font(size):return ImageFont.truetype(FONT,size)
+def charts(w,p,r,path):
+ im=Image.new('RGB',(1500,1050),'white');d=ImageDraw.Draw(im);d.text((45,25),'第三问运输路线与中继部署（局部平面坐标）',fill='#17334c',font=font(30))
+ pts=np.array([w.node(n) for n in w.nodes]);xmin,ymin=pts[:,:2].min(axis=0)-700;xmax,ymax=pts[:,:2].max(axis=0)+700
+ def xy(pos):return (90+(pos[0]-xmin)/(xmax-xmin)*1300,950-(pos[1]-ymin)/(ymax-ymin)*820)
+ for a in p:
+  for leg in a['legs']:d.line([xy(w.node(leg['from_id'])),xy(w.node(leg['to_id']))],fill='#c4ccd5',width=2)
+ for node in w.nodes:
+  x,y=xy(w.node(node));d.ellipse((x-6,y-6,x+6,y+6),fill='#245778');d.text((x+10,y-12),node,fill='#12334c',font=font(20))
+ colors=['#c13b59','#bd730f','#7445b8']
+ for a,color in zip(r,colors):
+  x,y=xy(a['position']);d.line([xy(w.o),(x,y)],fill=color,width=4);d.rectangle((x-8,y-8,x+8,y+8),fill=color);d.text((x+12,y-32),a['sortie']+' / '+a['unit'],fill=color,font=font(21));d.text((x+12,y-6),f"海拔 {a['position'][2]:.1f} m",fill=color,font=font(17))
+ d.text((45,995),'灰线：运输航段；彩线：中继转场；图示不代表无线覆盖范围。',fill='#526170',font=font(22));im.save(path/'部署图.png')
+ im=Image.new('RGB',(1700,740),'white');d=ImageDraw.Draw(im);d.text((35,20),'运输与中继联合任务甘特图',fill='#17334c',font=font(30));units=sorted({a['unit'] for a in p+r});tmax=max(a['body_ready'] if 'body_ready' in a else a['finish'] for a in p+r)
+ tx=lambda t:150+t/tmax*1480
+ for i,u in enumerate(units):
+  y=105+i*52;d.text((40,y),u,fill='#17334c',font=font(21));d.line((150,y+36,1630,y+36),fill='#e6ebee')
+  for a in [x for x in p+r if x['unit']==u]:
+   color='#397fa2' if u.startswith('U') else colors[int(a['sortie'][1:])-1];d.rectangle((tx(a['start']),y,tx(a['finish']),y+29),fill=color,outline='white',width=1)
+   if u.startswith('R'):d.rectangle((tx(a['service_start']),y,tx(a['service_end']),y+29),fill='#239a7f');d.rectangle((tx(a['finish']),y,tx(a['body_ready']),y+29),fill='#d9dce1')
+   d.text((tx(a['start'])+3,y+1),a['sortie'],fill='white',font=font(15))
+ for t in range(0,int(tmax)+1,1000):d.text((tx(t)-15,650),str(t),fill='#34485a',font=font(18))
+ d.text((150,690),'横轴：秒；蓝：运输占用；中继彩色：飞行/准备，绿色：服务，灰色：周转。',fill='#526170',font=font(21));im.save(path/'联合甘特图.png')
+ rows=read(path/'Q3_通信保障.csv');flights=[x['sortie'] for x in p];im=Image.new('RGB',(1700,1140),'white');d=ImageDraw.Draw(im);d.text((35,20),'通信保障时间图（数值回放，连续性尚未严格认证）',fill='#17334c',font=font(29));tmax=max(x['finish'] for x in p);tx=lambda t:130+t/tmax*1500
+ for i,s in enumerate(flights):
+  y=90+i*34;d.text((35,y),s,fill='#17334c',font=font(17))
+  for x in rows:
+   if x['运输架次编号']!=s:continue
+   color='#2e9b83' if x['保障方式']=='直连' else colors[int(x['中继架次编号'][1:])-1];d.rectangle((tx(float(x['开始时刻（s）'])),y,tx(float(x['结束时刻（s）'])),y+22),fill=color)
+ d.text((130,1040),'绿色：G01直连；红/橙/紫：R001/R002/R003。空白：未起飞或已返航。',fill='#526170',font=font(22));im.save(path/'通信状态时间图.png')
+
+def main(a):
+ w=World(a.source,a.preflight);s=json.loads((a.out/'summary.json').read_text(encoding='utf-8'));v=json.loads((a.out/'verification.json').read_text(encoding='utf-8'));j=json.loads((a.out/'joint_verification.json').read_text(encoding='utf-8'));small=json.loads((a.out/'search_small_summary.json').read_text(encoding='utf-8'))
+ audit=json.loads((a.preflight/'audit.json').read_text(encoding='utf-8'));manifest=[]
+ for row in audit['sources']:
+  now=hashlib.sha256(Path(row['path']).read_bytes()).hexdigest();assert now==row['sha256'];manifest.append(dict(path=row['path'],original_sha256=row['sha256'],current_sha256=now,unchanged=True))
+ dump(a.out/'source_consistency.json',dict(sources=manifest,projection=audit['local_projection'],raster_type=audit['raster_type'],node_dem_max_abs_difference_m=audit['max_abs_node_height_difference_m'],source_files_modified=False))
+ comparison=[]
+ for name in ['baseline','makespan_first']:
+  x=s[name];comparison.append(dict(priority='D→C_joint→E→N' if name=='baseline' else 'C_joint→D→E→N',**{k:x[k] for k in ['D','Cmax','C_joint','E','relay_E','total_E','N','relay_N','total_N']},transport_candidate=x['source_candidate']))
+  path=a.out/name;p=json.loads((path/'plan.json').read_text(encoding='utf-8'));r=json.loads((path/'relay_plan.json').read_text(encoding='utf-8'));charts(w,p,r,path)
+  allph=json.loads((path/'independent_transport_phases.json').read_text(encoding='utf-8'))+json.loads((path/'relay_phases.json').read_text(encoding='utf-8'))
+  csvout(path/'trajectory_segments.csv',[dict(sortie=x['sortie'],phase=x['phase'],start_s=x['start'],end_s=x['end'],x0=x['a'][0],y0=x['a'][1],z0=x['a'][2],x1=x['b'][0],y1=x['b'][1],z1=x['b'][2]) for x in allph])
+  rows=[]
+  for pp in p:
+   m=w.models[pp['model']]
+   for leg in pp['legs']:
+    data=w.legs[leg['from_id'],leg['to_id']];q=leg['payload'];L=m[6]-(m[6]-m[7])*(q/m[3])**1.5;horizontal=m[8]*float(data['horizontal_distance_m'])/L;climb=(m[2]+q)*9.80665*float(data['climb_m'])/(m[16]*3600000)
+    rows.append(dict(sortie=pp['sortie'],**leg,horizontal_kWh=horizontal,climb_kWh=climb,total_kWh=horizontal+climb))
+  csvout(path/'transport_energy_detail.csv',rows)
+  s[name]['status']='VERIFIED_NUMERICAL_INCUMBENT_NOT_CONTINUOUSLY_CERTIFIED'
+ csvout(a.out/'目标优先级对比.csv',comparison)
+ searchrows=[]
+ for folder in [a.out,a.out/'fine_search',a.out/'ridge_search']:
+  x=json.loads((folder/'diagnosis_summary.json').read_text(encoding='utf-8'));searchrows.append(dict(scope=folder.name,spacing_m=x['spacing_m'],ridge=x.get('ridge',False),candidates=x['candidates'],max_single_covered=x['max_covered'],blind_positions=x['unique_blind_positions'],fixed_covering_pairs=x['complete_pairs'],seconds=x['elapsed']))
+ csvout(a.out/'空间候选范围对比.csv',searchrows)
+ dump(a.out/'联合搜索范围对比.json',dict(small=small,expanded=s))
+ csvout(a.out/'联合搜索范围对比.csv',[dict(scope=label,**{k:ss['search'][k] for k in ['seconds','mutation_limit','pool_size','evaluated','coarse_feasible','candidate_locations','triples']},baseline_C_joint=ss['baseline']['C_joint'],baseline_E=ss['baseline']['total_E'],alternative_C_joint=ss['makespan_first']['C_joint']) for label,ss in [('small',small),('expanded',s)]])
+ # A deliberately weak valid geometric relaxation; no MIP gap is claimed.
+ lb=max(300+30+180+2*np.linalg.norm((w.node(n)-w.o)[:2])/15 for n in w.nodes if n!='O01');s['bounds']=dict(D_lower_bound=0,D_attained=s['baseline']['D']==0,C_joint_geometric_lower_bound_s=lb,solver_optimality_gap=None)
+ dump(a.out/'summary.json',s)
+ b=s['baseline'];alt=s['makespan_first'];worst=j['baseline']['scans'][-1]['worst'];search=s['search'];rp=json.loads((a.out/'baseline/relay_plan.json').read_text(encoding='utf-8'))
+ relaytable='\n'.join(f"|{x['sortie']}|{x['unit']}|{x['component']}|{x['start']:.3f}|{x['service_start']:.3f}–{x['service_end']:.3f}|{x['finish']:.3f}|{x['energy']:.6f}|{100*x['soc']:.2f}%|" for x in rp)
+ report=f'''# 第三问：模型、运行结果与适用限制
+
+本成果是已运行的建模与计算记录，不是完整参赛论文。原始文件 {len(manifest)} 个 SHA-256 均与预处理核验记录一致；未修改源附件，也未覆盖第二问。前序数据的节点海拔与 DEM 高程最大差异为 {audit['max_abs_node_height_difference_m']:.6f} m，保持原记录。
+
+## 1. 主要结果与比较
+
+|指标|及时性优先 D→C_joint→E→N|完成时间优先 C_joint→D→E→N|
+|---|---:|---:|
+|交付货箱|80|80|
+|加权延误 D（优先系数·秒）|{b['D']:.6f}|{alt['D']:.6f}|
+|运输机最晚返航（s）|{b['Cmax']:.6f}|{alt['Cmax']:.6f}|
+|联合最晚返航 C_joint（s）|{b['C_joint']:.6f}|{alt['C_joint']:.6f}|
+|运输能耗（kWh）|{b['E']:.9f}|{alt['E']:.9f}|
+|中继能耗（kWh）|{b['relay_E']:.9f}|{alt['relay_E']:.9f}|
+|总能耗（kWh）|{b['total_E']:.9f}|{alt['total_E']:.9f}|
+|运输/中继架次数|{b['N']}/{b['relay_N']}|{alt['N']}/{alt['relay_N']}|
+
+两方案均满足 16 箱医疗和 30 箱首批保障的全部硬时限（类别可重合），最小硬时限余量为 {v['baseline']['hard_deadline_min_slack_s']:.6f} s。基准的所有期望时间也满足。替代优先级缩短联合完成时间 {b['C_joint']-alt['C_joint']:.6f} s，但产生普通物资加权延误，能耗增加 {alt['total_E']-b['total_E']:.9f} kWh。硬时限从未放宽。
+
+实际使用运输机 8 架（A/B/C=4/2/2）、共享电池 14 组（6/4/4）；中继机 2 架、能源组件 3 组（库存为 6 组）。中继 R02 先后执行两次任务，二者之间满足返航后 300 s 周转。中继组件各使用一次；输出仍记录其充电和恢复可用时刻，未把最后充电计入目标。
+
+|中继架次|机体|能源组件|准备开始s|有效服务区间s|返航s|能耗kWh|返航SOC|
+|---|---|---|---:|---|---:|---:|---:|
+{relaytable}
+
+当前基准保留第二问基准的运输安排，是联合候选比较后的选择，并非事先固定。相对第二问，仅中继使联合完成时间增加 {b['C_joint']-b['Cmax']:.6f} s、能耗增加 {b['relay_E']:.9f} kWh、架次增加 3。搜索中确实尝试了箱子转移、交换、合并和任务顺序变化，且每次重新选择机型、访问顺序、具体机体和电池；未找到胜过保留运输安排的候选。
+
+## 2. 规定、推导与工作假设
+
+原文及附件规定：80 箱不可拆分、目的地和时限；各机型容量与库存；节点作业高度 30 m、航段地形净空 50 m；中继最大悬停离地高度 300 m；题给载荷—航程和两阶段充电关系；通信双向收发预算、遮挡附加损耗；中继不得多跳。实际参数逐项来自原始 Excel，所有时间单位 s、长度 m、质量 kg、体积 m³、能量 kWh。
+
+由参数推导：双向接收门限取灵敏度加衰落裕量；最弱方向最大允许损耗为直连 122 dB、接入 116 dB、回传 126 dB。载频 2400 MHz，系统损耗 3 dB，遮挡增加 10 dB。FSPL=32.45+20log10(f_MHz)+20log10(d_km)。G01 端点为 O01 表列海拔加 20 m，不是地面。
+
+以下全部为**工作假设，需要用户核验**：
+
+- 航程标定消耗整组可用能量，爬升效率是电能转化为重力势能的效率。运输能耗采用 L(q)=L0−(L0−Lf)(q/Q)^(3/2)，E水平=Eu·d/L(q)，E爬升=(m0+q)·9.80665·h/(η·3.6×10⁶)。下降无额外能耗，交接无另加悬停能耗。实际悬停耗电可能使当前余量偏乐观，应获得功率后重算。
+- 开始时刻是准备开始；准备加逐箱装载后起飞，基础交接加逐箱交接结束时统一交付。运输机占用到返航，没有额外周转；其电池从准备预留，返航即开始充电，复用前满电。不增加未给定的工位或充电器约束。
+- 中继满足链路时可同时服务多架运输机，切换不另耗时；附件未给并发、带宽和切换限制。这不构成对真实网络容量的认证。
+- 中继建链阶段功率按悬停加通信附加功率 1.10 kW；服务阶段同功率。中继起飞质量用计划值 23.5 kg。水平巡航功率 1.15 kW，爬升附加能耗按授权效率，下降不另加。准备、周转的额外电量未给定，不凭空加入。
+- 中继转场高度 H=max(路径最高 DEM+50，起点海拔，终点悬停海拔)，采用垂直爬升—水平巡航—垂直下降，避免负爬升/下降。机体返航后周转 300 s；组件返航立即充电，可与机体周转并行。
+- PixelIsPoint 的登记点作为像元中心，边界向外平移半个像元；在像元内使用常高 DEM，射线擦边/角时保守检查所有相邻像元。真实亚像元地形、地球曲率与菲涅耳区未额外建模；按题给直射线和遮挡附加损耗判定。
+
+充电：SOC<0.9 时 τ=Tfull[0.65(0.9−SOC)/0.9+0.35]；否则 τ=Tfull·0.35(1−SOC)/0.1。中继 Eu=3.2 kWh、返航下限20%，满充1800 s，准备180 s、建链30 s，巡航15 m/s、爬升4 m/s、下降3 m/s、爬升效率0.72。运输各型参数见原附件和逐段复算表。
+
+## 3. 变量、状态与约束
+
+|类别|符号/含义|单位及来源|
+|---|---|---|
+|箱子分配|x_bk∈{{0,1}}，每箱所属运输架次|决策；原始箱清单给质量、体积、目的地|
+|路线/机型|π_k 有序服务区列，g_k，u_k，β_k|决策；机体、机型和电池库存来自附件|
+|时刻|s_k准备、t_k起飞、a_ki到达、T_b交付、f_k返航|s；决策及航段/交接规则推导|
+|运输状态|q_kℓ、V_kℓ、SOC_kℓ|kg、m³、比例；逐次交付更新|
+|中继决策|p_r=(x,y,z)、s_r、建链完 c_r、服务完 e_r、f_r、机体 u_r、组件 β_r|m、s；位置和时段联动优化|
+|通信分配|y_k0(t)、y_kr(t)∈{{0,1}}|直连优先；每运输机同刻至多一保障源|
+|链路状态|M_ab(t)=允许损耗−FSPL−遮挡损耗|dB；位置、原始DEM及收发参数推导|
+|性能|D、C_joint、E、N|系数·s、s、kWh、架次|
+
+每箱 Σ_k x_bk=1，访问点必须含箱子目的地；各航段载荷等于尚未交付货物质量，体积同理。Q/V 为硬上限，返回空载，全程能耗≤Eu(1−安全SOC)。每段从当前点作业高度爬升至该有向航段巡航高度再下降；交接全过程保持轨迹。
+
+所有医疗箱 T_b≤期望时间，所有首批箱 T_b≤首批截止；若同箱兼有则同时满足。空白截止不用0替代。普通期望仅计入 D=Σα_b max(0,T_b−d_b)，没有期望时间的不参与该项。α无量纲，D为优先系数加权秒，不能替代硬时限。
+
+同机体的准备至返航区间互斥；中继延伸至返航+周转。共享电池/组件准备至充满区间互斥，机型兼容，初始SOC=1。资源数量不增加。中继必须在建链完成与服务结束之间才能保障，返航预留能量不得挪作服务。
+
+若直连 M_kG≥0 则 y_k0=1；否则必须存在一个有效中继 r，使 M_kr≥0 且 M_rG≥0。遮挡本身不是断联，无遮挡也不代表可用。两链路分别使用接入与回传收发端参数。
+
+字典序 D→C_joint→E运输+E中继→N运输+N中继 是建模选择。C_joint=max(全部运输与中继最终返航)，排除最终补电及最终机体周转。替代排序仍保持所有硬约束。
+
+## 4. 算法、搜索范围与最优性
+
+先以 5 s 分辨率诊断第二问基准：7695 个阶段采样点中2839个不能直连，去重后812个空间位置。这个计数不是中断时长。1500 m 网格得到89个通过回传筛选的候选；750 m 网格261个；再加入每750 m地形小区的高点后597个。候选包含服务区坐标，悬停高度150/300 m。三范围内均未找到两个固定位置覆盖全部盲点，不能由此断言原问题不可行。
+
+随后搜索“一架长期驻留、另一架先后换点”的三中继架次结构，允许第二架返航、周转、再准备。时间初筛生成1904组组合，初筛只用于候选排序，不能作为完整保障证明；最终联合解码重新检查活动时段、能耗与全部采样点。基准前后各加5 s服务缓冲是搜索设计，不是通信保证的证明。扩大搜索后的两种目标结果与小范围搜索相同。
+
+初始100组合、24次运输变异扩大至 {search['triples']} 组合、{search['mutation_limit']} 次变异。扩大搜索实际评估 {search['evaluated']} 个通过运输可行性构造的方案，其中 {search['coarse_feasible']} 个通过粗通信安排；候选位置在组合保留后为 {search['candidate_locations']} 个。独立比较两目标排序，各对排名靠前至多8个候选进行0.5 s重算，结果见搜索范围对比文件。运行随机种子20260923，粗联合搜索时间上限 {search['time_limit']} s，实际全流程联合搜索 {search['seconds']:.3f} s；后续精查单独计时。
+
+**计算限制**：运输每架次至多3个访问点，采用有限随机邻域；悬停只取150/300 m离散位置；中继只搜索上述三架次结构；联合优化采用分解、候选筛选与精查，而非完整连续时空数学规划。没有搜索全部任意路线、悬停高度、架次数和时段。因此不声称全局最优，也不声称有限候选全局最优；搜索未找到可行的候选并非不可行证明。
+
+D≥0且数值检查基准D=0，故该候选已达到第一层及时性目标的非负下界；完整连续时间问题的可行性认证仍受下述限制。C_joint 的宽松几何下界为 {lb:.6f} s（每箱至少一次准备装载、交接及最短水平往返/最高速度，忽略爬降、通信与资源）；没有可用求解器最优间隙。后三层最优性未证明。
+
+## 5. 独立回放结论与限制
+
+独立程序不调用联合优化器或通信判定函数。重新读取原始货箱、参数、DEM，运输能量与时间用40位 Decimal 复算，资源按事件状态回放；中继独立复算几何剖面、能量分解、SOC、周转和组件充电。两方案80箱均无遗漏、无重复、目的地正确；资源无重叠，返航SOC合规。运输最小SOC超过下限 {v['baseline']['min_energy_reserve_slack']*100:.6f} 个百分点。
+
+通信遍历全部爬升、巡航、下降和交接，包含阶段边界、中继服务边界；保障切换用二分定位至1e−7 s括区。分别运行时间步长1 s/射线5 m、0.5 s/2.5 m、0.5 s/全部穿越像元及边角三种检查，最后一轮对端点裕量低于0.02 dB或保障源改变的区间细化到不超过0.05 s。基准最后一次含 {j['baseline']['scans'][-1]['points']} 个检查点，均未发现通信中断采样点。最小所选链路裕量约 {worst['margin_db']:.9f} dB，发生在 {worst['sortie']} {worst['phase']}，t={worst['time_s']:.6f} s（直连与中继切换邻近时刻）；不能解释为物理网络有充分鲁棒余量。
+
+准确结论是：**在所述时空分辨率下未发现中断**。没有证明任意两个时间采样之间连续可用，遮挡跳变附近尤其如此。全部 {j['baseline']['uncertified_phase_intervals']} 个运输阶段保守列入 `uncertified_continuous_intervals.csv`，切换括区另列。没有把中断时长宣称为已证明0。模板保障区间是数值二分定位的安排，第四问冻结前必须保留这项认证限制；目前没有施加第四问分区约束。
+
+数值容差：时间1e−7 s，能量1e−8 kWh，质量1e−9 kg，体积1e−12 m³，SOC1e−10，链路1e−9 dB。判断使用未四舍五入值。地形与能源工作假设、真实并发网络容量、未计运输悬停耗电和连续时间未严格认证是主要适用限制。50 m净空用于跨地形水平转场剖面，端点保留垂直起降通道；O01表列地面比其DEM像元低1.025540 m，未强行抬高起点，故不把这个输入一致性范围内的模型回放称为真实场地碰撞安全认证。
+
+## 6. 文件导航
+
+- `baseline/`：建议基准；`makespan_first/`：替代目标方案。运输模板保持Q2字段，中继和通信表保持Q3原模板有效列，不加入模板中的空白占位列。
+- `Q2_运输架次.csv`、`Q2_逐箱交付.csv`：第三问重新导出的运输结果；开始为准备开始。`resource_usage.csv`保存额外起飞时刻。
+- `Q3_中继架次.csv`、`Q3_通信保障.csv`：中继方案与数值保障区间。
+- `legs.csv`、`transport_energy_detail.csv`、`relay_energy_check.csv`、`trajectory_segments.csv`：逐段质量、时刻、三维端点与能量。
+- `event_replay.csv`、`relay_event_replay.csv`、`relay_resources.csv`：两类机体、共享能源的状态记录。
+- `communication_samples.csv`、`switch_brackets.csv`、`uncertified_continuous_intervals.csv`：裕量、边界定位和未严格认证区间。
+- `q4_associations.csv`：运输架次—相关服务区—中继架次—保障时段的补充关联，包含from_site/to_site与associated_services；返航site虽为O01，associated_services仍保留出发服务区。
+- `source_consistency.json`、`verification.json`、`joint_verification.json`：源文件一致性及独立复算记录。
+- `部署图.png`、`联合甘特图.png`、`通信状态时间图.png`：方案图。复算见 `README_复算.md`。
+'''
+ (a.out/'模型与结果说明.md').write_text(report,encoding='utf-8')
+ versions={x:importlib.metadata.version(x) for x in ['numpy','Pillow','openpyxl']};(a.out/'requirements.txt').write_text('\n'.join(f'{k}=={val}' for k,val in versions.items())+'\n',encoding='utf-8')
+ readme=f'''# 复算说明
+
+Python {sys.version.split()[0]}。依赖：{versions}。无需商用优化器、SciPy或OR-Tools。推荐在现有工作区执行；原始输入和已核验预处理数据为外部依赖，不改写它们。`support/`为本次使用的第二问求解辅助与独立检查代码副本。
+
+PowerShell（用已安装依赖的 python，或本机运行时绝对路径代替 python）：
+
+```powershell
+$src = 'D:\\研一\\比赛\\中文题目\\D题'
+$pre = 'outputs/preflight'
+$q2 = 'outputs/q2'
+$q3 = 'outputs/q3'
+python $q3/diagnose_search.py --source $src --pre $pre --q2 $q2 --out $q3 --spacing 1500
+python $q3/diagnose_search.py --source $src --pre $pre --q2 $q2 --out $q3/fine_search --spacing 750
+python $q3/diagnose_search.py --source $src --pre $pre --q2 $q2 --out $q3/ridge_search --spacing 750 --ridge
+python $q3/temporal_search.py --folder $q3/ridge_search --out $q3/temporal_candidates.json --keep 100
+python $q3/solve_joint.py --source $src --preflight $pre --q2 $q2 --out $q3 --mutations 24 --seconds 180
+Copy-Item $q3/summary.json $q3/search_small_summary.json
+python $q3/temporal_search.py --folder $q3/ridge_search --out $q3/temporal_expanded.json --keep 2000
+python $q3/solve_joint.py --source $src --preflight $pre --q2 $q2 --out $q3 --mutations 160 --seconds 240 --triples temporal_expanded.json
+python $q3/verify_joint.py --source $src --preflight $pre --out $q3
+python $q3/report_joint.py --source $src --preflight $pre --out $q3
+```
+
+计时限制使较慢机器可能评估不同数量的运输候选；同一候选池排序与数值计算确定，随机种子为20260923。为复核交付方案，不必重新优化，直接执行最后两条命令。检查失败会抛出异常，必须修复或重新搜索，不能放宽约束。
+
+基准细时间步长0.5 s，独立再用1/0.5 s比较；射线5/2.5 m与穿越像元检查。`summary.json`中Cmax/E/N仍为运输专用字段，联合字段为C_joint/total_E/total_N，避免把运输指标误认为联合指标。CSV时间、质量、能耗保留浮点原精度，报告仅展示时舍入。
+'''
+ (a.out/'README_复算.md').write_text(readme,encoding='utf-8')
+ print(json.dumps(dict(baseline=b,alternative=alt,bounds=s['bounds']),ensure_ascii=False))
+
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--preflight',type=Path,required=True);p.add_argument('--out',type=Path,required=True);main(p.parse_args())

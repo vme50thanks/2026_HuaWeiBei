@@ -1,0 +1,69 @@
+[
+  {
+    "group": "G1",
+    "sites": [
+      "S001"
+    ],
+    "mask": 1,
+    "resources": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "work_s": 3186.317864986455,
+    "boxes": 15,
+    "mass_kg": 154,
+    "volume_m3": 0.394,
+    "transport_N": 2,
+    "relay_N": 0,
+    "transport_E": 5.913138161320523,
+    "relay_E": 0,
+    "relay_body_work_s": 0,
+    "relay_energy_occupied_s": 0
+  },
+  {
+    "group": "G2",
+    "sites": [
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015"
+    ],
+    "mask": 16382,
+    "resources": [
+      4,
+      2,
+      2,
+      6,
+      4,
+      3,
+      2,
+      3
+    ],
+    "work_s": 57254.22468150406,
+    "boxes": 65,
+    "mass_kg": 604,
+    "volume_m3": 1.617,
+    "transport_N": 25,
+    "relay_N": 3,
+    "transport_E": 66.58638427937045,
+    "relay_E": 3.3703066975219778,
+    "relay_body_work_s": 12873.504381181614,
+    "relay_energy_occupied_s": 14842.691477049917
+  }
+]

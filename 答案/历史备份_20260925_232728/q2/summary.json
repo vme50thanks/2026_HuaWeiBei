@@ -1,0 +1,40 @@
+{
+  "baseline": {
+    "D": 0.0,
+    "Cmax": 7052.813929024211,
+    "E": 72.49952244069097,
+    "N": 27,
+    "status": "VERIFIABLE_HEURISTIC_INCUMBENT",
+    "maxstops": 2,
+    "multi_stop_sorties": 1,
+    "search": "constructive pool plus local mutations with reassignment"
+  },
+  "makespan_first": {
+    "D": 13730.296648815238,
+    "Cmax": 6970.673946308314,
+    "E": 72.49952244069097,
+    "N": 27,
+    "status": "VERIFIABLE_HEURISTIC_INCUMBENT",
+    "maxstops": 2,
+    "multi_stop_sorties": 1,
+    "search": "constructive pool plus local mutations with reassignment"
+  },
+  "search": {
+    "elapsed_seconds": 102.82370220002485,
+    "time_limit": 180.0,
+    "runs_per_maxstops": 2000,
+    "attempts": 6000,
+    "feasible": 5939,
+    "method": "seeded multi-start greedy insertion and exhaustive within-batch visit permutations; both priorities rank same candidate pool",
+    "no_global_optimality_proof": true
+  },
+  "local_search": {
+    "seed": 20260923,
+    "iterations_attempted": 5000,
+    "feasible_candidates": 2538,
+    "seconds": 2.9254985000006855,
+    "time_limit": 90.0,
+    "iteration_limit": 5000,
+    "maxstops": 3
+  }
+}

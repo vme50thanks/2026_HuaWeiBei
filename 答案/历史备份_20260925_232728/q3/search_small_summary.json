@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "D": 0.0,
+    "Cmax": 7052.813929024211,
+    "E": 72.49952244069097,
+    "N": 27,
+    "C_joint": 7295.419514905454,
+    "relay_E": 3.3703066975219778,
+    "total_E": 75.86982913821295,
+    "relay_N": 3,
+    "total_N": 30,
+    "source_candidate": "q2_baseline",
+    "status": "NUMERICAL_CANDIDATE_PENDING_INDEPENDENT_REPLAY"
+  },
+  "makespan_first": {
+    "D": 13730.296648815238,
+    "Cmax": 6970.673946308314,
+    "E": 72.49952244069097,
+    "N": 27,
+    "C_joint": 7213.279532189557,
+    "relay_E": 3.5004310205171985,
+    "total_E": 75.99995346120816,
+    "relay_N": 3,
+    "total_N": 30,
+    "source_candidate": "q2_makespan_first",
+    "status": "NUMERICAL_CANDIDATE_PENDING_INDEPENDENT_REPLAY"
+  },
+  "search": {
+    "seconds": 19.986976900021546,
+    "seed": 20260923,
+    "mutation_limit": 24,
+    "pool_size": 14,
+    "evaluated": 14,
+    "coarse_feasible": 5,
+    "candidate_locations": 32,
+    "triples": 100,
+    "time_limit": 180.0,
+    "fine_dt": 0.5,
+    "no_global_proof": true,
+    "maxstops": 3
+  }
+}

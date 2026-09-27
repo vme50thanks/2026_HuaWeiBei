@@ -1,0 +1,95 @@
+[
+  {
+    "group": "G1",
+    "sites": [
+      "S001",
+      "S004"
+    ],
+    "mask": 9,
+    "resources": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    "work_s": 8575.844818528753,
+    "boxes": 21,
+    "mass_kg": 213,
+    "volume_m3": 0.55,
+    "transport_N": 3,
+    "relay_N": 1,
+    "transport_E": 12.06600948764989,
+    "relay_E": 0.7646285479423937,
+    "relay_body_work_s": 3088.4703074433774,
+    "relay_energy_occupied_s": 3599.1006550449747
+  },
+  {
+    "group": "G2",
+    "sites": [
+      "S002",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015"
+    ],
+    "mask": 16246,
+    "resources": [
+      4,
+      2,
+      1,
+      6,
+      4,
+      1,
+      2,
+      2
+    ],
+    "work_s": 52753.466338316925,
+    "boxes": 54,
+    "mass_kg": 500,
+    "volume_m3": 1.332,
+    "transport_N": 23,
+    "relay_N": 3,
+    "transport_E": 54.5975443089332,
+    "relay_E": 3.3703066975219778,
+    "relay_body_work_s": 12873.504381181614,
+    "relay_energy_occupied_s": 14842.691477049917
+  },
+  {
+    "group": "G3",
+    "sites": [
+      "S008"
+    ],
+    "mask": 128,
+    "resources": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "work_s": 9781.528071655204,
+    "boxes": 5,
+    "mass_kg": 45,
+    "volume_m3": 0.129,
+    "transport_N": 1,
+    "relay_N": 1,
+    "transport_E": 5.835968644107876,
+    "relay_E": 2.1161783702078227,
+    "relay_body_work_s": 7581.826374566984,
+    "relay_energy_occupied_s": 8641.523837463912
+  }
+]

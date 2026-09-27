@@ -1,0 +1,57 @@
+{
+  "seconds": 15.498281800071709,
+  "logs": [
+    {
+      "label": "previous_transport",
+      "step_m": 250,
+      "candidates": 35,
+      "triples": 33,
+      "result": [
+        6269.844742848404,
+        3.181796642101561
+      ]
+    },
+    {
+      "label": "previous_transport",
+      "step_m": 125,
+      "candidates": 35,
+      "triples": 33,
+      "result": [
+        6245.519049925468,
+        3.167961150174912
+      ]
+    },
+    {
+      "label": "previous_transport",
+      "step_m": 50,
+      "candidates": 35,
+      "triples": 33,
+      "result": [
+        6245.046040556885,
+        3.1705376792354887
+      ]
+    },
+    {
+      "label": "new_transport",
+      "step_m": 250,
+      "candidates": 35,
+      "triples": 33,
+      "result": null
+    },
+    {
+      "label": "new_transport",
+      "step_m": 125,
+      "candidates": 35,
+      "triples": 33,
+      "result": null
+    },
+    {
+      "label": "new_transport",
+      "step_m": 50,
+      "candidates": 35,
+      "triples": 33,
+      "result": null
+    }
+  ],
+  "limits": "Coordinate search at 250/125/50m and 150/200/250/300m AGL; three missions, two bodies; numerical search only"
+}

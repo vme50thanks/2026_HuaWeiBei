@@ -1,0 +1,23 @@
+{
+  "baseline_details.csv": "ffe7f14cb3dcd2d932167090d2470fb5c9bec50c279513120b43f99cd3ef56f7",
+  "independent_energy_breakdown.csv": "34e555435ee54c0d5d3e522dd7beb39a19fcb48c09bb5ebe94b43d05f8a706af",
+  "make_report.py": "a88647b80441b7b53831f631ec7fe6ff62062f0e142deafcfdb0736ae9a0c5f8",
+  "optimality_certificates.csv": "0e8f74f7185d24ab59288fae0883ce5c2cbd8976f965d67c09eda4be4442f274",
+  "priority_and_sensitivity.csv": "3e838b3452428d8f728e98c1a8c1f3df3176e489dcc3773a0e542fdc3dfa2b86",
+  "Q1_单点组批.csv": "211be7c06d0ba08b1b8390c277fdad6d6f62aa4f7a041757f324b873e899a6b6",
+  "README.md": "7050af27863628c6a176149d42a95bced0fd43ae66d1d678d632498ed74b29f7",
+  "requirements.txt": "4274d2273edf8f35fe5d03c4bf6ea9497c2e74d599e7969f182b1b9c970d28d8",
+  "reserve_thresholds.csv": "cadc37992136e4d79fccb5ab76e18bb21724b77fa025df91cc586d4c1302af64",
+  "run_manifest.json": "da66f6a8083e19e918e3c22fd4d83f953237da300d29c2f3e1bbe02e3ca04d45",
+  "safe_payloads_45.csv": "f262d144fd88861cb8479728708e62d95c8a42ae30895b454b3151ba79d39faf",
+  "safe_payloads_all_scenarios.csv": "911faaae1cd4f71a5de1a6f8396e3b06e2257760430f612ddf55245639a5bba0",
+  "single_box_reserve_limits.csv": "e51aec0f46327b0ca1f10e9ba110ffc2709e4096ed2e2136eebab1977a4b8c4a",
+  "site_results.csv": "85e5727170104fecb1d7e5972899ac116fc15d81834ee505b95674aba5615b35",
+  "solutions.json": "7e79513d862916633e524ed93f7ff457ef0639efa63df82745761e549cf94ee4",
+  "solve_q1.py": "62970be4014f00a750eae23b318ec638388315df782ae72e1e788bc6ea518902",
+  "summary.json": "ec72b4eb6d84729f7f81b6fb6e668f89db2571c5ebb398719fc6c3f86ada45d2",
+  "verification.json": "68a09d6534a3496067d78e689dd0be1eff93e32305a4cdbfdbc09b09c1ca6006",
+  "verify_q1.py": "38ff46f4c228f9bc70138fd0045d33cb0cd575d4b66d7586a72522f4c4832990",
+  "模型与求解报告.md": "9b023820600eb88a88f98221fba2b4970be249a27f96a3cfc892101fe16e71fa",
+  "独立核验报告.md": "839ebdfec2e138116f0c0b252de2004727857ec337fe564d7eeeccd5c2f4bab6"
+}

@@ -1,0 +1,3 @@
+﻿scope,seconds,mutation_limit,pool_size,evaluated,coarse_feasible,candidate_locations,triples,baseline_C_joint,baseline_E,alternative_C_joint
+small,19.986976900021546,24,14,14,5,32,100,7295.419514905454,75.86982913821295,7213.279532189557
+expanded,131.11673020001035,160,78,78,16,49,1904,7295.419514905454,75.86982913821295,7213.279532189557

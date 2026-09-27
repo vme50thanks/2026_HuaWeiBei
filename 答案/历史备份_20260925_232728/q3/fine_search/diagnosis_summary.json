@@ -1,0 +1,15 @@
+{
+  "samples": 7695,
+  "blind_samples": 2839,
+  "unique_blind_positions": 812,
+  "candidates": 261,
+  "max_covered": 673,
+  "complete_pairs": 0,
+  "spacing_m": 750,
+  "elapsed": 9.198557900032029,
+  "thresholds": {
+    "direct": 122,
+    "access": 116,
+    "backhaul": 126
+  }
+}
