@@ -1,0 +1,114 @@
+{
+  "original": {
+    "example.tex": "1fc674c8e4fc0ed0f112929945079b0d01a4abc1db9228c443f9f346c879978a",
+    "example.pdf": "be62aa1b7d177b5078e84b14178b1e8d749c189b44b7a30dc348f201c046f11e"
+  },
+  "snippets": [
+    {
+      "file": "q1_core.py",
+      "source": "outputs/q1/solve_q1.py",
+      "sha256": "62970be4014f00a750eae23b318ec638388315df782ae72e1e788bc6ea518902",
+      "functions": [
+        "energy",
+        "solve_site"
+      ],
+      "source_lines": [
+        [
+          48,
+          55
+        ],
+        [
+          70,
+          88
+        ]
+      ],
+      "lines": 36,
+      "AST_equivalence": true
+    },
+    {
+      "file": "charge.py",
+      "source": "outputs/q2/solve_q2.py",
+      "sha256": "260a176a5504fad1899a3bd2df0367678ec320995bb97a88354005a1073de9ba",
+      "functions": [
+        "charge"
+      ],
+      "source_lines": [
+        [
+          38,
+          40
+        ]
+      ],
+      "lines": 3,
+      "AST_equivalence": true
+    },
+    {
+      "file": "q2_decode.py",
+      "source": "outputs/refinement/search.py",
+      "sha256": "bea82f97315e718b22a5fffdac6768a0cca4fa6ce40824b5a716de40f47c15a7",
+      "functions": [
+        "decode"
+      ],
+      "source_lines": [
+        [
+          24,
+          37
+        ]
+      ],
+      "lines": 32,
+      "AST_equivalence": true
+    },
+    {
+      "file": "q3_link.py",
+      "source": "outputs/q3/communication.py",
+      "sha256": "c85806483a2762dd1fc69e068b8c09b137939bd218ccc4fc4f9756dd4998eb38",
+      "functions": [
+        "margin"
+      ],
+      "source_lines": [
+        [
+          53,
+          69
+        ]
+      ],
+      "lines": 29,
+      "AST_equivalence": true
+    },
+    {
+      "file": "q3_calendar.py",
+      "source": "outputs/refinement/calendar_joint.py",
+      "sha256": "8dec89bc643d8d02520a7073796fd506fef8905922cff337a7effaa066b32632",
+      "functions": [
+        "decode"
+      ],
+      "source_lines": [
+        [
+          34,
+          53
+        ]
+      ],
+      "lines": 40,
+      "AST_equivalence": true
+    },
+    {
+      "file": "q4_resources.py",
+      "source": "outputs/q4/solve_q4.py",
+      "sha256": "42d0a14744025ea7a2b71ec7b5b706b4492b29ad7e3f3c192b30fc9664895a74",
+      "functions": [
+        "components",
+        "color"
+      ],
+      "source_lines": [
+        [
+          18,
+          27
+        ],
+        [
+          28,
+          36
+        ]
+      ],
+      "lines": 32,
+      "AST_equivalence": true
+    }
+  ]
+}

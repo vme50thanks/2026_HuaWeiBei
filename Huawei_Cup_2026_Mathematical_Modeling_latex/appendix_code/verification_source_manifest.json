@@ -1,0 +1,77 @@
+{
+  "verification_sources": [
+    {
+      "appendix_file": "appendix_code/replay_all.py",
+      "original_file": "outputs/refinement/replay_all.py",
+      "source_lines_shown": [
+        [
+          1,
+          15
+        ]
+      ],
+      "line_count": 15,
+      "sha256": "bf68ab7640807209ee680d1d6a086ef4baf3f167f80171b08173a378cf37b2da",
+      "note": "Exact byte-for-byte copy of the original verification source; LaTeX firstline/lastline selects displayed excerpts."
+    },
+    {
+      "appendix_file": "appendix_code/verify_q1.py",
+      "original_file": "outputs/q1/verify_q1.py",
+      "source_lines_shown": [
+        [
+          23,
+          39
+        ],
+        [
+          43,
+          76
+        ]
+      ],
+      "line_count": 115,
+      "sha256": "38ff46f4c228f9bc70138fd0045d33cb0cd575d4b66d7586a72522f4c4832990",
+      "note": "Exact byte-for-byte copy of the original verification source; LaTeX firstline/lastline selects displayed excerpts."
+    },
+    {
+      "appendix_file": "appendix_code/verify_q2.py",
+      "original_file": "outputs/q2/verify_q2.py",
+      "source_lines_shown": [
+        [
+          31,
+          64
+        ],
+        [
+          69,
+          83
+        ]
+      ],
+      "line_count": 105,
+      "sha256": "b6a8f8d84700846fdfa935a605c147adb14e305874c442589ed6a013646009ce",
+      "note": "Exact byte-for-byte copy of the original verification source; LaTeX firstline/lastline selects displayed excerpts."
+    },
+    {
+      "appendix_file": "appendix_code/verify_joint.py",
+      "original_file": "outputs/q3/verify_joint.py",
+      "source_lines_shown": [
+        [
+          100,
+          139
+        ]
+      ],
+      "line_count": 165,
+      "sha256": "1b44b118579fffdfd00b216da74a9986628d2d9088c02bd689a19392bf30fdf3",
+      "note": "Exact byte-for-byte copy of the original verification source; LaTeX firstline/lastline selects displayed excerpts."
+    },
+    {
+      "appendix_file": "appendix_code/verify_q4.py",
+      "original_file": "outputs/q4/verify_q4.py",
+      "source_lines_shown": [
+        [
+          42,
+          83
+        ]
+      ],
+      "line_count": 119,
+      "sha256": "e23400d2acca378879c98ce1874e6a239144b3fdb1a4a04cf2919fa8246a03fc",
+      "note": "Exact byte-for-byte copy of the original verification source; LaTeX firstline/lastline selects displayed excerpts."
+    }
+  ]
+}

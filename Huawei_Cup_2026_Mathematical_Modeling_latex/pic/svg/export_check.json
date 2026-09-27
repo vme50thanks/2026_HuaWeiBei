@@ -1,0 +1,42 @@
+[
+  {
+    "file": "fig01_总体建模流程.svg",
+    "bytes": 527522,
+    "elements": 870
+  },
+  {
+    "file": "fig02_地形与服务区.svg",
+    "bytes": 426317,
+    "elements": 642
+  },
+  {
+    "file": "fig03_安全载荷比例.svg",
+    "bytes": 194847,
+    "elements": 466
+  },
+  {
+    "file": "fig04_运输甘特图.svg",
+    "bytes": 177155,
+    "elements": 562
+  },
+  {
+    "file": "fig05_盲区与中继部署.svg",
+    "bytes": 508721,
+    "elements": 642
+  },
+  {
+    "file": "fig06_链路裕量与切换.svg",
+    "bytes": 513056,
+    "elements": 832
+  },
+  {
+    "file": "fig07_两组三组分区.svg",
+    "bytes": 419388,
+    "elements": 716
+  },
+  {
+    "file": "fig08_资源需求与库存.svg",
+    "bytes": 192933,
+    "elements": 488
+  }
+]
